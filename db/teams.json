@@ -1,0 +1,199 @@
+[
+  {
+    "id": "1k",
+    "name": "1K FC",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "url": "",
+    "presidentId": "iker-casillas",
+    "channel": "https://www.youtube.com/@IkerCasillas",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.instagram.com/1kfutbolclub/?hl=es",
+      "https://twitter.com/1kfutbolclub",
+      "https://www.youtube.com/c/IkerCasillas",
+      "https://www.tiktok.com/@1kfutbolclub"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "el-barrio",
+    "name": "El Barrio",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/el-barrio.svg",
+    "url": "",
+    "presidentId": "adri-contreras",
+    "channel": "https://twitch.tv/1k",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.instagram.com/elbarrioklk/?hl=es",
+      "https://www.tiktok.com/@adricontreras4",
+      "https://twitter.com/elbarrioklk_",
+      "https://www.tiktok.com/@elbarrioklk"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "ultimate-mostoles",
+    "name": "Ultimate Móstoles",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/ultimate-mostoles.svg",
+    "url": "",
+    "presidentId": "djmariio",
+    "channel": "https://youtube.com/DjMaRiiO",
+    "coach": "???",
+    "socialNetworks": [
+      "https://m.youtube.com/user/DjMaRiiO/videos"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "los-troncos-fc",
+    "name": "Los Troncos FC",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/los-troncos.svg",
+    "url": "",
+    "presidentId": "perxitaa",
+    "channel": "https://twitch.tv/perxitaa",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.twitch.tv/perxitaa",
+      "https://www.instagram.com/troncosfc.oficial/",
+      "https://twitter.com/lostroncosfc_/",
+      "https://www.tiktok.com/@lostroncosfc_"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "saiyans-fc",
+    "name": "Saiyans FC",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/saiyans-fc.svg",
+    "url": "",
+    "presidentId": "thegrefg",
+    "channel": "https://twitch.tv/thegrefg",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.twitch.tv/thegrefg"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "kunisports",
+    "name": "Kunisports",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/kunisports.svg",
+    "url": "",
+    "presidentId": "kun-aguero",
+    "channel": "https://twitch.tv/slakun10",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.twitch.tv/slakun10"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "jijantes-fc",
+    "name": "Jijantes FC",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/jijantes.svg",
+    "url": "",
+    "presidentId": "gerard-romero",
+    "channel": "https://twitch.tv/gerardromero",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.twitch.tv/gerardromero",
+      "https://www.instagram.com/jijantesfc/?hl=es",
+      "https://twitter.com/JijantesFC?s=20&t=40PQRh7lXf2HVdUs1pe-9w",
+      "https://www.tiktok.com/@jijantesfutbolclub"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "porcinos-fc",
+    "name": "Porcinos FC",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/porcinos-fc.svg",
+    "url": "",
+    "presidentId": "ibai-llanos",
+    "channel": "https://twitch.tv/ibai",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.twitch.tv/ibai",
+      "https://twitter.com/FCPorcinos"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "rayo-barcelona",
+    "name": "Rayo de Barcelona",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/rayo-barcelona.svg",
+    "url": "",
+    "presidentId": "spursito",
+    "channel": "https://twitch.tv/spursito",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.twitch.tv/spursito",
+      "https://www.instagram.com/rayodebarcelona/?hl=es",
+      "https://twitter.com/RayodeBarcelona",
+      "https://www.tiktok.com/@rayodebarcelona"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "xbuyer-team",
+    "name": "XBUYER TEAM",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/xbuyer.svg",
+    "url": "",
+    "presidentId": "hnos-buyer",
+    "channel": "https://www.youtube.com/xbuyer",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.youtube.com/xbuyer"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "aniquiladores-fc",
+    "name": "Aniquiladores FC",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/aniquiladores.svg",
+    "url": "",
+    "presidentId": "juan-guarnizo",
+    "channel": "https://twitch.tv/juansguarnizo",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.twitch.tv/juansguarnizo"
+    ],
+    "players": [
+      
+    ]
+  },
+  {
+    "id": "pio-fc",
+    "name": "PIO FC",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/pio.svg",
+    "url": "",
+    "presidentId": "rivers",
+    "channel": "https://twitch.tv/rivers_gg",
+    "coach": "???",
+    "socialNetworks": [
+      "https://www.twitch.tv/rivers_gg",
+      "https://twitter.com/PIO_FC"
+    ],
+    "players": [
+      
+    ]
+  }
+]
