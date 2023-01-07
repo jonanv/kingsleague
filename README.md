@@ -11,3 +11,14 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 - Cheerio for scraping
 - Cloudflare Workers
 - Hono
+
+
+# Deploy dev
+```js
+npm run dev:api
+```
+
+# Deploy publish
+```js
+npm run publish:api
+```
