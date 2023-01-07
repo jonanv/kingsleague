@@ -34,6 +34,15 @@ app.get('/teams', (context) => {
   return context.json(teams);
 });
 
+app.get('/teams/:id', (context) => {
+  const id = context.req.param('id');
+  const foundTeam = teams.find(team => team.id === id);
+
+  return foundTeam
+    ? context.json(foundTeam)
+    : context.json({ message: 'Team not found' }, 404)
+});
+
 app.get('/presidents', (context) => {
   return context.json(presidents);
 });
