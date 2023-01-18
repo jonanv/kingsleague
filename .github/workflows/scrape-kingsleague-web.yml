@@ -23,8 +23,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm ci
-      - run: npm test
       - uses: pnpm/action-setup@v2
         with:
           version: 7.22.0
@@ -32,7 +30,6 @@ jobs:
       - run: |
           node scraping/leaderboard.js
           git config user.name kingsleague-bot
-          git config user.email jonan-vargas23@hotmail.com
           git add -A
-          git commit -m "[bot] Update Kings League Database"
+          git commit -m "[bot] :zap: Update Kings League Database"
           git push origin main
