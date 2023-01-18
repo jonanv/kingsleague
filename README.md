@@ -11,6 +11,7 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 - Cheerio for scraping
 - Cloudflare Workers
 - Hono
+- GitHub actions Cronjob
 
 
 # Deploy dev
