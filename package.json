@@ -1,7 +1,7 @@
 {
   "name": "kingsleague",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Kings Leeague Infojobs Project with API & Web",
   "main": "index.js",
   "type": "module",
   "scripts": {
