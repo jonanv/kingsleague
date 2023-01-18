@@ -5,11 +5,11 @@ name: Scrape Kings League Infojobs Website
 
 on:
   workflow_dispatch:
-    
+  
   repository_dispatch:
     types: 
       - webhook
-      
+  
   schedule:
     - cron: "0 */1 * * 0"
 
@@ -28,9 +28,11 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 7.22.0
+          run_install: true
       - run: |
           node scraping/leaderboard.js
           git config user.name kingsleague-bot
+          git config user.email jonan-vargas23@hotmail.com
           git add -A
           git commit -m "[bot] Update Kings League Database"
           git push origin main
