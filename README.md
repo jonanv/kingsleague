@@ -1,4 +1,4 @@
-# **Kings League**
+# **👑 Kings League**
 
 Proyecto de uso didactivo siguiendo la iniciativa de **[Midudev](https://twitter.com/midudev)** en su canal de Twich de **[Midudev](https://www.twitch.tv/midudev)**
 
@@ -13,18 +13,23 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 - Hono
 - GitHub actions Cronjob
 
-
-# Deploy dev
+# **🚀 Deploy**
+## **Deploy dev**
 ```js
-npm run dev:api
+pnpm run dev:api
 ```
 
-# Deploy publish
+## **Deploy publish**
 ```js
-npm run publish:api
+pnpm run publish:api
 ```
 
-## API
+# **🧪 Test**
+```js
+pnpm run vitest
+```
+
+# **📃 API**
 
 Dirección: https://api.kingsleague.dev/
 
