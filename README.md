@@ -7,11 +7,12 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 
 ## **⚡️ Tecnologías**
 
-- Node
-- Cheerio for scraping
-- Cloudflare Workers
-- Hono
-- GitHub actions Cronjob
+- 📦 Node
+- 📜 Cheerio for scraping
+- ☁︎ Cloudflare Workers
+- 🔥 Hono
+- 🐱 GitHub actions Cronjob
+- 🚀 Astro
 
 # **🚀 Deploy**
 ## **Deploy dev**
