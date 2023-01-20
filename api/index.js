@@ -8,8 +8,8 @@ import presidents from '../db/presidents.json';
 
 const app = new Hono();
 
-app.get('/', (context) => {
-  return context.json([
+app.get('/', (ctx) =>
+  ctx.json([
     {
       endpoint: '/leaderboard',
       description: 'Returns Kings League leaderboard'
@@ -22,39 +22,38 @@ app.get('/', (context) => {
       endpoint: '/presidents',
       description: 'Returns Kings League presidents'
     }
-  ]);
+  ])
+);
+
+app.get('/leaderboard\\/?', (ctx) => {
+  return ctx.json(leaderboard);
 });
 
-// Endpoints
-app.get('/leaderboard', (context) => {
-  return context.json(leaderboard);
+app.get('/presidents\\/?', (ctx) => {
+  return ctx.json(presidents);
 });
 
-app.get('/teams', (context) => {
-  return context.json(teams);
-});
-
-app.get('/teams/:id', (context) => {
-  const id = context.req.param('id');
-  const foundTeam = teams.find(team => team.id === id);
-
-  return foundTeam
-    ? context.json(foundTeam)
-    : context.json({ message: 'Team not found' }, 404)
-});
-
-app.get('/presidents', (context) => {
-  return context.json(presidents);
-});
-
-app.get('/presidents/:id', (context) => {
-  const id = context.req.param('id');
-  const foundPresident = presidents.find(president => president.id === id);
+app.get('/presidents/:id', (ctx) => {
+  const id = ctx.req.param('id');
+  const foundPresident = presidents.find((president) => president.id === id);
 
   return foundPresident
-    ? context.json(foundPresident)
-    : context.json({ message: 'President not found' }, 404)
+    ? ctx.json(foundPresident)
+    : ctx.json({ message: 'President not found' }, 404);
+})
+
+app.get('/teams\\/?', (ctx) => {
+  return ctx.json(teams);
 });
+
+app.get('/teams/:id', (ctx) => {
+  const id = ctx.req.param('id');
+  const foundTeam = teams.find((team) => team.id === id);
+
+  return foundTeam
+    ? ctx.json(foundTeam)
+    : ctx.json({ message: 'Team not found' }, 404);
+})
 
 app.get('/static/*', serveStatic({ root: './' }));
 
