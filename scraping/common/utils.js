@@ -20,7 +20,7 @@ export const SCRIPTING = {
   top_scorer: {
     url: 'https://kingsleague.pro/estadisticas/goles/',
     scraper: getTopScorer
-  }
+  },
   // coaches: {
   //   url: 'https://kingsleague.pro/estadisticas/coashs/',
   //   scraper: getCoaches
@@ -36,7 +36,7 @@ export async function scrape(url) {
   const res = await fetch(url);
   const html = await res.text();
   return cheerio.load(html);
-};
+}
 
 export async function scrapedAndSave(name) {
   const start = performance.now();
@@ -59,4 +59,4 @@ export async function scrapedAndSave(name) {
     const time = (end - start) / 1000;
     console.log(`[${name}] scraped in ${time} seconds`);
   }
-};
+}

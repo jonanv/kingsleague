@@ -9,7 +9,7 @@ const LEADERBOARD_SELECTORS = {
   concededGoals: { selector: '.fs-table-text_7', typeOf: 'number' },
   yellowCards: { selector: '.fs-table-text_8', typeOf: 'number' },
   redCards: { selector: '.fs-table-text_9', typeOf: 'number' }
-}
+};
 
 export async function getLeaderBoard($) {
   const $rows = $('table tbody tr');
@@ -22,17 +22,21 @@ export async function getLeaderBoard($) {
 
   const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS);
   const leaderboard = [];
+
   $rows.each((_, el) => {
     const $el = $(el);
 
     const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
       const rowValue = $el.find(selector).text();
       const cleanedValue = cleanText(rowValue);
+
       const value = (typeOf === 'number')
         ? Number(cleanedValue)
         : cleanedValue;
+
       return [key, value];
     });
+
     const { team: teamName, ...leaderboardForTeam } = Object.fromEntries(leaderBoardEntries);
     const team = getTeamFrom({ name: teamName });
 
@@ -41,5 +45,6 @@ export async function getLeaderBoard($) {
       team
     });
   });
+
   return leaderboard;
 }
