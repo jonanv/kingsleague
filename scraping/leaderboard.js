@@ -25,32 +25,32 @@ async function getLeaderBoard() {
     redCards: { selector: '.fs-table-text_9', typeOf: 'number' }
   }
 
-  const getTeamIdFrom = ({ name }) => {
-    const { presidentId, ...restOfteam } = TEAMS.find(team => team.name === name);
-    const president = PRESIDENTS.find(president => president.id === presidentId);
-    return { ...restOfteam, president }
+  const getTeamFrom = ({ name }) => {
+    const { presidentId, ...restOfTeam } = TEAMS.find((team) => team.name === name);
+    const president = PRESIDENTS.find((president) => president.id === presidentId);
+    return { ...restOfTeam, president };
   };
 
-  const cleanText = text => text
-    .replace(/\t|\n|\s:/g, '')
-    .replace(/.*:/g, ' ')
-    .trim();
+  const cleanText = (text) =>
+    text.replace(/\t|\n|\s:/g, '')
+      .replace(/.*:/g, ' ')
+      .trim();
 
-  const leaderBoardSelectorsEntries = Object.entries(LEADERBOARD_SELECTORS);
+  const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS);
   const leaderboard = [];
   $rows.each((_, el) => {
     const $el = $(el);
 
-    const leardBoardEntries = leaderBoardSelectorsEntries.map(([key, { selector, typeOf }]) => {
+    const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
       const rowValue = $el.find(selector).text();
-      const valueCleaned = cleanText(rowValue);
+      const cleanedValue = cleanText(rowValue);
       const value = (typeOf === 'number')
-        ? Number(valueCleaned)
-        : valueCleaned;
+        ? Number(cleanedValue)
+        : cleanedValue;
       return [key, value];
     });
-    const { team: teamName, ...leaderboardForTeam } = Object.fromEntries(leardBoardEntries);
-    const team = getTeamIdFrom({ name: teamName });
+    const { team: teamName, ...leaderboardForTeam } = Object.fromEntries(leaderBoardEntries);
+    const team = getTeamFrom({ name: teamName });
 
     leaderboard.push({
       ...leaderboardForTeam,
