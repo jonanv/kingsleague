@@ -41,10 +41,10 @@ const presidents = await Promise.all(
     logInfo(`> Everything is done! ${name}`);
     return { id, name, image: imageFileName, teamId: 0 };
   })
-)
+);
 
 logSuccess('> All presidents are done!');
 await writeFile(
   `${DB_PATH}/presidents.json`,
   JSON.stringify(presidents, null, 2)
-)
+);
