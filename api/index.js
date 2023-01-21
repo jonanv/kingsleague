@@ -63,6 +63,6 @@ app.notFound((c) => {
     return c.redirect(pathname.slice(0, -1));
   }
   return c.json({ message: 'Not Found' }, 404);
-})
+});
 
-export default app
+export default app;
