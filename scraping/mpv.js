@@ -1,17 +1,15 @@
-import { writeDBFile, TEAMS } from '../db/index.js';
-import { logError, logInfo, logSuccess } from './log.js';
-import { URLS, cleanText, scrape } from './utils.js';
+import { TEAMS } from '../db/index.js';
+import { cleanText } from './utils.js';
 
-async function getMvp() {
-  const $ = await scrape(URLS.mvp);
+const MVP_SELECTORS = {
+  team: { selector: '.fs-table-text_3', typeOf: 'string' },
+  playerName: { selector: '.fs-table-text_4', typeOf: 'string' },
+  gamesPlayed: { selector: '.fs-table-text_5', typeOf: 'number' },
+  mvps: { selector: '.fs-table-text_6', typeOf: 'number' },
+};
+
+export async function getMvp($) {
   const $rows = $('table tbody tr');
-
-  const MVP_SELECTORS = {
-    team: { selector: '.fs-table-text_3', typeOf: 'string' },
-    playerName: { selector: '.fs-table-text_4', typeOf: 'string' },
-    gamesPlayed: { selector: '.fs-table-text_5', typeOf: 'number' },
-    mvps: { selector: '.fs-table-text_6', typeOf: 'number' },
-  };
 
   const getImageFromTeam = ({ name }) => {
     const { image } = TEAMS.find((team) => team.name === name);
@@ -40,17 +38,4 @@ async function getMvp() {
     });
   });
   return mvp;
-}
-
-try {
-  logInfo('Scraping MVP list...');
-  const mvp = await getMvp();
-  logSuccess('MVP list scraped successfully...');
-
-  logInfo('Writing MVP list to database...');
-  await writeDBFile('mvp', mvp);
-  logSuccess('MVP list written successfully...');
-} catch (error) {
-  logError('Error scraping MVP list');
-  logError(error);
 }
