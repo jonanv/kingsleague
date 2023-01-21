@@ -5,6 +5,7 @@ import { logError, logInfo, logSuccess } from './log.js';
 
 import { getLeaderBoard } from '../leaderboard.js';
 import { getMvp } from '../mpv.js';
+import { getTopScorer } from '../top_scorer.js';
 // import { getCoaches } from '../coashs';
 
 export const SCRIPTING = {
@@ -15,6 +16,10 @@ export const SCRIPTING = {
   mvp: {
     url: 'https://kingsleague.pro/estadisticas/mvp/',
     scraper: getMvp
+  },
+  top_scorer: {
+    url: 'https://kingsleague.pro/estadisticas/goles/',
+    scraper: getTopScorer
   }
   // coaches: {
   //   url: 'https://kingsleague.pro/estadisticas/coashs/',
