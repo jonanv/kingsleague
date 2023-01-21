@@ -1,5 +1,5 @@
-import { TEAMS } from '../db/index.js'
-import { cleanText } from './utils.js'
+import { TEAMS } from '../db/index.js';
+import { cleanText } from './common/utils.js';
 
 const TOP_SCORER_SELECTORS = {
   rank: { selector: '.fs-table-text_1', typeOf: 'string' },
