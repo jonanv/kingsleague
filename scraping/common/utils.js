@@ -1,10 +1,11 @@
 import * as cheerio from 'cheerio';
 
-import { writeDBFile } from '../db/index.js';
+import { writeDBFile } from '../../db/index.js';
 import { logError, logInfo, logSuccess } from './log.js';
 
-import { getLeaderBoard } from './leaderboard.js';
-import { getMvp } from './mpv.js';
+import { getLeaderBoard } from '../leaderboard.js';
+import { getMvp } from '../mpv.js';
+// import { getCoachs } from '../coashs';
 
 export const SCRIPTING = {
   leaderboard: {
@@ -15,6 +16,10 @@ export const SCRIPTING = {
     url: 'https://kingsleague.pro/estadisticas/mvp/',
     scraper: getMvp
   }
+  // coashs: {
+  //   url: 'https://kingsleague.pro/estadisticas/coashs/',
+  //   scraper: getCoachs
+  // }
 };
 
 export const cleanText = (text) =>

@@ -1,5 +1,5 @@
 import { TEAMS } from '../db/index.js';
-import { cleanText } from './utils.js';
+import { cleanText } from './common/utils.js';
 
 const MVP_SELECTORS = {
   team: { selector: '.fs-table-text_3', typeOf: 'string' },
