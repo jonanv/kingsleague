@@ -2,7 +2,6 @@ import { TEAMS } from '../db/index.js';
 import { cleanText } from './common/utils.js';
 
 const TOP_SCORER_SELECTORS = {
-  rank: { selector: '.fs-table-text_1', typeOf: 'string' },
   team: { selector: '.fs-table-text_3', typeOf: 'string' },
   playerName: { selector: '.fs-table-text_4', typeOf: 'string' },
   gamesPlayed: { selector: '.fs-table-text_5', typeOf: 'number' },
@@ -38,8 +37,8 @@ export async function getTopScorer($) {
     const image = getImageFromTeam({ name: teamName });
 
     topScorer.push({
-      ...topScorerData,
       rank: index + 1,
+      ...topScorerData,
       team: teamName,
       image
     });
