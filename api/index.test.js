@@ -27,6 +27,25 @@ describe('Testing / route', () => {
       });
     }
   });
+
+  it('should return 404 for unknown route', async () => {
+    const resp = await worker.fetch('/unknown')
+    expect(resp.status).toBe(404)
+  });
+
+  it('should return 404 for unknown president', async () => {
+    const resp = await worker.fetch('/presidents/unknown')
+    const respJson = await resp.json()
+    expect(respJson.message).toBe('President not found')
+    expect(resp.status).toBe(404)
+  });
+
+  it('should return 404 for unknown team', async () => {
+    const resp = await worker.fetch('/teams/unknown')
+    const respJson = await resp.json()
+    expect(respJson.message).toBe('Team not found')
+    expect(resp.status).toBe(404)
+  });
 });
 
 describe('Testing /teams route', () => {
@@ -61,11 +80,11 @@ describe('Testing /teams route', () => {
         expect(team).toHaveProperty('coach');
         expect(team).toHaveProperty('socialNetworks');
         expect(team).toHaveProperty('players');
-      })
+      });
 
       expect(numberTeams).toBe(12);
     }
-  })
+  });
 
   it('Get /teams/1k should return team props', async () => {
     const resp = await worker.fetch('/teams/1k');
@@ -82,7 +101,7 @@ describe('Testing /teams route', () => {
       expect(team).toHaveProperty('socialNetworks');
       expect(team).toHaveProperty('players');
     }
-  })
+  });
 
   it('Get /teams/noexist should return 404 message missing team', async () => {
     const resp = await worker.fetch('/teams/noexist');
@@ -91,7 +110,7 @@ describe('Testing /teams route', () => {
 
       expect(errorMessage).toEqual({
         message: 'Team not found'
-      })
+      });
     }
-  })
-})
+  });
+});
