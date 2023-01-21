@@ -1,7 +1,7 @@
 [
   {
     "victories": 3,
-    "loses": 0,
+    "losses": 0,
     "scoredGoals": 10,
     "concededGoals": 4,
     "yellowCards": 3,
@@ -27,7 +27,7 @@
   },
   {
     "victories": 3,
-    "loses": 0,
+    "losses": 0,
     "scoredGoals": 12,
     "concededGoals": 7,
     "yellowCards": 0,
@@ -56,7 +56,7 @@
   },
   {
     "victories": 2,
-    "loses": 1,
+    "losses": 1,
     "scoredGoals": 5,
     "concededGoals": 3,
     "yellowCards": 2,
@@ -82,7 +82,7 @@
   },
   {
     "victories": 2,
-    "loses": 1,
+    "losses": 1,
     "scoredGoals": 11,
     "concededGoals": 10,
     "yellowCards": 2,
@@ -111,7 +111,7 @@
   },
   {
     "victories": 2,
-    "loses": 1,
+    "losses": 1,
     "scoredGoals": 9,
     "concededGoals": 8,
     "yellowCards": 1,
@@ -137,7 +137,7 @@
   },
   {
     "victories": 2,
-    "loses": 1,
+    "losses": 1,
     "scoredGoals": 9,
     "concededGoals": 9,
     "yellowCards": 1,
@@ -164,7 +164,7 @@
   },
   {
     "victories": 1,
-    "loses": 2,
+    "losses": 2,
     "scoredGoals": 8,
     "concededGoals": 7,
     "yellowCards": 1,
@@ -193,7 +193,7 @@
   },
   {
     "victories": 1,
-    "loses": 2,
+    "losses": 2,
     "scoredGoals": 9,
     "concededGoals": 9,
     "yellowCards": 0,
@@ -222,7 +222,7 @@
   },
   {
     "victories": 1,
-    "loses": 2,
+    "losses": 2,
     "scoredGoals": 7,
     "concededGoals": 9,
     "yellowCards": 1,
@@ -248,7 +248,7 @@
   },
   {
     "victories": 1,
-    "loses": 2,
+    "losses": 2,
     "scoredGoals": 5,
     "concededGoals": 8,
     "yellowCards": 3,
@@ -274,7 +274,7 @@
   },
   {
     "victories": 0,
-    "loses": 3,
+    "losses": 3,
     "scoredGoals": 7,
     "concededGoals": 12,
     "yellowCards": 2,
@@ -303,7 +303,7 @@
   },
   {
     "victories": 0,
-    "loses": 3,
+    "losses": 3,
     "scoredGoals": 3,
     "concededGoals": 9,
     "yellowCards": 4,
