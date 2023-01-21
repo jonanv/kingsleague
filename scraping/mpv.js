@@ -1,4 +1,5 @@
 import { writeDBFile, TEAMS } from '../db/index.js';
+import { logError, logInfo, logSuccess } from './log.js';
 import { URLS, cleanText, scrape } from './utils.js';
 
 async function getMvp() {
@@ -41,5 +42,15 @@ async function getMvp() {
   return mvp;
 }
 
-const mvp = await getMvp();
-await writeDBFile('mvp', mvp);
+try {
+  logInfo('Scraping MVP list...');
+  const mvp = await getMvp();
+  logSuccess('MVP list scraped successfully...');
+
+  logInfo('Writing MVP list to database...');
+  await writeDBFile('mvp', mvp);
+  logSuccess('MVP list written successfully...');
+} catch (error) {
+  logError('Error scraping MVP list');
+  logError(error);
+}
