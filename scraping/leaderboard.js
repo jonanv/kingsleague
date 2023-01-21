@@ -1,5 +1,5 @@
 import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js';
-import { URLS, scrape } from './utils.js';
+import { URLS, cleanText, scrape } from './utils.js';
 
 async function getLeaderBoard() {
   const $ = await scrape(URLS.leaderboard);
@@ -20,11 +20,6 @@ async function getLeaderBoard() {
     const president = PRESIDENTS.find((president) => president.id === presidentId);
     return { ...restOfTeam, president };
   };
-
-  const cleanText = (text) =>
-    text.replace(/\t|\n|\s:/g, '')
-      .replace(/.*:/g, ' ')
-      .trim();
 
   const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS);
   const leaderboard = [];
