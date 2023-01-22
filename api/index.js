@@ -6,6 +6,7 @@ import leaderboard from '../db/leaderboard.json';
 import teams from '../db/teams.json';
 import presidents from '../db/presidents.json';
 import top_scorer from '../db/top_scorer.json';
+import assists from '../db/assists.json';
 // import coachs from '../db/coachs.json';
 
 const app = new Hono();
@@ -27,6 +28,10 @@ app.get('/', (ctx) =>
     {
       endpoint: '/top_scorer',
       description: 'Returns Kings League top scorer'
+    },
+    {
+      endpoint: '/assists',
+      description: 'Returns Kings League assists'
     },
     // {
     //   endpoint: '/coachs',
@@ -67,6 +72,10 @@ app.get('/teams/:id', (ctx) => {
 
 app.get('/top_scorer', (ctx) => {
   return ctx.json(top_scorer);
+});
+
+app.get('/assists', (ctx) => {
+  return ctx.json(assists);
 });
 
 // app.get('/coachs', (ctx) => {
