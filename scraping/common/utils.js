@@ -7,7 +7,7 @@ import { getLeaderBoard } from '../leaderboard.js';
 import { getMvp } from '../mpv.js';
 import { getTopScorer } from '../top_scorer.js';
 import { getAssists } from '../assists.js';
-// import { getCoaches } from '../coashs';
+import { getCoaches } from '../coaches.js';
 
 export const SCRIPTING = {
   leaderboard: {
@@ -26,10 +26,10 @@ export const SCRIPTING = {
     url: 'https://kingsleague.pro/estadisticas/asistencias/',
     scraper: getAssists
   },
-  // coaches: {
-  //   url: 'https://kingsleague.pro/estadisticas/coashs/',
-  //   scraper: getCoaches
-  // }
+  coaches: {
+    url: 'https://kingsleague.pro/estadisticas/coaches/',
+    scraper: getCoaches
+  }
 };
 
 export const cleanText = (text) =>
