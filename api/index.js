@@ -7,7 +7,7 @@ import teams from '../db/teams.json';
 import presidents from '../db/presidents.json';
 import top_scorer from '../db/top_scorer.json';
 import assists from '../db/assists.json';
-// import coachs from '../db/coachs.json';
+import coaches from '../db/coaches.json';
 
 const app = new Hono();
 
@@ -33,10 +33,10 @@ app.get('/', (ctx) =>
       endpoint: '/assists',
       description: 'Returns Kings League assists'
     },
-    // {
-    //   endpoint: '/coachs',
-    //   description: 'Returns Kings League coachs'
-    // }
+    {
+      endpoint: '/coaches',
+      description: 'Returns Kings League coaches'
+    }
   ])
 );
 
@@ -78,9 +78,9 @@ app.get('/assists', (ctx) => {
   return ctx.json(assists);
 });
 
-// app.get('/coachs', (ctx) => {
-//   return ctx.json(coachs);
-// });
+app.get('/coaches', (ctx) => {
+  return ctx.json(coaches);
+});
 
 app.get('/static/*', serveStatic({ root: './' }));
 
