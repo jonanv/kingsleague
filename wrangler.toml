@@ -5,8 +5,8 @@ compatibility_date = "2023-01-05"
 [site]
 bucket = "./assets"
 
-[env.production]
-vars = { ENVIRONMENT = "production" }
-routes = [
-  { pattern = "kingsleague.jonanv.workers.dev", custom_domain = true }
-]
+# [env.production]
+# vars = { ENVIRONMENT = "production" }
+# routes = [
+#   { pattern = "kingsleague.jonanv.workers.dev", custom_domain = true }
+# ]
