@@ -6,7 +6,10 @@
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
-    "coach": "???",
+    "coach": {
+      "name": "Julio García Mera",
+      "image": "julio-garca-mera.png"
+    },
     "socialNetworks": [
       "https://www.instagram.com/1kfutbolclub/?hl=es",
       "https://twitter.com/1kfutbolclub",
@@ -14,7 +17,61 @@
       "https://www.tiktok.com/@1kfutbolclub"
     ],
     "players": [
-      
+      {
+        "name": "Ricardo",
+        "role": "jugador 11",
+        "image": "1k-ricardo.png"
+      },
+      {
+        "name": "Román",
+        "role": "Defensa",
+        "image": "1k-romn.png"
+      },
+      {
+        "name": "Sorroche",
+        "role": "Delantero",
+        "image": "1k-sorroche.png"
+      },
+      {
+        "name": "Marino",
+        "role": "Delantero",
+        "image": "1k-marino.png"
+      },
+      {
+        "name": "Ledo",
+        "role": "Defensa",
+        "image": "1k-ledo.png"
+      },
+      {
+        "name": "Sauras",
+        "role": "Defensa",
+        "image": "1k-sauras.png"
+      },
+      {
+        "name": "Bruno",
+        "role": "Defensa",
+        "image": "1k-bruno.png"
+      },
+      {
+        "name": "Pluvins",
+        "role": "Medio",
+        "image": "1k-pluvins.png"
+      },
+      {
+        "name": "Rivero",
+        "role": "Medio",
+        "image": "1k-rivero.png"
+      },
+      {
+        "name": "Lautaro",
+        "role": "Delantero",
+        "image": "1k-lautaro.png"
+      },
+      {
+        "name": "Günter",
+        "role": "Delantero",
+        "image": "1k-gnter.png"
+      }
     ]
   },
   {
@@ -24,7 +81,10 @@
     "url": "",
     "presidentId": "adri-contreras",
     "channel": "https://twitch.tv/1k",
-    "coach": "???",
+    "coach": {
+      "name": "Juan Arroita",
+      "image": "juan-arroita.png"
+    },
     "socialNetworks": [
       "https://www.instagram.com/elbarrioklk/?hl=es",
       "https://www.tiktok.com/@adricontreras4",
@@ -32,7 +92,61 @@
       "https://www.tiktok.com/@elbarrioklk"
     ],
     "players": [
-      
+      {
+        "name": "José Juan",
+        "role": "jugador 11",
+        "image": "el-barrio-jos-juan.png"
+      },
+      {
+        "name": "Jacobo",
+        "role": "Delantero",
+        "image": "el-barrio-jacobo.png"
+      },
+      {
+        "name": "Mase",
+        "role": "Defensa",
+        "image": "el-barrio-mase.png"
+      },
+      {
+        "name": "Beguer",
+        "role": "Delantero",
+        "image": "el-barrio-beguer.png"
+      },
+      {
+        "name": "Ros",
+        "role": "Medio",
+        "image": "el-barrio-ros.png"
+      },
+      {
+        "name": "Ubón",
+        "role": "Medio",
+        "image": "el-barrio-ubn.png"
+      },
+      {
+        "name": "Pau ZZ",
+        "role": "Defensa",
+        "image": "el-barrio-pau-zz.png"
+      },
+      {
+        "name": "Olae",
+        "role": "Delantero",
+        "image": "el-barrio-olae.png"
+      },
+      {
+        "name": "O. Boada",
+        "role": "Delantero",
+        "image": "el-barrio-o-boada.png"
+      },
+      {
+        "name": "Baranera",
+        "role": "Medio",
+        "image": "el-barrio-baranera.png"
+      },
+      {
+        "name": "Capilla",
+        "role": "Medio",
+        "image": "el-barrio-capilla.png"
+      }
     ]
   },
   {
@@ -42,12 +156,69 @@
     "url": "",
     "presidentId": "djmariio",
     "channel": "https://youtube.com/DjMaRiiO",
-    "coach": "???",
+    "coach": {
+      "name": "Nacho Castro",
+      "image": "nacho-castro.png"
+    },
     "socialNetworks": [
       "https://m.youtube.com/user/DjMaRiiO/videos"
     ],
     "players": [
-      
+      {
+        "name": "Juanma Glez",
+        "role": "jugador 11",
+        "image": "ultimate-mostoles-juanma-glez.png"
+      },
+      {
+        "name": "Arché",
+        "role": "Medio",
+        "image": "ultimate-mostoles-arch.png"
+      },
+      {
+        "name": "Iu",
+        "role": "Portero",
+        "image": "ultimate-mostoles-iu.png"
+      },
+      {
+        "name": "Guti",
+        "role": "Defensa",
+        "image": "ultimate-mostoles-guti.png"
+      },
+      {
+        "name": "Aleix",
+        "role": "Medio",
+        "image": "ultimate-mostoles-aleix.png"
+      },
+      {
+        "name": "Llur",
+        "role": "Delantero",
+        "image": "ultimate-mostoles-llur.png"
+      },
+      {
+        "name": "Iker",
+        "role": "Defensa",
+        "image": "ultimate-mostoles-iker.png"
+      },
+      {
+        "name": "Ian",
+        "role": "Defensa",
+        "image": "ultimate-mostoles-ian.png"
+      },
+      {
+        "name": "Zea",
+        "role": "Delantero",
+        "image": "ultimate-mostoles-zea.png"
+      },
+      {
+        "name": "Nacho",
+        "role": "Portero",
+        "image": "ultimate-mostoles-nacho.png"
+      },
+      {
+        "name": "Lucca",
+        "role": "Medio",
+        "image": "ultimate-mostoles-lucca.png"
+      }
     ]
   },
   {
@@ -57,7 +228,10 @@
     "url": "",
     "presidentId": "perxitaa",
     "channel": "https://twitch.tv/perxitaa",
-    "coach": "???",
+    "coach": {
+      "name": "Pol Font",
+      "image": "pol-font.png"
+    },
     "socialNetworks": [
       "https://www.twitch.tv/perxitaa",
       "https://www.instagram.com/troncosfc.oficial/",
@@ -65,7 +239,61 @@
       "https://www.tiktok.com/@lostroncosfc_"
     ],
     "players": [
-      
+      {
+        "name": "F. Álvarez «Citrus»",
+        "role": "jugador 11",
+        "image": "los-troncos-fc-f-álvarez-«citrus».png"
+      },
+      {
+        "name": "E. Álvaro «Roble»",
+        "role": "Delantero",
+        "image": "los-troncos-fc-e-álvaro-«roble».png"
+      },
+      {
+        "name": "Lechuga",
+        "role": "Portero",
+        "image": "los-troncos-fc-lechuga.png"
+      },
+      {
+        "name": "D. Soriano «Olivo»",
+        "role": "Defensa",
+        "image": "los-troncos-fc-d-soriano-«olivo».png"
+      },
+      {
+        "name": "S. Sánchez «Drago»",
+        "role": "Medio",
+        "image": "los-troncos-fc-s-sánchez-«drago».png"
+      },
+      {
+        "name": "Noel L. «Ahuehuete»",
+        "role": "Medio",
+        "image": "los-troncos-fc-noel-l-«ahuehuete».png"
+      },
+      {
+        "name": "X. Molas «Mimosa»",
+        "role": "Medio",
+        "image": "los-troncos-fc-x-molas-«mimosa».png"
+      },
+      {
+        "name": "R. Martínez «Bonsai»",
+        "role": "Delantero",
+        "image": "los-troncos-fc-r-martínez-«bonsai».png"
+      },
+      {
+        "name": "Dorkis P. «Mango»",
+        "role": "Delantero",
+        "image": "los-troncos-fc-dorkis-p-«mango».png"
+      },
+      {
+        "name": "I. Nuevo «Ficus»",
+        "role": "Medio",
+        "image": "los-troncos-fc-i-nuevo-«ficus».png"
+      },
+      {
+        "name": "M. Arús «Pino»",
+        "role": "Portero",
+        "image": "los-troncos-fc-m-arús-«pino».png"
+      }
     ]
   },
   {
@@ -75,12 +303,69 @@
     "url": "",
     "presidentId": "thegrefg",
     "channel": "https://twitch.tv/thegrefg",
-    "coach": "???",
+    "coach": {
+      "name": "Daniel Romo",
+      "image": "daniel-romo.png"
+    },
     "socialNetworks": [
       "https://www.twitch.tv/thegrefg"
     ],
     "players": [
-      
+      {
+        "name": "Pol Alme",
+        "role": "jugador 11",
+        "image": "saiyans-fc-pol-alme.png"
+      },
+      {
+        "name": "Briones",
+        "role": "Portero",
+        "image": "saiyans-fc-briones.png"
+      },
+      {
+        "name": "Gio Ferinu",
+        "role": "Delantero",
+        "image": "saiyans-fc-gio-ferinu.png"
+      },
+      {
+        "name": "Campu",
+        "role": "Defensa",
+        "image": "saiyans-fc-campu.png"
+      },
+      {
+        "name": "Temo",
+        "role": "Medio",
+        "image": "saiyans-fc-temo.png"
+      },
+      {
+        "name": "C. Valle",
+        "role": "Medio",
+        "image": "saiyans-fc-c-valle.png"
+      },
+      {
+        "name": "V. Torres",
+        "role": "Defensa",
+        "image": "saiyans-fc-v-torres.png"
+      },
+      {
+        "name": "Feliu",
+        "role": "Medio",
+        "image": "saiyans-fc-feliu.png"
+      },
+      {
+        "name": "David Alba",
+        "role": "Delantero",
+        "image": "saiyans-fc-david-alba.png"
+      },
+      {
+        "name": "R. Carbó",
+        "role": "Medio",
+        "image": "saiyans-fc-r-carbó.png"
+      },
+      {
+        "name": "Fajardo",
+        "role": "Portero",
+        "image": "saiyans-fc-fajardo.png"
+      }
     ]
   },
   {
@@ -90,12 +375,69 @@
     "url": "",
     "presidentId": "kun-aguero",
     "channel": "https://twitch.tv/slakun10",
-    "coach": "???",
+    "coach": {
+      "name": "Martín Posse",
+      "image": "martn-posse.png"
+    },
     "socialNetworks": [
       "https://www.twitch.tv/slakun10"
     ],
     "players": [
-      
+      {
+        "name": "Coro",
+        "role": "jugador 11",
+        "image": "kunisports-coro.png"
+      },
+      {
+        "name": "Torrentbó",
+        "role": "Delantero",
+        "image": "kunisports-torrentb.png"
+      },
+      {
+        "name": "Víctor",
+        "role": "Portero",
+        "image": "kunisports-vctor.png"
+      },
+      {
+        "name": "Guerrero",
+        "role": "Defensa",
+        "image": "kunisports-guerrero.png"
+      },
+      {
+        "name": "Joan Inés",
+        "role": "Medio",
+        "image": "kunisports-joan-ins.png"
+      },
+      {
+        "name": "Rode",
+        "role": "Portero",
+        "image": "kunisports-rode.png"
+      },
+      {
+        "name": "Ruggeri",
+        "role": "Defensa",
+        "image": "kunisports-ruggeri.png"
+      },
+      {
+        "name": "Nacho",
+        "role": "Defensa",
+        "image": "kunisports-nacho.png"
+      },
+      {
+        "name": "Hidalgo",
+        "role": "Delantero",
+        "image": "kunisports-hidalgo.png"
+      },
+      {
+        "name": "Lluc",
+        "role": "Delantero",
+        "image": "kunisports-lluc.png"
+      },
+      {
+        "name": "Miki",
+        "role": "Defensa",
+        "image": "kunisports-miki.png"
+      }
     ]
   },
   {
@@ -105,7 +447,10 @@
     "url": "",
     "presidentId": "gerard-romero",
     "channel": "https://twitch.tv/gerardromero",
-    "coach": "???",
+    "coach": {
+      "name": "Marc Carmona",
+      "image": "marc-carmona.png"
+    },
     "socialNetworks": [
       "https://www.twitch.tv/gerardromero",
       "https://www.instagram.com/jijantesfc/?hl=es",
@@ -113,7 +458,61 @@
       "https://www.tiktok.com/@jijantesfutbolclub"
     ],
     "players": [
-      
+      {
+        "name": "Soriano",
+        "role": "jugador 11",
+        "image": "jijantes-fc-soriano.png"
+      },
+      {
+        "name": "Alsina",
+        "role": "Medio",
+        "image": "jijantes-fc-alsina.png"
+      },
+      {
+        "name": "Pol",
+        "role": "Portero",
+        "image": "jijantes-fc-pol.png"
+      },
+      {
+        "name": "Jay",
+        "role": "Defensa",
+        "image": "jijantes-fc-jay.png"
+      },
+      {
+        "name": "Quero",
+        "role": "Medio",
+        "image": "jijantes-fc-quero.png"
+      },
+      {
+        "name": "Arnau M.V",
+        "role": "Defensa",
+        "image": "jijantes-fc-arnau-mv.png"
+      },
+      {
+        "name": "De la Villa",
+        "role": "Delantero",
+        "image": "jijantes-fc-de-la-villa.png"
+      },
+      {
+        "name": "Maca",
+        "role": "Medio",
+        "image": "jijantes-fc-maca.png"
+      },
+      {
+        "name": "Noel",
+        "role": "Defensa",
+        "image": "jijantes-fc-noel.png"
+      },
+      {
+        "name": "Dorado",
+        "role": "Delantero",
+        "image": "jijantes-fc-dorado.png"
+      },
+      {
+        "name": "Mario",
+        "role": "Portero",
+        "image": "jijantes-fc-mario.png"
+      }
     ]
   },
   {
@@ -123,13 +522,70 @@
     "url": "",
     "presidentId": "ibai-llanos",
     "channel": "https://twitch.tv/ibai",
-    "coach": "???",
+    "coach": {
+      "name": "Juvenal Edjogo-Owono",
+      "image": "juvenal-edjogoowono.png"
+    },
     "socialNetworks": [
       "https://www.twitch.tv/ibai",
       "https://twitter.com/FCPorcinos"
     ],
     "players": [
-      
+      {
+        "name": "Espinosa",
+        "role": "jugador 11",
+        "image": "porcinos-fc-espinosa.png"
+      },
+      {
+        "name": "J. Segovia",
+        "role": "Portero",
+        "image": "porcinos-fc-j-segovia.png"
+      },
+      {
+        "name": "G. Cichero",
+        "role": "Defensa",
+        "image": "porcinos-fc-g-cichero.png"
+      },
+      {
+        "name": "David L.L.",
+        "role": "Defensa",
+        "image": "porcinos-fc-david-ll..png"
+      },
+      {
+        "name": "Toti",
+        "role": "Medio",
+        "image": "porcinos-fc-toti.png"
+      },
+      {
+        "name": "A.Ripol",
+        "role": "Medio",
+        "image": "porcinos-fc-aripol.png"
+      },
+      {
+        "name": "Kilian",
+        "role": "Delantero",
+        "image": "porcinos-fc-kilian.png"
+      },
+      {
+        "name": "J. Blanco",
+        "role": "Delantero",
+        "image": "porcinos-fc-j-blanco.png"
+      },
+      {
+        "name": "Lil Pizza",
+        "role": "Defensa",
+        "image": "porcinos-fc-lil-pizza.png"
+      },
+      {
+        "name": "Lao",
+        "role": "Medio",
+        "image": "porcinos-fc-lao.png"
+      },
+      {
+        "name": "Sergi",
+        "role": "Portero",
+        "image": "porcinos-fc-sergi.png"
+      }
     ]
   },
   {
@@ -139,7 +595,10 @@
     "url": "",
     "presidentId": "spursito",
     "channel": "https://twitch.tv/spursito",
-    "coach": "???",
+    "coach": {
+      "name": "JuanluDBZ",
+      "image": "juanludbz.png"
+    },
     "socialNetworks": [
       "https://www.twitch.tv/spursito",
       "https://www.instagram.com/rayodebarcelona/?hl=es",
@@ -147,7 +606,61 @@
       "https://www.tiktok.com/@rayodebarcelona"
     ],
     "players": [
-      
+      {
+        "name": "Poloteli",
+        "role": "jugador 11",
+        "image": "rayo-barcelona-poloteli.png"
+      },
+      {
+        "name": "Pelaz",
+        "role": "Medio",
+        "image": "rayo-barcelona-pelaz.png"
+      },
+      {
+        "name": "Canet",
+        "role": "Portero",
+        "image": "rayo-barcelona-canet.png"
+      },
+      {
+        "name": "Guillem ZZ",
+        "role": "Delantero",
+        "image": "rayo-barcelona-guillem-zz.png"
+      },
+      {
+        "name": "M. Reyes",
+        "role": "Defensa",
+        "image": "rayo-barcelona-m-reyes.png"
+      },
+      {
+        "name": "Franky P.",
+        "role": "Medio",
+        "image": "rayo-barcelona-franky-p.png"
+      },
+      {
+        "name": "Dani P.",
+        "role": "Medio",
+        "image": "rayo-barcelona-dani-p.png"
+      },
+      {
+        "name": "Alejandro",
+        "role": "Defensa",
+        "image": "rayo-barcelona-alejandro.png"
+      },
+      {
+        "name": "Biboum M.",
+        "role": "Delantero",
+        "image": "rayo-barcelona-biboum-m.png"
+      },
+      {
+        "name": "Jonathan",
+        "role": "Medio",
+        "image": "rayo-barcelona-jonathan.png"
+      },
+      {
+        "name": "Alex Race",
+        "role": "Delantero",
+        "image": "rayo-barcelona-alex-race.png"
+      }
     ]
   },
   {
@@ -157,12 +670,69 @@
     "url": "",
     "presidentId": "hnos-buyer",
     "channel": "https://www.youtube.com/xbuyer",
-    "coach": "???",
+    "coach": {
+      "name": "Victor González",
+      "image": "victor-gonzlez.png"
+    },
     "socialNetworks": [
       "https://www.youtube.com/xbuyer"
     ],
     "players": [
-      
+      {
+        "name": "C. Castro",
+        "role": "jugador 11",
+        "image": "xbuyer-team-c-castro.png"
+      },
+      {
+        "name": "Capi",
+        "role": "Portero",
+        "image": "xbuyer-team-capi.png"
+      },
+      {
+        "name": "Poch",
+        "role": "Delantero",
+        "image": "xbuyer-team-poch.png"
+      },
+      {
+        "name": "Iñaki",
+        "role": "Medio",
+        "image": "xbuyer-team-iaki.png"
+      },
+      {
+        "name": "Dani",
+        "role": "Defensa",
+        "image": "xbuyer-team-dani.png"
+      },
+      {
+        "name": "Granero",
+        "role": "Delantero",
+        "image": "xbuyer-team-granero.png"
+      },
+      {
+        "name": "Goran",
+        "role": "Medio",
+        "image": "xbuyer-team-goran.png"
+      },
+      {
+        "name": "Bañuls",
+        "role": "Defensa",
+        "image": "xbuyer-team-bauls.png"
+      },
+      {
+        "name": "Franc",
+        "role": "Medio",
+        "image": "xbuyer-team-franc.png"
+      },
+      {
+        "name": "B. Sierra",
+        "role": "Delantero",
+        "image": "xbuyer-team-b-sierra.png"
+      },
+      {
+        "name": "Sep",
+        "role": "Portero",
+        "image": "xbuyer-team-sep.png"
+      }
     ]
   },
   {
@@ -172,12 +742,69 @@
     "url": "",
     "presidentId": "juan-guarnizo",
     "channel": "https://twitch.tv/juansguarnizo",
-    "coach": "???",
+    "coach": {
+      "name": "Sergio Verdirame",
+      "image": "sergio-verdirame.png"
+    },
     "socialNetworks": [
       "https://www.twitch.tv/juansguarnizo"
     ],
     "players": [
-      
+      {
+        "name": "F. Hernández",
+        "role": "jugador 11",
+        "image": "aniquiladores-fc-f-hernández.png"
+      },
+      {
+        "name": "Daniel P.",
+        "role": "Portero",
+        "image": "aniquiladores-fc-daniel-p.png"
+      },
+      {
+        "name": "Galvany",
+        "role": "Medio",
+        "image": "aniquiladores-fc-galvany.png"
+      },
+      {
+        "name": "Andrés",
+        "role": "Defensa",
+        "image": "aniquiladores-fc-andrs.png"
+      },
+      {
+        "name": "Bernat",
+        "role": "Medio",
+        "image": "aniquiladores-fc-bernat.png"
+      },
+      {
+        "name": "Pau Mañé",
+        "role": "Delantero",
+        "image": "aniquiladores-fc-pau-maé.png"
+      },
+      {
+        "name": "Jorquera",
+        "role": "Defensa",
+        "image": "aniquiladores-fc-jorquera.png"
+      },
+      {
+        "name": "Gilles V.",
+        "role": "Medio",
+        "image": "aniquiladores-fc-gilles-v.png"
+      },
+      {
+        "name": "Jadir",
+        "role": "Defensa",
+        "image": "aniquiladores-fc-jadir.png"
+      },
+      {
+        "name": "Roger",
+        "role": "Medio",
+        "image": "aniquiladores-fc-roger.png"
+      },
+      {
+        "name": "X.Morales",
+        "role": "Portero",
+        "image": "aniquiladores-fc-xmorales.png"
+      }
     ]
   },
   {
@@ -187,13 +814,70 @@
     "url": "",
     "presidentId": "rivers",
     "channel": "https://twitch.tv/rivers_gg",
-    "coach": "???",
+    "coach": {
+      "name": "Gerardo Torrado",
+      "image": "gerardo-torrado.png"
+    },
     "socialNetworks": [
       "https://www.twitch.tv/rivers_gg",
       "https://twitter.com/PIO_FC"
     ],
     "players": [
-      
+      {
+        "name": "Lopo",
+        "role": "jugador 11",
+        "image": "pio-fc-lopo.png"
+      },
+      {
+        "name": "Jorge",
+        "role": "Portero",
+        "image": "pio-fc-jorge.png"
+      },
+      {
+        "name": "Carlitos",
+        "role": "Defensa",
+        "image": "pio-fc-carlitos.png"
+      },
+      {
+        "name": "Pau Fer",
+        "role": "Medio",
+        "image": "pio-fc-pau-fer.png"
+      },
+      {
+        "name": "Carlinhos",
+        "role": "Delantero",
+        "image": "pio-fc-carlinhos.png"
+      },
+      {
+        "name": "B. Juárez",
+        "role": "Medio",
+        "image": "pio-fc-b-juárez.png"
+      },
+      {
+        "name": "Turner",
+        "role": "Defensa",
+        "image": "pio-fc-turner.png"
+      },
+      {
+        "name": "Adri",
+        "role": "Delantero",
+        "image": "pio-fc-adri.png"
+      },
+      {
+        "name": "Cokita",
+        "role": "Medio",
+        "image": "pio-fc-cokita.png"
+      },
+      {
+        "name": "A. Ropero",
+        "role": "Medio",
+        "image": "pio-fc-a-ropero.png"
+      },
+      {
+        "name": "Santiago",
+        "role": "Defensa",
+        "image": "pio-fc-santiago.png"
+      }
     ]
   }
 ]
