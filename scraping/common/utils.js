@@ -6,7 +6,7 @@ import { logError, logInfo, logSuccess } from './log.js';
 import { getLeaderBoard } from '../leaderboard.js';
 import { getMvp } from '../mpv.js';
 import { getTopScorer } from '../top_scorer.js';
-import { getAssists } from '../assists.js';
+import { getTopAssists } from '../top_assists.js';
 import { getCoaches } from '../coaches.js';
 
 export const SCRIPTING = {
@@ -22,9 +22,9 @@ export const SCRIPTING = {
     url: 'https://kingsleague.pro/estadisticas/goles/',
     scraper: getTopScorer
   },
-  assists: {
+  top_assists: {
     url: 'https://kingsleague.pro/estadisticas/asistencias/',
-    scraper: getAssists
+    scraper: getTopAssists
   },
   coaches: {
     url: 'https://kingsleague.pro/estadisticas/coaches/',
