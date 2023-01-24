@@ -1,14 +1,14 @@
 import { TEAMS } from '../db/index.js';
 import { cleanText } from './common/utils.js';
 
-const TOP_SCORER_SELECTORS = {
+const TOP_SCORERS_SELECTORS = {
   team: { selector: '.fs-table-text_3', typeOf: 'string' },
   playerName: { selector: '.fs-table-text_4', typeOf: 'string' },
   gamesPlayed: { selector: '.fs-table-text_5', typeOf: 'number' },
   goals: { selector: '.fs-table-text_6', typeOf: 'number' }
 };
 
-export async function getTopScorer($) {
+export async function getTopScorers($) {
   const $rows = $('table tbody tr');
 
   const getImageFromTeam = ({ name }) => {
@@ -16,13 +16,13 @@ export async function getTopScorer($) {
     return image;
   }
 
-  const topScorerSelectorEntries = Object.entries(TOP_SCORER_SELECTORS);
-  const topScorer = [];
+  const topScorersSelectorEntries = Object.entries(TOP_SCORERS_SELECTORS);
+  const topScorers = [];
 
   $rows.each((index, el) => {
     const $el = $(el);
 
-    const topScorerEntries = topScorerSelectorEntries.map(([key, { selector, typeOf }]) => {
+    const topScorersEntries = topScorersSelectorEntries.map(([key, { selector, typeOf }]) => {
       const rawValue = $el.find(selector).text();
       const cleanedValue = cleanText(rawValue);
 
@@ -33,16 +33,16 @@ export async function getTopScorer($) {
       return [key, value];
     });
 
-    const { team: teamName, ...topScorerData } = Object.fromEntries(topScorerEntries);
+    const { team: teamName, ...topScorersData } = Object.fromEntries(topScorersEntries);
     const image = getImageFromTeam({ name: teamName });
 
-    topScorer.push({
+    topScorers.push({
       rank: index + 1,
-      ...topScorerData,
+      ...topScorersData,
       team: teamName,
       image
     });
   });
 
-  return topScorer;
+  return topScorers;
 }
