@@ -5,7 +5,7 @@ import { serveStatic } from 'hono/serve-static.module';
 import leaderboard from '../db/leaderboard.json';
 import teams from '../db/teams.json';
 import presidents from '../db/presidents.json';
-import top_scorers from '../db/top_scorer.json';
+import top_scorers from '../db/top_scorers.json';
 import top_assists from '../db/top_assists.json';
 import coaches from '../db/coaches.json';
 
