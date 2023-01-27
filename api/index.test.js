@@ -4,7 +4,6 @@ import { describe, expect, it, beforeAll, afterAll } from 'vitest';
 const setup = async () => {
 	const worker = await unstableDev(
 		'api/index.js',
-		{},
 		{
 			experimental: { disableExperimentalWarning: true },
 		}
