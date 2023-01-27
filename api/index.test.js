@@ -2,11 +2,12 @@ import { unstable_dev as unstableDev } from 'wrangler';
 import { describe, expect, it, beforeAll, afterAll } from 'vitest';
 
 const setup = async () => {
-  const worker = await unstableDev(
-    'api/index.js',
-    {},
-    { disableExperimentalWarning: true }
-  );
+	const worker = await unstableDev(
+		'api/index.js',
+		{
+			experimental: { disableExperimentalWarning: true },
+		}
+	);
   return worker;
 }
 
@@ -18,11 +19,11 @@ describe('Testing / route', () => {
   let worker;
 
   beforeAll(async () => {
-    worker = await setup()
+    worker = await setup();
   });
 
   afterAll(async () => {
-    await teardown(worker)
+    await teardown(worker);
   });
 
   it('routes should have endpoint and description', async () => {
@@ -30,7 +31,7 @@ describe('Testing / route', () => {
     expect(resp).toBeDefined();
     if (!resp) return;
 
-    const apiRoutes = await resp.json()
+    const apiRoutes = await resp.json();
     // verify the response to have the expected format
     apiRoutes.forEach((endpoint) => {
       expect(endpoint).toHaveProperty('endpoint')
