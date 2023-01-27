@@ -22,7 +22,7 @@ const leaderboard = await response.json();
 					return (
 						<tr class='bg-white border-b'>
 							<th scope='row' class='px-6 py-4 font-black text-black whitespace-nowrap'>
-								1
+								{ index + 1 }
 							</th>
 							<td class='px-6 py-4 font-black flex gap-x-4'>
 								<img src={image} alt={'Logo de ' + name} class='w-6 h-6' />
