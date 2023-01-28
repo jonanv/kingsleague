@@ -72,7 +72,8 @@
         "role": "Delantero",
         "image": "1k-gnter.png"
       }
-    ]
+    ],
+    "shortName": "1K"
   },
   {
     "id": "el-barrio",
@@ -147,7 +148,8 @@
         "role": "Medio",
         "image": "el-barrio-capilla.png"
       }
-    ]
+    ],
+    "shortName": "RDB"
   },
   {
     "id": "ultimate-mostoles",
@@ -219,7 +221,8 @@
         "role": "Medio",
         "image": "ultimate-mostoles-lucca.png"
       }
-    ]
+    ],
+    "shortName": "ULT"
   },
   {
     "id": "los-troncos-fc",
@@ -294,7 +297,8 @@
         "role": "Portero",
         "image": "los-troncos-fc-m-arús-«pino».png"
       }
-    ]
+    ],
+    "shortName": "TFC"
   },
   {
     "id": "saiyans-fc",
@@ -366,7 +370,8 @@
         "role": "Portero",
         "image": "saiyans-fc-fajardo.png"
       }
-    ]
+    ],
+    "shortName": "SAI"
   },
   {
     "id": "kunisports",
@@ -438,7 +443,8 @@
         "role": "Defensa",
         "image": "kunisports-miki.png"
       }
-    ]
+    ],
+    "shortName": "KNS"
   },
   {
     "id": "jijantes-fc",
@@ -513,7 +519,8 @@
         "role": "Portero",
         "image": "jijantes-fc-mario.png"
       }
-    ]
+    ],
+    "shortName": "JFC"
   },
   {
     "id": "porcinos-fc",
@@ -586,7 +593,8 @@
         "role": "Portero",
         "image": "porcinos-fc-sergi.png"
       }
-    ]
+    ],
+    "shortName": "POR"
   },
   {
     "id": "rayo-barcelona",
@@ -661,7 +669,8 @@
         "role": "Delantero",
         "image": "rayo-barcelona-alex-race.png"
       }
-    ]
+    ],
+    "shortName": "RDB"
   },
   {
     "id": "xbuyer-team",
@@ -733,7 +742,8 @@
         "role": "Portero",
         "image": "xbuyer-team-sep.png"
       }
-    ]
+    ],
+    "shortName": "XBU"
   },
   {
     "id": "aniquiladores-fc",
@@ -805,7 +815,8 @@
         "role": "Portero",
         "image": "aniquiladores-fc-xmorales.png"
       }
-    ]
+    ],
+    "shortName": "ANI"
   },
   {
     "id": "pio-fc",
@@ -878,6 +889,7 @@
         "role": "Defensa",
         "image": "pio-fc-santiago.png"
       }
-    ]
+    ],
+    "shortName": "PIO"
   }
 ]
