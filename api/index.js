@@ -8,6 +8,7 @@ import presidents from '../db/presidents.json';
 import top_scorers from '../db/top_scorers.json';
 import top_assists from '../db/top_assists.json';
 import coaches from '../db/coaches.json';
+import mvp from '../db/mvp.json';
 
 const app = new Hono();
 
@@ -36,6 +37,10 @@ app.get('/', (ctx) =>
     {
       endpoint: '/coaches',
       description: 'Returns Kings League coaches'
+    },
+    {
+      endpoint: '/mvp',
+      description: 'Returns Kings League Most Valuable Players'
     }
   ])
 );
@@ -80,6 +85,10 @@ app.get('/top_assists', (ctx) => {
 
 app.get('/coaches', (ctx) => {
   return ctx.json(coaches);
+});
+
+app.get('/mvp', (ctx) => {
+  return ctx.json(mvp);
 });
 
 app.get('/static/*', serveStatic({ root: './' }));
