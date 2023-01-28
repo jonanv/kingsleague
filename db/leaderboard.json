@@ -1,5 +1,6 @@
 [
   {
+    "rank": 1,
     "wins": 3,
     "losses": 1,
     "scoredGoals": 11,
@@ -85,6 +86,7 @@
     }
   },
   {
+    "rank": 2,
     "wins": 3,
     "losses": 1,
     "scoredGoals": 14,
@@ -170,6 +172,7 @@
     }
   },
   {
+    "rank": 3,
     "wins": 3,
     "losses": 1,
     "scoredGoals": 14,
@@ -256,6 +259,7 @@
     }
   },
   {
+    "rank": 4,
     "wins": 3,
     "losses": 1,
     "scoredGoals": 14,
@@ -344,6 +348,7 @@
     }
   },
   {
+    "rank": 5,
     "wins": 3,
     "losses": 1,
     "scoredGoals": 7,
@@ -429,6 +434,7 @@
     }
   },
   {
+    "rank": 6,
     "wins": 2,
     "losses": 2,
     "scoredGoals": 13,
@@ -517,6 +523,7 @@
     }
   },
   {
+    "rank": 7,
     "wins": 2,
     "losses": 2,
     "scoredGoals": 8,
@@ -602,6 +609,7 @@
     }
   },
   {
+    "rank": 8,
     "wins": 2,
     "losses": 2,
     "scoredGoals": 8,
@@ -687,6 +695,7 @@
     }
   },
   {
+    "rank": 9,
     "wins": 2,
     "losses": 2,
     "scoredGoals": 12,
@@ -775,6 +784,7 @@
     }
   },
   {
+    "rank": 10,
     "wins": 1,
     "losses": 3,
     "scoredGoals": 10,
@@ -863,6 +873,7 @@
     }
   },
   {
+    "rank": 11,
     "wins": 0,
     "losses": 4,
     "scoredGoals": 9,
@@ -951,6 +962,7 @@
     }
   },
   {
+    "rank": 12,
     "wins": 0,
     "losses": 4,
     "scoredGoals": 5,
