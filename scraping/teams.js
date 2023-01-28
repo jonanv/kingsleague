@@ -14,7 +14,7 @@ const SELECTORS = {
   image: '.el-image'
 }
 
-async function getTeams() {
+export async function getTeams() {
   const teams = []
 
   const saveImage = async ({ url, folder, fileName }) => {
