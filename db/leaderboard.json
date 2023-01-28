@@ -77,6 +77,7 @@
           "image": "saiyans-fc-fajardo.png"
         }
       ],
+      "shortName": "SAI",
       "president": {
         "id": "thegrefg",
         "name": "TheGrefg",
@@ -163,6 +164,7 @@
           "image": "ultimate-mostoles-lucca.png"
         }
       ],
+      "shortName": "ULT",
       "president": {
         "id": "djmariio",
         "name": "DjMaRiiO",
@@ -250,6 +252,7 @@
           "image": "porcinos-fc-sergi.png"
         }
       ],
+      "shortName": "POR",
       "president": {
         "id": "ibai-llanos",
         "name": "Ibai Llanos",
@@ -339,6 +342,7 @@
           "image": "1k-gnter.png"
         }
       ],
+      "shortName": "1K",
       "president": {
         "id": "iker-casillas",
         "name": "Iker Casillas",
@@ -425,6 +429,7 @@
           "image": "kunisports-miki.png"
         }
       ],
+      "shortName": "KNS",
       "president": {
         "id": "kun-aguero",
         "name": "Kun Agüero",
@@ -514,6 +519,7 @@
           "image": "el-barrio-capilla.png"
         }
       ],
+      "shortName": "RDB",
       "president": {
         "id": "adri-contreras",
         "name": "Adri Contreras",
@@ -600,6 +606,7 @@
           "image": "aniquiladores-fc-xmorales.png"
         }
       ],
+      "shortName": "ANI",
       "president": {
         "id": "juan-guarnizo",
         "name": "Juan Guarnizo",
@@ -686,6 +693,7 @@
           "image": "xbuyer-team-sep.png"
         }
       ],
+      "shortName": "XBU",
       "president": {
         "id": "hnos-buyer",
         "name": "Hnos. Buyer",
@@ -775,6 +783,7 @@
           "image": "los-troncos-fc-m-arús-«pino».png"
         }
       ],
+      "shortName": "TFC",
       "president": {
         "id": "perxitaa",
         "name": "Perxitaa",
@@ -864,6 +873,7 @@
           "image": "rayo-barcelona-alex-race.png"
         }
       ],
+      "shortName": "RDB",
       "president": {
         "id": "spursito",
         "name": "Spursito",
@@ -953,6 +963,7 @@
           "image": "jijantes-fc-mario.png"
         }
       ],
+      "shortName": "JFC",
       "president": {
         "id": "gerard-romero",
         "name": "Gerard Romero",
@@ -1040,6 +1051,7 @@
           "image": "pio-fc-santiago.png"
         }
       ],
+      "shortName": "PIO",
       "president": {
         "id": "rivers",
         "name": "Rivers",
