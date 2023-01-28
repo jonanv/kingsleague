@@ -1,5 +1,5 @@
 ---
-import Logo from '@components/Logo.astro';
+import Logo from './Logo.astro'
 
 const menu = [
 	{
@@ -7,8 +7,8 @@ const menu = [
 		href: '/equipos'
 	},
 	{
-		name: '/calendario',
-		href: 'Calendario'
+		name: 'Calendario',
+		href: '/calendario'
 	},
 	{
 		name: 'Estadísticas',
@@ -24,7 +24,7 @@ const menu = [
 	}
 ]
 
-Astro.url.pathname;
+Astro.url.pathname
 
 const response = await fetch('https://kings-league-api.midudev.workers.dev/teams')
 const teams = await response.json()
@@ -56,14 +56,14 @@ const teams = await response.json()
 		<nav>
 			<ul class='flex justify-center text-white gap-x-4 font-semibold text-md [&>li>a]:opacity-80 [&>li>a:hover]:opacity-100 [&>li>a:hover]:underline'>
 				{
-					menu.map(({name, href}) => {
+					menu.map(({ name, href }) => (
 						<li>
-							<a class={`transition ${ Astro.url.pathname === href ? 'opacity-100 underline pointer-events-none' : '' }`} 
+							<a class={`transition ${ Astro.url.pathname === href ? 'opacity-100 underline pointer-events-none' : '' }`}
 								href={href}>
 								{ name }
 							</a>
 						</li>
-					})
+					))
 				}
 			</ul>
 		</nav>
