@@ -1,3 +1,27 @@
+---
+import Layout from "@layouts/Layout.astro";
+import SectionTitle from "@components/SectionTitle.astro";
+import Container from "@components/Container.astro";
+
+import { getAllTeams } from "@services/teams.js";
+const teams = await getAllTeams();
+---
+
 <!-- Página del equipo -->
-<a href="/">Inicio</a>
-<h1>Equipo</h1>
+<Layout title='Equipos'>
+	<SectionTitle title='Equipos' />
+
+	<Container>
+		<div>
+			<section>
+				<article>
+					<a href="http://">
+						<div></div>
+						<h3>1K FC</h3>
+						<img src="" alt="">
+					</a>
+				</article>
+			</section>
+		</div>
+	</Container>
+</Layout>
