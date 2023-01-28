@@ -19,7 +19,7 @@ jobs:
         with:
           version: 7.26.1
           run_install: true
-      # - run: pnpm test
+      - run: pnpm test
 
   deploy:
     needs: test
