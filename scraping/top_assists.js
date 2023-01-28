@@ -35,8 +35,8 @@ export async function getTopAssists($) {
     const image = getImageFromTeam({ name: teamName });
 
     topAssists.push({
-      ...topAssistsData,
       rank: index + 1,
+      ...topAssistsData,
       team: teamName,
       image
     });
