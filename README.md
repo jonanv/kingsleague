@@ -32,7 +32,7 @@ pnpm run vitest
 
 # **📃 API**
 
-Dirección: https://api.kingsleague.dev/
+Dirección: https://kingsleague.jonanv.workers.dev/
 
 Los endpoints disponibles son:
 
