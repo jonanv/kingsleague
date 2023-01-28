@@ -5,10 +5,10 @@ import { serveStatic } from 'hono/serve-static.module';
 import leaderboard from '../db/leaderboard.json';
 import teams from '../db/teams.json';
 import presidents from '../db/presidents.json';
+import mvp from '../db/mvp.json';
 import top_scorers from '../db/top_scorers.json';
 import top_assists from '../db/top_assists.json';
 import coaches from '../db/coaches.json';
-import mvp from '../db/mvp.json';
 
 const app = new Hono();
 
@@ -26,6 +26,10 @@ app.get('/', (ctx) =>
       endpoint: '/presidents',
       description: 'Returns Kings League presidents'
     },
+		{
+			endpoint: '/mvp',
+			description: 'Returns Kings League Most Valuable Players'
+		},
     {
       endpoint: '/top_scorers',
       description: 'Returns Kings League top scorer'
@@ -37,10 +41,6 @@ app.get('/', (ctx) =>
     {
       endpoint: '/coaches',
       description: 'Returns Kings League coaches'
-    },
-    {
-      endpoint: '/mvp',
-      description: 'Returns Kings League Most Valuable Players'
     }
   ])
 );
@@ -75,6 +75,10 @@ app.get('/teams/:id', (ctx) => {
     : ctx.json({ message: 'Team not found' }, 404);
 });
 
+app.get('/mvp', (ctx) => {
+	return ctx.json(mvp);
+});
+
 app.get('/top_scorers', (ctx) => {
   return ctx.json(top_scorers);
 });
@@ -87,9 +91,6 @@ app.get('/coaches', (ctx) => {
   return ctx.json(coaches);
 });
 
-app.get('/mvp', (ctx) => {
-  return ctx.json(mvp);
-});
 
 app.get('/static/*', serveStatic({ root: './' }));
 
