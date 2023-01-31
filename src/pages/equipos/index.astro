@@ -12,12 +12,15 @@ const teams = await getAllTeams();
 	<SectionTitle title='Equipos' />
 
 	<Container>
-		<div>
-			<section>
-				<article class="rounded bg-blue-300 w-52">
-					<a class="bg-[url('https://kingsleague.jonanv.workers.dev/static/logos/1k.svg')] bg-contain" href="team/1k">
-						<h3>1K FC</h3>
-						<img src="https://kingsleague.jonanv.workers.dev/static/logos/1k.svg" alt="">
+		<div class="bg-white p-20 shadow-xl rounded -mt-10 z-10">
+			<section class="grid grid-cols-3">
+				<article class="overflow-hidden col-span-1 rounded aspect-video bg-blue-400">
+					<a class="group transition hover:scale-110 flex h-full items-center justify-center relative" href="team/1k">
+						<img class="brightness-[100] transition-all group-hover:scale-110 group-hover:brightness-200 z-10 w-28 h-28 [backface-visibility:hidden]" 
+								src="https://kingsleague.jonanv.workers.dev/static/logos/1k.svg" 
+								alt="">
+						<h3 class="z-10 font-title text-white text-3xl">1K FC</h3>
+						<div class="z-0 absolute inset-0 opacity-50 bg-[url('https://kingsleague.jonanv.workers.dev/static/logos/1k.svg')] bg-center bg-[size:150%] group-hover:bg-[size:200%] transition"></div>
 					</a>
 				</article>
 			</section>
