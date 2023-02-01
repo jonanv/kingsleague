@@ -11,6 +11,7 @@
       "id": "saiyans-fc",
       "name": "Saiyans FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/thegrefg",
       "coach": {
@@ -98,6 +99,7 @@
       "id": "ultimate-mostoles",
       "name": "Ultimate Móstoles",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
       "url": "",
       "channel": "https://youtube.com/DjMaRiiO",
       "coach": {
@@ -185,6 +187,7 @@
       "id": "porcinos-fc",
       "name": "Porcinos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/ibai",
       "coach": {
@@ -273,6 +276,7 @@
       "id": "1k",
       "name": "1K FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/1k-inverse.svg",
       "url": "",
       "channel": "https://www.youtube.com/@IkerCasillas",
       "coach": {
@@ -363,6 +367,7 @@
       "id": "kunisports",
       "name": "Kunisports",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/slakun10",
       "coach": {
@@ -450,6 +455,7 @@
       "id": "el-barrio",
       "name": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/1k",
       "coach": {
@@ -540,6 +546,7 @@
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/juansguarnizo",
       "coach": {
@@ -627,6 +634,7 @@
       "id": "xbuyer-team",
       "name": "XBUYER TEAM",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer-inverse.svg",
       "url": "",
       "channel": "https://www.youtube.com/xbuyer",
       "coach": {
@@ -714,6 +722,7 @@
       "id": "los-troncos-fc",
       "name": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/perxitaa",
       "coach": {
@@ -804,6 +813,7 @@
       "id": "rayo-barcelona",
       "name": "Rayo de Barcelona",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/spursito",
       "coach": {
@@ -894,6 +904,7 @@
       "id": "jijantes-fc",
       "name": "Jijantes FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/gerardromero",
       "coach": {
@@ -984,6 +995,7 @@
       "id": "pio-fc",
       "name": "PIO FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/pio-inverse.svg",
       "url": "",
       "channel": "https://twitch.tv/rivers_gg",
       "coach": {
