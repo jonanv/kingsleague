@@ -1,8 +1,8 @@
 const api_url = 'https://kingsleague.jonanv.workers.dev';
 
-export async function getAllTeams() {
+export const getAllTeams = async () => {
 	try {
-		const response = fetch(`${ api_url }/teams`);
+		const response = await fetch(`${ api_url }/teams`);
 		const teams = await response.json();
 		return teams;
 	} catch (error) {
