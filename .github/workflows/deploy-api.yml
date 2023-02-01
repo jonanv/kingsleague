@@ -2,7 +2,7 @@ name: Deploy API
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
 
@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-22.04
     name: Testing
     if: github.ref_name == 'main'
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -19,12 +20,30 @@ jobs:
         with:
           version: 7.26.1
           run_install: true
-      - run: pnpm test
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+      - name: Install dependencies
+        run: pnpm install
+      - name: Execute Tests
+        run: pnpm test:cov
 
   deploy:
     needs: test
     runs-on: ubuntu-22.04
+    timeout-minutes: 5
     name: Deploy API
+    # if: github.repository_owner == 'jonanv'
+    # environment: Production
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
