@@ -13,16 +13,27 @@ const teams = await getAllTeams();
 
 	<Container>
 		<div class="bg-white p-20 shadow-xl rounded -mt-10 z-10">
-			<section class="grid grid-cols-3">
-				<article class="overflow-hidden col-span-1 rounded aspect-video bg-blue-400">
-					<a class="group transition hover:scale-110 flex h-full items-center justify-center relative" href="team/1k">
-						<img class="brightness-[100] transition-all group-hover:scale-110 group-hover:brightness-200 z-10 w-28 h-28 [backface-visibility:hidden]" 
-								src="https://kingsleague.jonanv.workers.dev/static/logos/1k.svg" 
-								alt="">
-						<h3 class="z-10 font-title text-white text-3xl">1K FC</h3>
-						<div class="z-0 absolute inset-0 opacity-50 bg-[url('https://kingsleague.jonanv.workers.dev/static/logos/1k.svg')] bg-center bg-[size:150%] group-hover:bg-[size:200%] transition"></div>
-					</a>
-				</article>
+			<section class="grid grid-cols-3 gap-8">
+
+				{
+					teams.map((team) => {
+						const { id, name, image } = team;
+						return (
+							<article class="overflow-hidden col-span-1 rounded aspect-video bg-blue-400">
+								<a class="group transition hover:scale-110 flex h-full items-center justify-center relative" 
+									href={`team/${ id }`}
+									title={`Ver equipo ${ name }`}>
+									<img class="brightness-[100] transition-all group-hover:scale-110 group-hover:brightness-200 z-10 w-28 h-28 [backface-visibility:hidden]" 
+											src={image} 
+											alt={`Logo del equipo ${ name }`}>
+									<h3 class="z-10 font-title text-white text-3xl">{ name }</h3>
+									<div class={`z-0 absolute inset-0 opacity-50 bg-[url('${image}')] bg-center bg-[size:150%] group-hover:bg-[size:200%] transition`}></div>
+								</a>
+							</article>
+						)
+					})
+				}
+
 			</section>
 		</div>
 	</Container>
