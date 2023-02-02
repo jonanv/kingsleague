@@ -91,6 +91,21 @@ app.get('/coaches', (ctx) => {
   return ctx.json(coaches);
 });
 
+app.get('/top-scorers/:rank', (ctx) => {
+	const ranking = ctx.req.param('rank');
+	const foundScorer = topScorers.find((scorer) => scorer.ranking === ranking);
+
+	return foundScorer ? ctx.json(foundScorer) : ctx.json({ message: 'Top scorer not found' }, 404);
+});
+
+app.get('/top-assists/:rank', (ctx) => {
+	const ranking = ctx.req.param('rank');
+	const foundAssister = topAssists.find((assister) => assister.rank === ranking);
+
+	return foundAssister
+		? ctx.json(foundAssister)
+		: ctx.json({ message: 'Top assister not found' }, 404);
+});
 
 app.get('/static/*', serveStatic({ root: './' }));
 
