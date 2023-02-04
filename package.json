@@ -17,7 +17,8 @@
     "scrape": "node --no-warnings scraping/index.js",
     "start": "astro dev",
     "test:cov": "vitest run --coverage",
-    "test": "vitest"
+    "test": "vitest",
+		"test:ui": "vitest --ui"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +35,7 @@
   "devDependencies": {
     "@typescript-eslint/parser": "5.49.0",
     "@vitest/coverage-c8": "0.28.2",
+		"@vitest/ui": "0.26.3",
     "eslint": "8.32.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-astro": "0.23.0",
