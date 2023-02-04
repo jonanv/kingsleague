@@ -9,6 +9,7 @@
     "redCards": 1,
     "team": {
       "id": "saiyans-fc",
+      "color": "#1932e0",
       "name": "Saiyans FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc-inverse.svg",
@@ -97,6 +98,7 @@
     "redCards": 0,
     "team": {
       "id": "ultimate-mostoles",
+      "color": "#7b7b7b",
       "name": "Ultimate Móstoles",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
@@ -185,6 +187,7 @@
     "redCards": 0,
     "team": {
       "id": "porcinos-fc",
+      "color": "#d91f5d",
       "name": "Porcinos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc-inverse.svg",
@@ -274,6 +277,7 @@
     "redCards": 0,
     "team": {
       "id": "1k",
+      "color": "#6f68f4",
       "name": "1K FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/1k-inverse.svg",
@@ -365,6 +369,7 @@
     "redCards": 0,
     "team": {
       "id": "kunisports",
+      "color": "#101920",
       "name": "Kunisports",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports-inverse.svg",
@@ -453,6 +458,7 @@
     "redCards": 0,
     "team": {
       "id": "el-barrio",
+      "color": "#49b2ad",
       "name": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio-inverse.svg",
@@ -544,6 +550,7 @@
     "redCards": 0,
     "team": {
       "id": "aniquiladores-fc",
+      "color": "#ea4163",
       "name": "Aniquiladores FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg",
@@ -632,6 +639,7 @@
     "redCards": 0,
     "team": {
       "id": "xbuyer-team",
+      "color": "#979797",
       "name": "XBUYER TEAM",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer-inverse.svg",
@@ -720,6 +728,7 @@
     "redCards": 1,
     "team": {
       "id": "los-troncos-fc",
+      "color": "#31585a",
       "name": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos-inverse.svg",
@@ -811,6 +820,7 @@
     "redCards": 0,
     "team": {
       "id": "rayo-barcelona",
+      "color": "#f6ab34",
       "name": "Rayo de Barcelona",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona-inverse.svg",
@@ -902,6 +912,7 @@
     "redCards": 0,
     "team": {
       "id": "jijantes-fc",
+      "color": "#d4293d",
       "name": "Jijantes FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes-inverse.svg",
@@ -993,6 +1004,7 @@
     "redCards": 0,
     "team": {
       "id": "pio-fc",
+      "color": "#fff68d",
       "name": "PIO FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/pio-inverse.svg",
