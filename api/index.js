@@ -68,7 +68,14 @@ app.get('/', (ctx) =>
     },
     {
       endpoint: '/coaches',
-      description: 'Returns Kings League coaches'
+      description: 'Returns Kings League coaches',
+			parameters: [
+				{
+					name: 'teamId',
+					endpoint: '/coaches/:teamId',
+					description: 'Return Kings League coach by teamId'
+				}
+			]
     }
   ])
 );
@@ -136,6 +143,16 @@ app.get('/top_assists/:rank', (ctx) => {
 app.get('/coaches', (ctx) => {
   return ctx.json(coaches);
 });
+
+app.get('/coaches/:teamId', (ctx) => {
+	const teamId = ctx.req.param('teamId')
+	const teamName = teams.find((team) => team.id === teamId)
+	const foundedCoach = coaches.find((coach) => coach.teamName === teamName)
+
+	return foundedCoach 
+		? ctx.json(foundedCoach) 
+		: ctx.json({ message: 'Coach not found' }, 404)
+})
 
 app.get('/static/*', serveStatic({ root: './' }));
 
