@@ -1,5 +1,7 @@
 ---
 import Layout from '@layouts/Layout.astro'
+import TeamSelectorCards from '@components/TeamSelectorCards.astro'
+import Container from '@components/Container.astro'
 
 export async function getStaticPaths() {
   const response = await fetch('https://kingsleague.jonanv.workers.dev/teams')
@@ -20,7 +22,7 @@ const {
 ---
 
 <Layout title={name}>
-	<div class="container m-auto my-8">
+	<Container>
 
 		<section class="flex items-center justify-between">
 			<div class="flex items-center gap-x-12">
@@ -44,6 +46,7 @@ const {
 			Estadísticas
 		</section>
 
-		<a class="text-blue-500 underline" href="/">Volver</a>
-	</div>
+		<TeamSelectorCards />
+		
+	</Container>
 </Layout>
