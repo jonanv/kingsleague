@@ -20,11 +20,25 @@ app.get('/', (ctx) =>
     },
     {
       endpoint: '/teams',
-      description: 'Returns Kings League teams'
+      description: 'Returns Kings League teams',
+			parameters: [
+				{
+					name: 'id',
+					endpoint: '/teams/:id',
+					description: 'Return Kings League team by id'
+				}
+			]
     },
     {
       endpoint: '/presidents',
-      description: 'Returns Kings League presidents'
+      description: 'Returns Kings League presidents',
+			parameters: [
+				{
+					name: 'id',
+					endpoint: '/presidents/:id',
+					description: 'Return Kings League president by id'
+				}
+			]
     },
 		{
 			endpoint: '/mvp',
@@ -32,11 +46,25 @@ app.get('/', (ctx) =>
 		},
     {
       endpoint: '/top_scorers',
-      description: 'Returns Kings League top scorer'
+      description: 'Returns Kings League top scorer',
+			parameters: [
+				{
+					name: 'rank',
+					endpoint: '/top-scorers/:rank',
+					description: 'Return Kings League top scorer by rank'
+				}
+			]
     },
     {
       endpoint: '/top_assists',
-      description: 'Returns Kings League top assists'
+      description: 'Returns Kings League top assists',
+			parameters: [
+				{
+					name: 'rank',
+					endpoint: '/top-assists/:rank',
+					description: 'Return Kings League top assister by rank'
+				}
+			]
     },
     {
       endpoint: '/coaches',
