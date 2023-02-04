@@ -6,8 +6,8 @@ import leaderboard from '../db/leaderboard.json';
 import teams from '../db/teams.json';
 import presidents from '../db/presidents.json';
 import mvp from '../db/mvp.json';
-import top_scorers from '../db/top_scorers.json';
-import top_assists from '../db/top_assists.json';
+import topScorers from '../db/top_scorers.json';
+import topAssists from '../db/top_assists.json';
 import coaches from '../db/coaches.json';
 
 const app = new Hono();
@@ -80,31 +80,33 @@ app.get('/mvp', (ctx) => {
 });
 
 app.get('/top_scorers', (ctx) => {
-  return ctx.json(top_scorers);
-});
-
-app.get('/top_assists', (ctx) => {
-  return ctx.json(top_assists);
-});
-
-app.get('/coaches', (ctx) => {
-  return ctx.json(coaches);
+  return ctx.json(topScorers);
 });
 
 app.get('/top_scorers/:rank', (ctx) => {
-	const ranking = ctx.req.param('rank');
-	const foundScorer = topScorers.find((scorer) => scorer.ranking === ranking);
+	const rank = ctx.req.param('rank');
+	const foundScorer = topScorers.find((scorer) => scorer.rank.toString() === rank.toString());
 
-	return foundScorer ? ctx.json(foundScorer) : ctx.json({ message: 'Top scorer not found' }, 404);
+	return foundScorer 
+		? ctx.json(foundScorer) 
+		: ctx.json({ message: 'Top scorer not found' }, 404);
+});
+
+app.get('/top_assists', (ctx) => {
+  return ctx.json(topAssists);
 });
 
 app.get('/top_assists/:rank', (ctx) => {
-	const ranking = ctx.req.param('rank');
-	const foundAssister = topAssists.find((assister) => assister.rank === ranking);
+	const rank = ctx.req.param('rank');
+	const foundAssister = topAssists.find((assister) => assister.rank.toString() === rank.toString());
 
 	return foundAssister
 		? ctx.json(foundAssister)
 		: ctx.json({ message: 'Top assister not found' }, 404);
+});
+
+app.get('/coaches', (ctx) => {
+  return ctx.json(coaches);
 });
 
 app.get('/static/*', serveStatic({ root: './' }));
