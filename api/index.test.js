@@ -105,3 +105,66 @@ describe('Testing /teams route', () => {
 		})
 	})
 })
+
+describe('Testing /presidents route', () => {
+	let worker
+
+	beforeAll(async () => {
+		worker = await setup()
+	})
+
+	afterAll(async () => {
+		await teardown(worker)
+	})
+
+	it('should return presidents', async () => {
+		const resp = await worker.fetch('/presidents')
+		expect(resp).toBeDefined()
+		if (!resp) return
+
+		const presidents = await resp.json()
+		const numberPresidents = Object.entries(presidents).length
+
+		// verify the team have all props
+		presidents.forEach((president) => {
+			expect(president).toHaveProperty('id')
+			expect(president).toHaveProperty('name')
+			expect(president).toHaveProperty('image')
+			expect(president).toHaveProperty('teamId')
+		})
+
+		expect(numberPresidents).toBe(12)
+	})
+
+	it('should return presidente details by id', async () => {
+		const resp = await worker.fetch('/presidents/iker-casillas')
+		expect(resp).toBeDefined()
+		if (!resp) return
+
+		const president = await resp.json()
+		const iker = {
+			id: 'iker-casillas',
+			name: 'Iker Casillas',
+			image: 'https://api.kingsleague.dev/static/presidents/iker-casillas.png',
+			teamId: '1k'
+		}
+
+		expect(president).toHaveProperty('id')
+		expect(president).toHaveProperty('name')
+		expect(president).toHaveProperty('image')
+		expect(president).toHaveProperty('teamId')
+		expect(president).toEqual(iker)
+	})
+
+	it('should return 404 and message missing team with no exist president', async () => {
+		const resp = await worker.fetch('/presidents/noexist')
+		expect(resp).toBeDefined()
+		if (!resp) return
+
+		const errorMessage = await resp.json()
+
+		expect(errorMessage).toEqual({
+			message: 'President not found'
+		})
+	})
+})
