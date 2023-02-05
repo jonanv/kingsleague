@@ -2,6 +2,8 @@
 import Layout from '@layouts/Layout.astro'
 import Container from '@components/Container.astro'
 import TeamSelectorCards from '@components/TeamSelectorCards.astro'
+import TeamStats from '@components/TeamStats.astro';
+
 import { getPresidentById } from '@services/presidents'
 
 const ICON_NETWORKS_MAPING = [
@@ -20,7 +22,7 @@ export async function getStaticPaths() {
 		props: { ...team }
 	}))
 }
-const { name, imageInverse, presidentId, socialNetworks, channel, players, color } = Astro.props
+const { id, name, imageInverse, presidentId, socialNetworks, channel, players, color } = Astro.props
 
 const socialNetworksWithIcon = socialNetworks.map(href => ({
 	href,
@@ -37,26 +39,30 @@ const president = await getPresidentById({ id: presidentId });
 			<div class='relative bg-gradient-to-tr from-gray-600 to-gray-900 shadow-xl rounded p-20 -mt-10 z-10 mb-40'
 				style={`--tw-gradient-from: ${color}`}>
 				<section class='flex items-center justify-between pb-60'>
-					<div class='flex items-center gap-x-6'>
-						<img class='w-48 h-48' src={imageInverse} alt={`Escudo del equipo ${name}`} />
-						<div class="flex flex-col gap-y-4">
-							<h1 class='font-title font-bold text-5xl text-white'>{name}</h1>
-							<ul class="flex flex-row gap-x-4">
-								{
-									socialNetworksWithIcon.map(({ href, icon }) => {
-										return (
-											<li>
-												<a class="block transition hover:scale-150" href={href} target="_blank" rel="noopener norefferer">
-													<img 
-														class="w-8 h-8" 
-														src={`/logos/social/${icon}.svg`}>
-												</a>
-											</li>
-										)
-									})
-								}
-							</ul>
+
+					<div class="flex flex-col items-center gap-y-6">
+						<div class='flex items-center gap-x-6'>
+							<img class='w-48 h-48' src={imageInverse} alt={`Escudo del equipo ${name}`} />
+							<div class="flex flex-col gap-y-4">
+								<h1 class='font-title font-bold text-5xl text-white'>{name}</h1>
+								<ul class="flex flex-row gap-x-4">
+									{
+										socialNetworksWithIcon.map(({ href, icon }) => {
+											return (
+												<li>
+													<a class="block transition hover:scale-150" href={href} target="_blank" rel="noopener norefferer">
+														<img 
+															class="w-8 h-8" 
+															src={`/logos/social/${icon}.svg`}>
+													</a>
+												</li>
+											)
+										})
+									}
+								</ul>
+							</div>
 						</div>
+						<TeamStats teamId={id} />
 					</div>
 
 					<div class="absolute -top-20 right-20 text-center">
@@ -67,6 +73,7 @@ const president = await getPresidentById({ id: presidentId });
 						/>
 						<strong class="text-white text-xl font-bold font-title -mt-6 block">{ president.name }</strong>
 					</div>
+
 				</section>
 
 				<section>
