@@ -37,6 +37,7 @@ Dirección: https://kingsleague.jonanv.workers.dev/
 Los endpoints disponibles son:
 
 - GET `/leaderboard`: Devuelve la clasificación de la Kings League.
+- GET `/leaderboard/:teamId`: Devuelve la información de un equipo de leaderboard de la Kings League.
 - GET `/teams`: Devuelve todos los equipos de la Kings League.
 - GET `/teams/:id`: Devuelve un equipo de la Kings League.
 - GET `/mvp`: Devuelve los MVPs de la Kings League.

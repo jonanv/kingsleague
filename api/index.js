@@ -16,7 +16,14 @@ app.get('/', (ctx) =>
   ctx.json([
     {
       endpoint: '/leaderboard',
-      description: 'Returns Kings League leaderboard'
+      description: 'Returns Kings League leaderboard',
+			parameters: [
+				{
+					name: 'team',
+					endpoint: '/leaderboard/:teamId',
+					description: 'Return Kings League leaderboard info from Team Id'
+				}
+			]
     },
     {
       endpoint: '/teams',
@@ -83,6 +90,16 @@ app.get('/', (ctx) =>
 app.get('/leaderboard', (ctx) => {
   return ctx.json(leaderboard);
 });
+
+
+app.get('/leaderboard/:teamId', (ctx) => {
+	const teamId = ctx.req.param('teamId')
+	const foundTeam = leaderboard.find((team) => team.id === teamId)
+
+	return foundTeam 
+		? ctx.json(foundTeam) 
+		: ctx.json({ message: 'Team not found' }, 404);
+})
 
 app.get('/presidents', (ctx) => {
   return ctx.json(presidents);
