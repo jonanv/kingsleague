@@ -91,10 +91,9 @@ app.get('/leaderboard', (ctx) => {
   return ctx.json(leaderboard);
 });
 
-
 app.get('/leaderboard/:teamId', (ctx) => {
 	const teamId = ctx.req.param('teamId')
-	const foundTeam = leaderboard.find((team) => team.id === teamId)
+	const foundTeam = leaderboard.find((stats) => stats.team.id === teamId)
 
 	return foundTeam 
 		? ctx.json(foundTeam) 
