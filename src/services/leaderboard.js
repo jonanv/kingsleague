@@ -2,7 +2,7 @@ const api_url = 'https://kingsleague.jonanv.workers.dev';
 
 export const getLeaderboardBy = async ({ teamId }) => {
 	try {
-		const response = await fetch(`${ api_url }/${ teamId }`)
+		const response = await fetch(`${ api_url }/leaderboard/${ teamId }`)
 		const teamStats = await response.json()
 		return teamStats
 	} catch (error) {
