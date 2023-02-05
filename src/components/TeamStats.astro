@@ -2,8 +2,7 @@
 import { getLeaderboardBy } from '@services/leaderboard.js'
 
 const { teamId } = Astro.props
-const { rank, wins, losses, scoredGoals, concededGoals, yellowCards, redCards } =
-	await getLeaderboardBy({ teamId })
+const { rank, wins, losses, scoredGoals, concededGoals, yellowCards, redCards } = await getLeaderboardBy({ teamId })
 const stats = [
 	{
 		title: 'Clasificación',
@@ -40,8 +39,8 @@ const stats = [
 	{
 		stats.map((stat) => (
 			<div class='flex justify-between items-center mb-2'>
-				<h4 class='text-yellow-400 uppercase font-bold font-title'>{stat.title}</h4>
-				<strong class='text-4xl font-title text-white font-bold'>{stat.value}</strong>
+				<h4 class='text-yellow-400 uppercase font-bold font-title'>{ stat.title }</h4>
+				<strong class='text-4xl font-title text-white font-bold'>{ stat.value }</strong>
 			</div>
 		))
 	}
