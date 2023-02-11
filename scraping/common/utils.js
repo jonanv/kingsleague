@@ -8,6 +8,7 @@ import { getMvp } from '../mpv.js';
 import { getTopScorers } from '../top_scorers.js';
 import { getTopAssists } from '../top_assists.js';
 import { getCoaches } from '../coaches.js';
+import { getSchedule } from '../schedule.js'
 
 export const SCRIPTING = {
   leaderboard: {
@@ -29,6 +30,10 @@ export const SCRIPTING = {
   coaches: {
     url: 'https://kingsleague.pro/estadisticas/coaches/',
     scraper: getCoaches
+  },
+  schedule: {
+    url: 'https://kingsleague.pro/calendario/',
+    scraper: getSchedule
   }
 };
 
