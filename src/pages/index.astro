@@ -1,23 +1,21 @@
 ---
-import Layout from '@layouts/Layout.astro';
-import Container from '@components/Container.astro';
-import Table from '@components/Table.astro';
-import Sponsors from '@components/Sponsors.astro';
-import TeamSelectorCards from '@components/TeamSelectorCards.astro';
+import Layout from '@layouts/Layout.astro'
+import Container from '@components/Container.astro'
+import Table from '@components/Table.astro'
+import Sponsors from '@components/Sponsors.astro'
+import TeamsSelectorCards from '@components/TeamSelectorCards.astro'
+import UneteButton from '@components/Unete.astro'
 ---
 
 <Layout title='Kings League Infojobs'>
-	
 	<main>
 		<section class='bg-principal py-20'>
 			<Container>
-
-				<div class='grid grid-cols-3 gap-10 w-full px-10'>
-					<div>
+				<div class='grid grid-cols-8 gap-10 w-full px-10'>
+					<div class='col-span-12 lg:col-span-4 xl:col-span-3'>
 						<Table />
 					</div>
-
-					<div class='col-span-2'>
+					<div class='col-span-12 lg:col-span-4 xl:col-span-5'>
 						<div class='grid grid-cols-6 gap-y-10 gap-x-5 w-full'>
 							<!-- MVP -->
 
@@ -37,19 +35,14 @@ import TeamSelectorCards from '@components/TeamSelectorCards.astro';
 								<!-- Card component here -->
 							</div>
 						</div>
-
-						<!-- Equipos -->
-						<div class="my-5">
-							<TeamSelectorCards />
+						<div class='my-5'>
+							<TeamsSelectorCards small />
 						</div>
 					</div>
-					
 				</div>
 			</Container>
-
+			<UneteButton />
 		</section>
 	</main>
-
 	<Sponsors />
-
 </Layout>
