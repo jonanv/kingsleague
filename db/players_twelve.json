@@ -1,24 +1,13 @@
 [
   {
-    "role": "Defensa",
-    "firstName": "Antonio",
-    "lastName": "Barragán",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-antonio-barragan.png",
+    "role": "Medio",
+    "firstName": "Enigma",
+    "lastName": "",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/xbuyer-team-enigma.png",
     "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
-    }
-  },
-  {
-    "role": "Defensa",
-    "firstName": "David",
-    "lastName": "García",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/pio-fc-david-garcia.png",
-    "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg"
     }
   },
   {
@@ -34,50 +23,6 @@
   },
   {
     "role": "Delantero",
-    "firstName": "Chicharito",
-    "lastName": "",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/porcinos-fc-chicharito.png",
-    "team": {
-      "id": "porcinos-fc",
-      "name": "Porcinos FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
-    }
-  },
-  {
-    "role": "Defensa",
-    "firstName": "Joseba",
-    "lastName": "García",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/saiyans-fc-joseba-garcia.png",
-    "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Javier",
-    "lastName": "Saviola",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/kunisports-javier-saviola.png",
-    "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Rubén",
-    "lastName": "de la Red",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/ultimate-mostoles-ruben-de-la-red.png",
-    "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
-    }
-  },
-  {
-    "role": "Delantero",
     "firstName": "Kun",
     "lastName": "Agüero",
     "image": "https://kingsleague.jonanv.workers.dev/static/players/kunisports-kun-aguero.png",
@@ -88,113 +33,14 @@
     }
   },
   {
-    "role": "Medio",
-    "firstName": "Javi",
-    "lastName": "Márquez",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/pio-fc-javi-marquez.png",
-    "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Nando",
-    "lastName": "Quesada",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-nando-quesada.png",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Enigma",
-    "lastName": "",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/xbuyer-team-enigma.png",
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg"
-    }
-  },
-  {
     "role": "Defensa",
-    "firstName": "Dídac",
-    "lastName": "Vilà",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/rayo-barcelona-didac-vila.png",
+    "firstName": "Javi",
+    "lastName": "Chica",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/kunisports-javi-chica.png",
     "team": {
-      "id": "rayo-barcelona",
-      "name": "Rayo de Barcelona",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "Borja",
-    "lastName": "Criado",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/pio-fc-borja-criado.png",
-    "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Goku",
-    "lastName": "",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/aniquiladores-fc-goku.png",
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Pitu",
-    "lastName": "Comadevall",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-pitu-comadevall.png",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "Papi",
-    "lastName": "Gavi",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/el-barrio-papi-gavi.png",
-    "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "Alberto",
-    "lastName": "Bueno",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/1k-alberto-bueno.png",
-    "team": {
-      "id": "1k",
-      "name": "1K FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Cristian",
-    "lastName": "Saldaña",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/saiyans-fc-cristian-saldana.png",
-    "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
     }
   },
   {
@@ -206,28 +52,6 @@
       "id": "los-troncos-fc",
       "name": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
-    }
-  },
-  {
-    "role": "Defensa",
-    "firstName": "Joan",
-    "lastName": "Capdevila",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/saiyans-fc-joan-capdevila.png",
-    "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Joel",
-    "lastName": "Huertas",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-joel-huertas.png",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
     }
   },
   {
@@ -264,14 +88,91 @@
     }
   },
   {
-    "role": "Defensa",
-    "firstName": "Javi",
-    "lastName": "Chica",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/kunisports-javi-chica.png",
+    "role": "Medio",
+    "firstName": "Cristian",
+    "lastName": "Saldaña",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/saiyans-fc-cristian-saldana.png",
     "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Pitu",
+    "lastName": "Comadevall",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-pitu-comadevall.png",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Goku",
+    "lastName": "",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/aniquiladores-fc-goku.png",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Jordi",
+    "lastName": "Campoy",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/aniquiladores-fc-jordi-campoy.png",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+    }
+  },
+  {
+    "role": "Defensa",
+    "firstName": "Antonio",
+    "lastName": "Barragán",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-antonio-barragan.png",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Borja",
+    "lastName": "Criado",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/pio-fc-borja-criado.png",
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Nando",
+    "lastName": "Quesada",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-nando-quesada.png",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Rubén",
+    "lastName": "de la Red",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/ultimate-mostoles-ruben-de-la-red.png",
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
     }
   },
   {
@@ -283,6 +184,83 @@
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Papi",
+    "lastName": "Gavi",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/el-barrio-papi-gavi.png",
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
+    }
+  },
+  {
+    "role": "Defensa",
+    "firstName": "Joseba",
+    "lastName": "García",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/saiyans-fc-joseba-garcia.png",
+    "team": {
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
+    }
+  },
+  {
+    "role": "Defensa",
+    "firstName": "Dídac",
+    "lastName": "Vilà",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/rayo-barcelona-didac-vila.png",
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg"
+    }
+  },
+  {
+    "role": "Defensa",
+    "firstName": "David",
+    "lastName": "García",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/pio-fc-david-garcia.png",
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Alberto",
+    "lastName": "Bueno",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/1k-alberto-bueno.png",
+    "team": {
+      "id": "1k",
+      "name": "1K FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Jorge",
+    "lastName": "Gómez",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/el-barrio-jorge-gomez.png",
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Chicharito",
+    "lastName": "",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/porcinos-fc-chicharito.png",
+    "team": {
+      "id": "porcinos-fc",
+      "name": "Porcinos FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
     }
   },
   {
@@ -298,24 +276,13 @@
   },
   {
     "role": "Defensa",
-    "firstName": "Nico",
-    "lastName": "Pareja",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/el-barrio-nico-pareja.png",
+    "firstName": "Joan",
+    "lastName": "Capdevila",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/saiyans-fc-joan-capdevila.png",
     "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "Ibai",
-    "lastName": "Gómez",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-ibai-gomez.png",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
     }
   },
   {
@@ -330,21 +297,54 @@
     }
   },
   {
-    "role": "Delantero",
-    "firstName": "Jordi",
-    "lastName": "Campoy",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/aniquiladores-fc-jordi-campoy.png",
+    "role": "Medio",
+    "firstName": "Joel",
+    "lastName": "Huertas",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-joel-huertas.png",
     "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
     }
   },
   {
     "role": "Delantero",
-    "firstName": "Jorge",
+    "firstName": "Ibai",
     "lastName": "Gómez",
-    "image": "https://kingsleague.jonanv.workers.dev/static/players/el-barrio-jorge-gomez.png",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/jijantes-fc-ibai-gomez.png",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Javi",
+    "lastName": "Márquez",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/pio-fc-javi-marquez.png",
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Javier",
+    "lastName": "Saviola",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/kunisports-javier-saviola.png",
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
+    }
+  },
+  {
+    "role": "Defensa",
+    "firstName": "Nico",
+    "lastName": "Pareja",
+    "image": "https://kingsleague.jonanv.workers.dev/static/players/el-barrio-nico-pareja.png",
     "team": {
       "id": "el-barrio",
       "name": "El Barrio",
