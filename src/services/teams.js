@@ -13,9 +13,9 @@ export const getAllTeams = async () => {
 
 export const getPlayerTwelveByTeamId = async ({ teamId }) => {
 	try {
-		const response = await fetch(`${ apiURL }/${ teamId }/player_twelve`);
-		const playersTwelve = await response.json();
-		return playersTwelve;
+		const response = await fetch(`${ apiURL }/teams/${ teamId }/player_twelve`);
+		const playerTwelve = await response.json();
+		return playerTwelve;
 	} catch (error) {
 		// Enviar error a servicio de reporte de errores
 		return [];

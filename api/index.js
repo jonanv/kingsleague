@@ -133,7 +133,7 @@ app.get('/teams/:id', (ctx) => {
 
 app.get('/teams/:id/player_twelve', (ctx) => {
   const id = ctx.req.param('id');
-  const foundPlayerTwelve = playerTwelve.find((player) => player.team.id === id);
+  const foundPlayerTwelve = playersTwelve.find((player) => player.team.id === id);
 
   return foundPlayerTwelve
     ? ctx.json(foundPlayerTwelve)
