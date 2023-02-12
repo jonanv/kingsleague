@@ -9,6 +9,7 @@ import mvp from '../db/mvp.json';
 import topScorers from '../db/top_scorers.json';
 import topAssists from '../db/top_assists.json';
 import coaches from '../db/coaches.json';
+import playersTwelve from '../db/player_twelve.json';
 
 const app = new Hono();
 
@@ -83,7 +84,11 @@ app.get('/', (ctx) =>
 					description: 'Return Kings League coach by teamId'
 				}
 			]
-    }
+    },
+		{
+			endpoint: '/players-12',
+			description: 'Returns Kings League Players Twelve'
+		}
   ])
 );
 
@@ -169,6 +174,10 @@ app.get('/coaches/:teamId', (ctx) => {
 		? ctx.json(foundedCoach) 
 		: ctx.json({ message: 'Coach not found' }, 404)
 })
+
+app.get('/players-12', (ctx) => {
+  return ctx.json(playersTwelve);
+});
 
 app.get('/static/*', serveStatic({ root: './' }));
 
