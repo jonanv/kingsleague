@@ -10,3 +10,14 @@ export const getAllTeams = async () => {
 		return [];
 	}
 }
+
+export const getPlayerTwelveByTeamId = async ({ teamId }) => {
+	try {
+		const response = await fetch(`${ apiURL }/${ teamId }/player_twelve`);
+		const playersTwelve = await response.json();
+		return playersTwelve;
+	} catch (error) {
+		// Enviar error a servicio de reporte de errores
+		return [];
+	}
+}
