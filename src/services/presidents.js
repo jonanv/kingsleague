@@ -1,8 +1,8 @@
-const apiUrl = 'https://kingsleague.jonanv.workers.dev';
+import { apiURL } from "./config";
 
 export const getPresidentById = async ({ id }) => {
 	try {
-		const response = await fetch(`${ apiUrl }/presidents/${ id }`);
+		const response = await fetch(`${ apiURL }/presidents/${ id }`);
 		const president = await response.json();
 		return president;
 	} catch (error) {
