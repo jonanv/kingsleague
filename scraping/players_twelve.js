@@ -10,7 +10,7 @@ const PLAYER_SELECTORS = {
 	firstName: { selector: '.fs-grid-meta-3', typeOf: 'string' },
 	lastName: { selector: '.fs-grid-text-3', typeOf: 'string' },
 	teamName: { selector: '.uk-text-lead', typeOf: 'string' },
-	role: { selector: '.fs-grid-meta', typeOf: 'string' }
+	role: { selector: '.fs-grid-meta-1', typeOf: 'string' }
 }
 
 export async function getPlayersTwelve($) {
