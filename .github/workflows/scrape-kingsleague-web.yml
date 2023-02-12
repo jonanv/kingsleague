@@ -25,6 +25,7 @@ jobs:
       - run: |
           npm run scrape
           git config user.name kingsleague-bot
+          git config user.email jonan-vargas23@hotmail.com
           git add -A
           git commit -m "[bot] :zap: Update Kings League Database"
           git push origin main
