@@ -36,7 +36,7 @@ export const SCRIPTING = {
     url: 'https://kingsleague.pro/calendario/',
     scraper: getSchedule
   },
-  schedule: {
+  players_twelve: {
     url: 'https://kingsleague.pro/jugador-12/',
     scraper: getPlayersTwelve
   }
