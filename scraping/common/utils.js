@@ -9,6 +9,7 @@ import { getTopScorers } from '../top_scorers.js';
 import { getTopAssists } from '../top_assists.js';
 import { getCoaches } from '../coaches.js';
 import { getSchedule } from '../schedule.js'
+import { getPlayersTwelve } from '../players_twelve.js'
 
 export const SCRIPTING = {
   leaderboard: {
@@ -34,6 +35,10 @@ export const SCRIPTING = {
   schedule: {
     url: 'https://kingsleague.pro/calendario/',
     scraper: getSchedule
+  },
+  schedule: {
+    url: 'https://kingsleague.pro/jugador-12/',
+    scraper: getPlayersTwelve
   }
 };
 
