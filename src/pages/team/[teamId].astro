@@ -5,6 +5,7 @@ import TeamSelectorCards from '@components/TeamSelectorCards.astro'
 import TeamStats from '@components/TeamStats.astro'
 
 import { getPresidentById } from '@services/presidents.js'
+import { getAllTeams, getPlayerTwelveByTeamId } from '@services/teams'
 
 const ICON_NETWORK_MAPPING = [
 	'instagram',
@@ -15,8 +16,7 @@ const ICON_NETWORK_MAPPING = [
 ]
 
 export async function getStaticPaths() {
-	const response = await fetch('https://kingsleague.jonanv.workers.dev/teams')
-	const teams = await response.json()
+	const teams = await getAllTeams();
 	return teams.map((team) => ({
 		params: { teamId: team.id },
 		props: { ...team }
@@ -31,7 +31,8 @@ const socialNetworksWithIcon = socialNetworks.map((href) => ({
 	icon: ICON_NETWORK_MAPPING.find((key) => href.includes(key))
 }))
 
-const president = await getPresidentById({ id: presidentId })
+const president = await getPresidentById({ id: presidentId });
+const playerTwelve = await getPlayerTwelveByTeamId({ teamId: id });
 ---
 
 <Layout title={name}>
@@ -93,7 +94,7 @@ const president = await getPresidentById({ id: presidentId })
 					<h2 class='font-title text-5xl text-white text-center py-10'>Jugadores</h2>
 					<div class='grid grid-cols-4 gap-2'>
 						{
-							players.map(({ name, image, role }) => (
+							[...players, playerTwelve].map(({ name, image, role }) => (
 								<article class='text-center font-title text-slate-900 rounded-sm p-5 m-auto'>
 									<img class='w-56 h-auto aspect-[170/239]'
 										src={`https://kingsleague.jonanv.workers.dev/static/players/${image}`}
