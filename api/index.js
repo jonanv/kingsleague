@@ -9,7 +9,7 @@ import mvp from '../db/mvp.json';
 import topScorers from '../db/top_scorers.json';
 import topAssists from '../db/top_assists.json';
 import coaches from '../db/coaches.json';
-import playersTwelve from '../db/player_twelve.json';
+import playersTwelve from "../db/players_twelve.json";
 
 const app = new Hono();
 
@@ -86,7 +86,7 @@ app.get('/', (ctx) =>
 			]
     },
 		{
-			endpoint: '/players-12',
+			endpoint: '/players_twelve',
 			description: 'Returns Kings League Players Twelve'
 		}
   ])
@@ -129,6 +129,15 @@ app.get('/teams/:id', (ctx) => {
   return foundTeam
     ? ctx.json(foundTeam)
     : ctx.json({ message: 'Team not found' }, 404);
+});
+
+app.get('/teams/:id/player_twelve', (ctx) => {
+  const id = ctx.req.param('id');
+  const foundPlayerTwelve = playerTwelve.find((player) => player.team.id === id);
+
+  return foundPlayerTwelve
+    ? ctx.json(foundPlayerTwelve)
+    : ctx.json({ message: 'Player twelve not found' }, 404);
 });
 
 app.get('/mvp', (ctx) => {
@@ -175,7 +184,7 @@ app.get('/coaches/:teamId', (ctx) => {
 		: ctx.json({ message: 'Coach not found' }, 404)
 })
 
-app.get('/players-12', (ctx) => {
+app.get('/players_twelve', (ctx) => {
   return ctx.json(playersTwelve);
 });
 
