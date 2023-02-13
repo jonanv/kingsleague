@@ -65,7 +65,7 @@ async function saveImageBase64(player) {
 	const { firstName, lastName, team, image } = player
 
 	if (image.includes('placeholder.png')) {
-		return 'https://kingsleague.jonanv.workers.dev/static/players/placeholder.png'
+		return 'placeholder.png'
 	}
 
 	let playerImage = null
