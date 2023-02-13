@@ -72,6 +72,6 @@ export async function scrapedAndSave(name) {
   } finally {
     const end = performance.now();
     const time = (end - start) / 1000;
-    console.log(`[${name}] scraped in ${time} seconds`);
+    logInfo(`[${name}] scraped in ${time} seconds`);
   }
 }
