@@ -5,7 +5,7 @@
     "losses": 1,
     "scoredGoals": 14,
     "concededGoals": 7,
-    "yellowCards": 6,
+    "yellowCards": 3,
     "redCards": 1,
     "team": {
       "id": "saiyans-fc",
@@ -90,7 +90,7 @@
   },
   {
     "rank": 2,
-    "wins": 0,
+    "wins": 5,
     "losses": 1,
     "scoredGoals": 22,
     "concededGoals": 15,
@@ -180,11 +180,11 @@
   },
   {
     "rank": 3,
-    "wins": 4,
+    "wins": 5,
     "losses": 1,
     "scoredGoals": 13,
     "concededGoals": 8,
-    "yellowCards": 6,
+    "yellowCards": 2,
     "redCards": 0,
     "team": {
       "id": "kunisports",
@@ -269,99 +269,7 @@
   },
   {
     "rank": 4,
-    "wins": 1,
-    "losses": 3,
-    "scoredGoals": 15,
-    "concededGoals": 25,
-    "yellowCards": 2,
-    "redCards": 1,
-    "team": {
-      "id": "los-troncos-fc",
-      "color": "#31585a",
-      "name": "Los Troncos FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos-inverse.svg",
-      "url": "",
-      "channel": "https://twitch.tv/perxitaa",
-      "coach": {
-        "name": "Pol Font",
-        "image": "pol-font.png"
-      },
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [
-        {
-          "name": "F. Álvarez «Citrus»",
-          "role": "jugador 11",
-          "image": "los-troncos-fc-f-álvarez-«citrus».png"
-        },
-        {
-          "name": "E. Álvaro «Roble»",
-          "role": "Delantero",
-          "image": "los-troncos-fc-e-álvaro-«roble».png"
-        },
-        {
-          "name": "Lechuga",
-          "role": "Portero",
-          "image": "los-troncos-fc-lechuga.png"
-        },
-        {
-          "name": "D. Soriano «Olivo»",
-          "role": "Defensa",
-          "image": "los-troncos-fc-d-soriano-«olivo».png"
-        },
-        {
-          "name": "S. Sánchez «Drago»",
-          "role": "Medio",
-          "image": "los-troncos-fc-s-sánchez-«drago».png"
-        },
-        {
-          "name": "Noel L. «Ahuehuete»",
-          "role": "Medio",
-          "image": "los-troncos-fc-noel-l-«ahuehuete».png"
-        },
-        {
-          "name": "X. Molas «Mimosa»",
-          "role": "Medio",
-          "image": "los-troncos-fc-x-molas-«mimosa».png"
-        },
-        {
-          "name": "R. Martínez «Bonsai»",
-          "role": "Delantero",
-          "image": "los-troncos-fc-r-martínez-«bonsai».png"
-        },
-        {
-          "name": "Dorkis P. «Mango»",
-          "role": "Delantero",
-          "image": "los-troncos-fc-dorkis-p-«mango».png"
-        },
-        {
-          "name": "I. Nuevo «Ficus»",
-          "role": "Medio",
-          "image": "los-troncos-fc-i-nuevo-«ficus».png"
-        },
-        {
-          "name": "M. Arús «Pino»",
-          "role": "Portero",
-          "image": "los-troncos-fc-m-arús-«pino».png"
-        }
-      ],
-      "shortName": "TFC",
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/perxitaa.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "rank": 5,
-    "wins": 0,
+    "wins": 4,
     "losses": 2,
     "scoredGoals": 18,
     "concededGoals": 14,
@@ -449,12 +357,12 @@
     }
   },
   {
-    "rank": 6,
+    "rank": 5,
     "wins": 3,
     "losses": 3,
     "scoredGoals": 18,
     "concededGoals": 17,
-    "yellowCards": 1,
+    "yellowCards": 0,
     "redCards": 0,
     "team": {
       "id": "1k",
@@ -541,11 +449,11 @@
     }
   },
   {
-    "rank": 7,
+    "rank": 6,
     "wins": 3,
     "losses": 3,
-    "scoredGoals": 14,
-    "concededGoals": 15,
+    "scoredGoals": 17,
+    "concededGoals": 18,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -630,7 +538,7 @@
     }
   },
   {
-    "rank": 8,
+    "rank": 7,
     "wins": 3,
     "losses": 3,
     "scoredGoals": 14,
@@ -719,12 +627,104 @@
     }
   },
   {
+    "rank": 8,
+    "wins": 3,
+    "losses": 3,
+    "scoredGoals": 20,
+    "concededGoals": 25,
+    "yellowCards": 2,
+    "redCards": 0,
+    "team": {
+      "id": "los-troncos-fc",
+      "color": "#31585a",
+      "name": "Los Troncos FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos-inverse.svg",
+      "url": "",
+      "channel": "https://twitch.tv/perxitaa",
+      "coach": {
+        "name": "Pol Font",
+        "image": "pol-font.png"
+      },
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [
+        {
+          "name": "F. Álvarez «Citrus»",
+          "role": "jugador 11",
+          "image": "los-troncos-fc-f-álvarez-«citrus».png"
+        },
+        {
+          "name": "E. Álvaro «Roble»",
+          "role": "Delantero",
+          "image": "los-troncos-fc-e-álvaro-«roble».png"
+        },
+        {
+          "name": "Lechuga",
+          "role": "Portero",
+          "image": "los-troncos-fc-lechuga.png"
+        },
+        {
+          "name": "D. Soriano «Olivo»",
+          "role": "Defensa",
+          "image": "los-troncos-fc-d-soriano-«olivo».png"
+        },
+        {
+          "name": "S. Sánchez «Drago»",
+          "role": "Medio",
+          "image": "los-troncos-fc-s-sánchez-«drago».png"
+        },
+        {
+          "name": "Noel L. «Ahuehuete»",
+          "role": "Medio",
+          "image": "los-troncos-fc-noel-l-«ahuehuete».png"
+        },
+        {
+          "name": "X. Molas «Mimosa»",
+          "role": "Medio",
+          "image": "los-troncos-fc-x-molas-«mimosa».png"
+        },
+        {
+          "name": "R. Martínez «Bonsai»",
+          "role": "Delantero",
+          "image": "los-troncos-fc-r-martínez-«bonsai».png"
+        },
+        {
+          "name": "Dorkis P. «Mango»",
+          "role": "Delantero",
+          "image": "los-troncos-fc-dorkis-p-«mango».png"
+        },
+        {
+          "name": "I. Nuevo «Ficus»",
+          "role": "Medio",
+          "image": "los-troncos-fc-i-nuevo-«ficus».png"
+        },
+        {
+          "name": "M. Arús «Pino»",
+          "role": "Portero",
+          "image": "los-troncos-fc-m-arús-«pino».png"
+        }
+      ],
+      "shortName": "TFC",
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/perxitaa.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
     "rank": 9,
     "wins": 2,
     "losses": 4,
     "scoredGoals": 16,
     "concededGoals": 13,
-    "yellowCards": 2,
+    "yellowCards": 1,
     "redCards": 0,
     "team": {
       "id": "el-barrio",
@@ -813,10 +813,10 @@
   {
     "rank": 10,
     "wins": 2,
-    "losses": -2,
-    "scoredGoals": 15,
+    "losses": 4,
+    "scoredGoals": 17,
     "concededGoals": 21,
-    "yellowCards": 1,
+    "yellowCards": 0,
     "redCards": 0,
     "team": {
       "id": "rayo-barcelona",
@@ -908,7 +908,7 @@
     "losses": 5,
     "scoredGoals": 14,
     "concededGoals": 16,
-    "yellowCards": 5,
+    "yellowCards": 4,
     "redCards": 0,
     "team": {
       "id": "pio-fc",
@@ -995,10 +995,10 @@
   {
     "rank": 12,
     "wins": 0,
-    "losses": 2,
+    "losses": 6,
     "scoredGoals": 11,
     "concededGoals": 24,
-    "yellowCards": 3,
+    "yellowCards": 2,
     "redCards": 0,
     "team": {
       "id": "jijantes-fc",
