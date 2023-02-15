@@ -1,7 +1,7 @@
 ---
 import Layout from '@layouts/Layout.astro'
 import Container from '@components/Container.astro'
-import TeamSelectorCards from '@components/TeamSelectorCards.astro'
+import TeamsSelectorCards from '@components/TeamsSelectorCards.astro'
 import TeamStats from '@components/TeamStats.astro'
 import TeamPagePlayers from '@components/TeamPagePlayers.astro'
 
@@ -104,7 +104,7 @@ const playersTwelve = await getPlayersTwelve({ teamId: id });
 			<div class='overflow-hidden bg-white p-20 pt-5 shadow-xl rounded -mt-10 z-10 mb-40'
 				style={`--tw-gradient-from: ${color}`}>
 				<h2 class='font-title text-5xl text-black text-center py-10'>Todos los equipos</h2>
-				<TeamSelectorCards />
+				<TeamsSelectorCards />
 			</div>
 		</Container>
 	</section>
