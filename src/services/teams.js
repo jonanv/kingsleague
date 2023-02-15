@@ -11,9 +11,9 @@ export const getAllTeams = async () => {
 	}
 }
 
-export const getPlayerTwelveByTeamId = async ({ teamId }) => {
+export const getPlayersTwelve = async ({ teamId }) => {
 	try {
-		const response = await fetch(`${ apiURL }/teams/${ teamId }/player_twelve`);
+		const response = await fetch(`${ apiURL }/teams/${ teamId }/players-twelve`);
 		const playerTwelve = await response.json();
 		return playerTwelve;
 	} catch (error) {
