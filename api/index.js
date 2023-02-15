@@ -10,6 +10,7 @@ import topScorers from '../db/top_scorers.json';
 import topAssists from '../db/top_assists.json';
 import coaches from '../db/coaches.json';
 import playersTwelve from "../db/players_twelve.json";
+import schedule from "../db/schedule.json";
 
 const app = new Hono();
 
@@ -93,6 +94,10 @@ app.get('/', (ctx) =>
 		{
 			endpoint: '/players-twelve',
 			description: 'Returns Kings League Players Twelve'
+		},
+		{
+			endpoint: '/schedule',
+			description: 'Returns Kings League schedule'
 		}
   ])
 );
@@ -191,6 +196,10 @@ app.get('/coaches/:teamId', (ctx) => {
 
 app.get('/players-twelve', (ctx) => {
   return ctx.json(playersTwelve);
+});
+
+app.get('/schedule', (ctx) => {
+  return ctx.json(schedule);
 });
 
 app.get('/static/*', serveStatic({ root: './' }));

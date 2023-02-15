@@ -63,5 +63,5 @@ Los endpoints disponibles son:
 - GET `/top-scorers/:rank`: Devuelve el goleador más destacado de acuerdo a su posición en el ranking de la Kings League.
 - GET `/top-assists`: Devuelve los asistentes más destacados de la Kings League.
 - GET `/top-assists/:rank`: Devuelve el asistente más destacado de acuerdo a su posición en el ranking de la Kings League.
-- GET `/schedule`: Devuelve el calendario de partidos de la Kings League y el resultado de los partidos jugados.
 - GET `/players-twelve`: Devuelve los jugadores 12 de la Kings League.
+- GET `/schedule`: Devuelve el calendario de partidos de la Kings League y el resultado de los partidos jugados.
