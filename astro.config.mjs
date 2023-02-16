@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 
 import tailwind from "@astrojs/tailwind";
-import prefetch from "@astrojs/prefetch";
+// import prefetch from "@astrojs/prefetch";
 
 const website = "https://kingsleague.dev/";
 
@@ -11,5 +11,8 @@ export default defineConfig({
 	server: {
 		host: true,
 	},
-	integrations: [tailwind(), prefetch()],
+	integrations: [
+		tailwind(), 
+		// prefetch()
+	],
 });
