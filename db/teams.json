@@ -253,12 +253,12 @@
       {
         "name": "F. Álvarez «Citrus»",
         "role": "jugador 11",
-        "image": "los-troncos-fc-f-álvarez-citrus.png"
+        "image": "los-troncos-fc-f-alvarez-citrus.png"
       },
       {
         "name": "E. Álvaro «Roble»",
         "role": "Delantero",
-        "image": "los-troncos-fc-e-álvaro-roble.png"
+        "image": "los-troncos-fc-e-alvaro-roble.png"
       },
       {
         "name": "Lechuga",
@@ -273,7 +273,7 @@
       {
         "name": "S. Sánchez «Drago»",
         "role": "Medio",
-        "image": "los-troncos-fc-s-sánchez-drago.png"
+        "image": "los-troncos-fc-s-sanchez-drago.png"
       },
       {
         "name": "Noel L. «Ahuehuete»",
@@ -288,7 +288,7 @@
       {
         "name": "R. Martínez «Bonsai»",
         "role": "Delantero",
-        "image": "los-troncos-fc-r-martínez-bonsai.png"
+        "image": "los-troncos-fc-r-martinez-bonsai.png"
       },
       {
         "name": "Dorkis P. «Mango»",
@@ -303,7 +303,7 @@
       {
         "name": "M. Arús «Pino»",
         "role": "Portero",
-        "image": "los-troncos-fc-m-arús-pino.png"
+        "image": "los-troncos-fc-m-arus-pino.png"
       }
     ],
     "shortName": "TFC"
@@ -785,7 +785,7 @@
       {
         "name": "F. Hernández",
         "role": "jugador 11",
-        "image": "aniquiladores-fc-f-hernández.png"
+        "image": "aniquiladores-fc-f-hernandez.png"
       },
       {
         "name": "Daniel P.",
@@ -810,7 +810,7 @@
       {
         "name": "Pau Mañé",
         "role": "Delantero",
-        "image": "aniquiladores-fc-pau-maé.png"
+        "image": "aniquiladores-fc-pau-mae.png"
       },
       {
         "name": "Jorquera",
@@ -886,7 +886,7 @@
       {
         "name": "B. Juárez",
         "role": "Medio",
-        "image": "pio-fc-b-juárez.png"
+        "image": "pio-fc-b-juarez.png"
       },
       {
         "name": "Turner",
