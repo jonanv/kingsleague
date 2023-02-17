@@ -1,5 +1,6 @@
 import { writeDBFile } from '../db/index.js';
 import { getShortNameTeams } from './short_name_teams.js';
+// import { getTeams } from './teams.js';
 import { getURLTeams } from './url_teams.js';
 import { scrapedAndSave, SCRIPTING } from "./common/utils.js";
 
@@ -16,6 +17,7 @@ if (scrapeParameter) {
 		await scrapedAndSave(infoToScrape);
 	}
 
+	// const teamsWithUrl = await getTeams();
 	const teamsWithUrl = await getURLTeams();
 	await writeDBFile('teams', teamsWithUrl);
 	
