@@ -11,7 +11,7 @@ import { getCoaches } from '../coaches.js';
 import { getSchedule } from '../schedule.js'
 import { getPlayersTwelve } from '../players_twelve.js'
 
-export const SCRIPTING = {
+export const SCRAPINGS = {
   leaderboard: {
     url: 'https://kingsleague.pro/estadisticas/clasificacion/',
     scraper: getLeaderBoard
@@ -56,7 +56,7 @@ export async function scrape(url) {
 export async function scrapedAndSave(name) {
   const start = performance.now();
   try {
-    const { scraper, url } = SCRIPTING[name];
+    const { scraper, url } = SCRAPINGS[name];
 
     logInfo(`Scraping [${name}] list...`);
     const $ = await scrape(url);
