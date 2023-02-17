@@ -24,6 +24,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@astrojs/sitemap": "1.0.0",
 		"@astrojs/tailwind": "3.0.0",
 		"astro": "2.0.2",
 		"cheerio": "1.0.0-rc.12",
