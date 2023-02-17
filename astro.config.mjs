@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 
 import tailwind from "@astrojs/tailwind";
-import prefetch from "@astrojs/prefetch";
+// import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 
 const website = "https://kingsleague.dev/";
@@ -14,7 +14,7 @@ export default defineConfig({
   },
   integrations: [
     tailwind(),
-    prefetch(),
+    // prefetch(),
     sitemap({
       lastmod: new Date(),
     }),
