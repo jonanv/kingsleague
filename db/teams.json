@@ -253,12 +253,12 @@
       {
         "name": "F. Álvarez «Citrus»",
         "role": "jugador 11",
-        "image": "los-troncos-fc-f-álvarez-«citrus».png"
+        "image": "los-troncos-fc-f-álvarez-citrus.png"
       },
       {
         "name": "E. Álvaro «Roble»",
         "role": "Delantero",
-        "image": "los-troncos-fc-e-álvaro-«roble».png"
+        "image": "los-troncos-fc-e-álvaro-roble.png"
       },
       {
         "name": "Lechuga",
@@ -268,42 +268,42 @@
       {
         "name": "D. Soriano «Olivo»",
         "role": "Defensa",
-        "image": "los-troncos-fc-d-soriano-«olivo».png"
+        "image": "los-troncos-fc-d-soriano-olivo.png"
       },
       {
         "name": "S. Sánchez «Drago»",
         "role": "Medio",
-        "image": "los-troncos-fc-s-sánchez-«drago».png"
+        "image": "los-troncos-fc-s-sánchez-drago.png"
       },
       {
         "name": "Noel L. «Ahuehuete»",
         "role": "Medio",
-        "image": "los-troncos-fc-noel-l-«ahuehuete».png"
+        "image": "los-troncos-fc-noel-l-ahuehuete.png"
       },
       {
         "name": "X. Molas «Mimosa»",
         "role": "Medio",
-        "image": "los-troncos-fc-x-molas-«mimosa».png"
+        "image": "los-troncos-fc-x-molas-mimosa.png"
       },
       {
         "name": "R. Martínez «Bonsai»",
         "role": "Delantero",
-        "image": "los-troncos-fc-r-martínez-«bonsai».png"
+        "image": "los-troncos-fc-r-martínez-bonsai.png"
       },
       {
         "name": "Dorkis P. «Mango»",
         "role": "Delantero",
-        "image": "los-troncos-fc-dorkis-p-«mango».png"
+        "image": "los-troncos-fc-dorkis-p-mango.png"
       },
       {
         "name": "I. Nuevo «Ficus»",
         "role": "Medio",
-        "image": "los-troncos-fc-i-nuevo-«ficus».png"
+        "image": "los-troncos-fc-i-nuevo-ficus.png"
       },
       {
         "name": "M. Arús «Pino»",
         "role": "Portero",
-        "image": "los-troncos-fc-m-arús-«pino».png"
+        "image": "los-troncos-fc-m-arús-pino.png"
       }
     ],
     "shortName": "TFC"
