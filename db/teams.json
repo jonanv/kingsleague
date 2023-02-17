@@ -75,7 +75,11 @@
         "image": "1k-gnter.png"
       }
     ],
-    "shortName": "1K"
+    "shortName": "1K",
+    "coachInfo": {
+      "name": "Julio García Mera",
+      "image": "julio-garca-mera.png"
+    }
   },
   {
     "id": "el-barrio",
@@ -153,7 +157,11 @@
         "image": "el-barrio-capilla.png"
       }
     ],
-    "shortName": "RDB"
+    "shortName": "RDB",
+    "coachInfo": {
+      "name": "Juan Arroita",
+      "image": "juan-arroita.png"
+    }
   },
   {
     "id": "ultimate-mostoles",
@@ -228,7 +236,11 @@
         "image": "ultimate-mostoles-lucca.png"
       }
     ],
-    "shortName": "ULT"
+    "shortName": "ULT",
+    "coachInfo": {
+      "name": "Nacho Castro",
+      "image": "nacho-castro.png"
+    }
   },
   {
     "id": "los-troncos-fc",
@@ -306,7 +318,11 @@
         "image": "los-troncos-fc-m-arus-pino.png"
       }
     ],
-    "shortName": "TFC"
+    "shortName": "TFC",
+    "coachInfo": {
+      "name": "Pol Font",
+      "image": "pol-font.png"
+    }
   },
   {
     "id": "saiyans-fc",
@@ -381,7 +397,11 @@
         "image": "saiyans-fc-fajardo.png"
       }
     ],
-    "shortName": "SAI"
+    "shortName": "SAI",
+    "coachInfo": {
+      "name": "Daniel Romo",
+      "image": "daniel-romo.png"
+    }
   },
   {
     "id": "kunisports",
@@ -456,7 +476,11 @@
         "image": "kunisports-miki.png"
       }
     ],
-    "shortName": "KNS"
+    "shortName": "KNS",
+    "coachInfo": {
+      "name": "Martín Posse",
+      "image": "martn-posse.png"
+    }
   },
   {
     "id": "jijantes-fc",
@@ -534,7 +558,11 @@
         "image": "jijantes-fc-mario.png"
       }
     ],
-    "shortName": "JFC"
+    "shortName": "JFC",
+    "coachInfo": {
+      "name": "Marc Carmona",
+      "image": "marc-carmona.png"
+    }
   },
   {
     "id": "porcinos-fc",
@@ -610,7 +638,11 @@
         "image": "porcinos-fc-sergi.png"
       }
     ],
-    "shortName": "POR"
+    "shortName": "POR",
+    "coachInfo": {
+      "name": "Juvenal Edjogo-Owono",
+      "image": "juvenal-edjogoowono.png"
+    }
   },
   {
     "id": "rayo-barcelona",
@@ -688,7 +720,11 @@
         "image": "rayo-barcelona-alex-race.png"
       }
     ],
-    "shortName": "RDB"
+    "shortName": "RDB",
+    "coachInfo": {
+      "name": "JuanluDBZ",
+      "image": "juanludbz.png"
+    }
   },
   {
     "id": "xbuyer-team",
@@ -701,7 +737,7 @@
     "channel": "https://www.youtube.com/xbuyer",
     "coach": {
       "name": "Victor González",
-      "image": "victor-gonzlez.png"
+      "image": "victor-gonzalez.png"
     },
     "socialNetworks": [
       "https://www.youtube.com/xbuyer"
@@ -763,7 +799,11 @@
         "image": "xbuyer-team-sep.png"
       }
     ],
-    "shortName": "XBU"
+    "shortName": "XBU",
+    "coachInfo": {
+      "name": "Victor González",
+      "image": "victor-gonzalez.png"
+    }
   },
   {
     "id": "aniquiladores-fc",
@@ -838,7 +878,11 @@
         "image": "aniquiladores-fc-xmorales.png"
       }
     ],
-    "shortName": "ANI"
+    "shortName": "ANI",
+    "coachInfo": {
+      "name": "Sergio Verdirame",
+      "image": "sergio-verdirame.png"
+    }
   },
   {
     "id": "pio-fc",
@@ -914,6 +958,10 @@
         "image": "pio-fc-santiago.png"
       }
     ],
-    "shortName": "PIO"
+    "shortName": "PIO",
+    "coachInfo": {
+      "name": "Gerardo Torrado",
+      "image": "gerardo-torrado.png"
+    }
   }
 ]
