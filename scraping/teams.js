@@ -1,110 +1,116 @@
-import { writeFile } from 'node:fs/promises'
-import path from 'node:path'
-
 import { TEAMS } from '../db/index.js'
 import { logInfo, logSuccess } from './common/log.js'
 import { cleanText, scrape } from './common/utils.js'
+import path from 'node:path'
+import { writeFile } from 'node:fs/promises'
 
 const STATICS_PATH = path.join(process.cwd(), './assets/static')
 const DB_PATH = path.join(process.cwd(), './db/')
 const BASE_URL = 'https://kingsleague.pro/team'
 const SELECTORS = {
-  name: '.el-title',
-  role: '.el-content',
-  image: '.el-image'
+	name: '.el-title',
+	role: '.el-content',
+	image: '.el-image'
 }
 
 export async function getTeams() {
-  const teams = []
+	const teams = []
 
-  const saveImage = async ({ url, folder, fileName }) => {
-    const fileExtension = url.split('.').at(-1)
+	const saveImage = async ({ url, folder, fileName }) => {
+		const fileExtension = url.split('.').at(-1)
 
-    logInfo(`Fetching image for file name: ${fileName}`)
-    const responseImage = await fetch(url)
-    const arrayBuffer = await responseImage.arrayBuffer()
-    const buffer = Buffer.from(arrayBuffer)
+		logInfo(`Fetching image for file name: ${fileName}`)
+		const responseImage = await fetch(url)
+		const arrayBuffer = await responseImage.arrayBuffer()
+		const buffer = Buffer.from(arrayBuffer)
 
-    logInfo(`Writing image to disk ${fileName}`)
-    const imageFileName = `${fileName}.${fileExtension}`
-    const imageFilePath = path.join(STATICS_PATH, folder, imageFileName)
-    await writeFile(imageFilePath, buffer)
+		logInfo(`Writing image to disk ${fileName}`)
+		const imageFileNameClean = removeCharacters(fileName)
+		const imageFileName = `${imageFileNameClean}.${fileExtension}`
+		const imageFilePath = path.join(STATICS_PATH, folder, imageFileName)
+		await writeFile(imageFilePath, buffer)
 
-    logInfo(`Everything is done! ${fileName}`)
+		logInfo(`Everything is done! ${fileName}`)
 
-    return imageFileName
-  }
+		return imageFileName
+	}
 
-  const onlyLettersString = (s) => {
-    const regex = /[^a-zA-Z ]/
-    return s.replace(regex, '')
-  }
+	const removeCharacters = (s) => {
+		const withOutAccents = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+		const regex = /[^a-zA-Z0-9.-]/g
+		return withOutAccents.replace(regex, '')
+	}
 
-  const convertStringToKebabCase = (s) => {
-    const onlyLetters = onlyLettersString(s)
-    const lowerCase = onlyLetters.toLowerCase()
-    const rawWords = lowerCase.split(' ')
-    const words = rawWords.filter((word) => word !== '')
-    return words.join('-')
-  }
+	const onlyLettersString = (s) => {
+		const regex = /[^a-zA-Z ]/
+		return s.replace(regex, '')
+	}
 
-  for (const team of TEAMS) {
-    const { id: teamId, name } = team
-    const players = []
+	const convertStringToKebabCase = (s) => {
+		const onlyLetters = onlyLettersString(s)
+		const lowerCase = onlyLetters.toLowerCase()
+		const rawWords = lowerCase.split(' ')
+		const words = rawWords.filter((word) => word !== '')
+		return words.join('-')
+	}
 
-    logInfo(`\tScraping team: ${name}`)
-    const url = `${BASE_URL}/${teamId}`
-    const $ = await scrape(url)
-    const $lis = $('ul.uk-slider-items li')
+	for (const team of TEAMS) {
+		const { id: teamId, name } = team
+		const players = []
 
-    for (const el of $lis) {
-      const $el = $(el)
+		logInfo(`\tScraping team: ${name}`)
+		const url = `${BASE_URL}/${teamId}`
+		const $ = await scrape(url)
+		const $lis = $('ul.uk-slider-items li')
 
-      const nameRawValue = $el.find(SELECTORS.name).text()
-      const name = cleanText(nameRawValue)
+		for (const el of $lis) {
+			const $el = $(el)
 
-      // .el-content > "" + span
-      // .el-content > p > "" + span
-      const $role = $el.find(SELECTORS.role)
-      const roleRawValue =
-        $role.contents().length > 1
-          ? $role.contents().first().text()
-          : $role.find('p').contents().first().text()
-      const role = cleanText(roleRawValue)
-      const roleLowerCase = role.toLowerCase()
+			const nameRawValue = $el.find(SELECTORS.name).text()
+			const name = cleanText(nameRawValue)
 
-      if (roleLowerCase !== 'presidente' && roleLowerCase !== 'entrenador') {
-        const url = $el.find(SELECTORS.image).attr('src')
-        const nameKebabCase = convertStringToKebabCase(name)
-        const fileName = `${teamId}-${nameKebabCase}`
-        const image = await saveImage({ url, folder: 'players', fileName })
+			// .el-content > "" + span
+			// .el-content > p > "" + span
+			const $role = $el.find(SELECTORS.role)
+			const roleRawValue =
+				$role.contents().length > 1
+					? $role.contents().first().text()
+					: $role.find('p').contents().first().text()
+			const role = cleanText(roleRawValue)
+			const roleLowerCase = role.toLowerCase()
 
-        players.push({
-          name,
-          role,
-          image
-        })
-      } else if (roleLowerCase === 'entrenador') {
-        const url = $el.find(SELECTORS.image).attr('src')
-        const fileName = convertStringToKebabCase(name)
-        const image = await saveImage({ url, folder: 'coaches', fileName })
+			if (roleLowerCase !== 'presidente' && roleLowerCase !== 'entrenador') {
+				const url = $el.find(SELECTORS.image).attr('src')
+				const nameKebabCase = convertStringToKebabCase(name)
+				const fileName = `${teamId}-${nameKebabCase}`
+				const image = await saveImage({ url, folder: 'players', fileName })
 
-        team.coach = {
-          name,
-          image
-        }
-      }
-    }
+				players.push({
+					name,
+					role,
+					image
+				})
+			} else if (roleLowerCase === 'entrenador') {
+				const url = $el.find(SELECTORS.image).attr('src')
+				const fileName = convertStringToKebabCase(name)
+				const image = await saveImage({ url, folder: 'coaches', fileName })
 
-    teams.push({
-      ...team,
-      players
-    })
+				team.coachInfo = {
+					name,
+					image
+				}
+			}
+		}
 
-    logSuccess(`\tTeam: ${name} finished!\n`)
-  }
+		teams.push({
+			...team,
+			players
+		})
 
-  return teams
+		logSuccess(`\tTeam: ${name} finished!\n`)
+	}
+
+	return teams
 }
 
 const teams = await getTeams()
