@@ -329,6 +329,14 @@
   },
   {
     "rank": 42,
+    "playerName": "Corvo",
+    "gamesPlayed": 1,
+    "goals": 2,
+    "team": "PIO FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
+  },
+  {
+    "rank": 43,
     "playerName": "Román",
     "gamesPlayed": 6,
     "goals": 1,
@@ -336,7 +344,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "playerName": "Sauras",
     "gamesPlayed": 6,
     "goals": 1,
@@ -344,7 +352,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "playerName": "Pluvins",
     "gamesPlayed": 6,
     "goals": 1,
@@ -352,7 +360,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "playerName": "Marino",
     "gamesPlayed": 6,
     "goals": 1,
@@ -360,7 +368,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "playerName": "Nadir",
     "gamesPlayed": 2,
     "goals": 1,
@@ -368,7 +376,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "playerName": "Goku",
     "gamesPlayed": 1,
     "goals": 1,
@@ -376,7 +384,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "playerName": "Daniel P.",
     "gamesPlayed": 6,
     "goals": 1,
@@ -384,19 +392,11 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "playerName": "Beguer",
     "gamesPlayed": 6,
     "goals": 1,
     "team": "El Barrio",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
-  },
-  {
-    "rank": 50,
-    "playerName": "Ibai",
-    "gamesPlayed": 1,
-    "goals": 1,
-    "team": "Jijantes FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
   }
 ]
