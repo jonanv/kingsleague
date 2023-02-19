@@ -670,21 +670,6 @@
       {
         "teams": [
           {
-            "id": "1k",
-            "name": "1K FC",
-            "shortname": "1K"
-          },
-          {
-            "id": "los-troncos",
-            "name": "Los Troncos FC",
-            "shortname": "TFC"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "teams": [
-          {
             "id": "aniquiladores",
             "name": "Aniquiladores FC",
             "shortname": "ANI"
@@ -715,14 +700,14 @@
       {
         "teams": [
           {
-            "id": "pio",
-            "name": "PIO FC",
-            "shortname": "PIO"
+            "id": "ultimate-mostoles",
+            "name": "Ultimate Móstoles",
+            "shortname": "ULT"
           },
           {
-            "id": "porcinos-fc",
-            "name": "Porcinos FC",
-            "shortname": "POR"
+            "id": "xbuyer",
+            "name": "XBUYER TEAM",
+            "shortname": "XBU"
           }
         ],
         "score": "0 – 0"
@@ -745,14 +730,29 @@
       {
         "teams": [
           {
-            "id": "ultimate-mostoles",
-            "name": "Ultimate Móstoles",
-            "shortname": "ULT"
+            "id": "1k",
+            "name": "1K FC",
+            "shortname": "1K"
           },
           {
-            "id": "xbuyer",
-            "name": "XBUYER TEAM",
-            "shortname": "XBU"
+            "id": "los-troncos",
+            "name": "Los Troncos FC",
+            "shortname": "TFC"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "teams": [
+          {
+            "id": "pio",
+            "name": "PIO FC",
+            "shortname": "PIO"
+          },
+          {
+            "id": "porcinos-fc",
+            "name": "Porcinos FC",
+            "shortname": "POR"
           }
         ],
         "score": "0 – 0"
