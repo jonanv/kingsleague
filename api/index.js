@@ -8,6 +8,7 @@ import presidents from '../db/presidents.json';
 import mvp from '../db/mvp.json';
 import topScorers from '../db/top_scorers.json';
 import topAssists from '../db/top_assists.json';
+import topStatistics from '../db/top_statistics.json';
 import coaches from '../db/coaches.json';
 import playersTwelve from "../db/players_twelve.json";
 import schedule from "../db/schedule.json";
@@ -79,6 +80,10 @@ app.get('/', (ctx) =>
 					description: 'Return Kings League top assister by rank'
 				}
 			]
+    },
+    {
+      endpoint: '/top-statistics',
+      description: 'Returns Kings League top statistics',
     },
     {
       endpoint: '/coaches',
@@ -178,6 +183,10 @@ app.get('/top-assists/:rank', (ctx) => {
 	return foundAssister
 		? ctx.json(foundAssister)
 		: ctx.json({ message: 'Top assister not found' }, 404);
+});
+
+app.get('/top-statistics', (ctx) => {
+  return ctx.json(topStatistics);
 });
 
 app.get('/coaches', (ctx) => {
