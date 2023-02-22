@@ -30,7 +30,7 @@ export const SCRAPINGS = {
     scraper: getTopAssists
   },
   top_statistics: {
-    scraper: getTopAssists
+    scraper: getTopStatistics
   },
   coaches: {
     url: 'https://kingsleague.pro/estadisticas/coaches/',
