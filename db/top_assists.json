@@ -1,19 +1,19 @@
 [
   {
     "rank": 1,
-    "playerName": "A. Bueno",
-    "gamesPlayed": 7,
-    "assists": 5,
-    "team": "1K FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
-  },
-  {
-    "rank": 2,
     "playerName": "Coro",
     "gamesPlayed": 7,
     "assists": 5,
     "team": "Kunisports",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
+  },
+  {
+    "rank": 2,
+    "playerName": "A. Bueno",
+    "gamesPlayed": 7,
+    "assists": 5,
+    "team": "1K FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
     "rank": 3,

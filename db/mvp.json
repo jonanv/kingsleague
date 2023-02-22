@@ -105,6 +105,14 @@
   },
   {
     "rank": 14,
+    "playerName": "David García",
+    "gamesPlayed": 7,
+    "mvps": 1,
+    "team": "PIO FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
+  },
+  {
+    "rank": 15,
     "playerName": "Lao",
     "gamesPlayed": 7,
     "mvps": 1,
@@ -112,7 +120,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "playerName": "G. Cichero",
     "gamesPlayed": 7,
     "mvps": 1,
@@ -120,7 +128,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "playerName": "Briones",
     "gamesPlayed": 7,
     "mvps": 1,
@@ -128,7 +136,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "playerName": "R. Carbó",
     "gamesPlayed": 7,
     "mvps": 1,
@@ -136,7 +144,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "playerName": "Feliu",
     "gamesPlayed": 7,
     "mvps": 1,
@@ -144,7 +152,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "rank": 19,
+    "rank": 20,
     "playerName": "Arché",
     "gamesPlayed": 7,
     "mvps": 1,
@@ -152,7 +160,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "playerName": "Juanma Glez",
     "gamesPlayed": 7,
     "mvps": 1,
@@ -160,7 +168,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "rank": 21,
+    "rank": 22,
     "playerName": "Enigma",
     "gamesPlayed": 2,
     "mvps": 1,
@@ -168,7 +176,7 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "playerName": "Corvo",
     "gamesPlayed": 2,
     "mvps": 1,
