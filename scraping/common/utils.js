@@ -7,6 +7,7 @@ import { getLeaderBoard } from '../leaderboard.js';
 import { getMvp } from '../mpv.js';
 import { getTopScorers } from '../top_scorers.js';
 import { getTopAssists } from '../top_assists.js';
+import { getTopStatistics } from '../top_statistics.js';
 import { getCoaches } from '../coaches.js';
 import { getSchedule } from '../schedule.js'
 import { getPlayersTwelve } from '../players_twelve.js'
@@ -26,6 +27,9 @@ export const SCRAPINGS = {
   },
   top_assists: {
     url: 'https://kingsleague.pro/estadisticas/asistencias/',
+    scraper: getTopAssists
+  },
+  top_statistics: {
     scraper: getTopAssists
   },
   coaches: {
@@ -59,7 +63,7 @@ export async function scrapedAndSave(name) {
     const { scraper, url } = SCRAPINGS[name];
 
     logInfo(`Scraping [${name}] list...`);
-    const $ = await scrape(url);
+    const $ = url ? await scrape(url) : null;
     const content = await scraper($);
     logSuccess(`[${name}] list scraped successfully...`);
 
