@@ -6,8 +6,8 @@
       "losses": 1,
       "scoredGoals": 27,
       "concededGoals": 17,
-      "yellowCards": 3,
-      "redCards": 1,
+      "yellowCards": 10,
+      "redCards": 0,
       "team": {
         "id": "porcinos-fc",
         "name": "Porcinos FC",
@@ -25,7 +25,7 @@
       "losses": 1,
       "scoredGoals": 15,
       "concededGoals": 7,
-      "yellowCards": 1,
+      "yellowCards": 8,
       "redCards": 0,
       "team": {
         "id": "saiyans-fc",
@@ -44,7 +44,7 @@
       "losses": 2,
       "scoredGoals": 22,
       "concededGoals": 17,
-      "yellowCards": 2,
+      "yellowCards": 5,
       "redCards": 0,
       "team": {
         "id": "ultimate-mostoles",
@@ -82,7 +82,7 @@
       "losses": 4,
       "scoredGoals": 22,
       "concededGoals": 15,
-      "yellowCards": 0,
+      "yellowCards": 7,
       "redCards": 0,
       "team": {
         "id": "el-barrio",
@@ -193,21 +193,21 @@
   "topAssists": [
     {
       "rank": 1,
-      "playerName": "A. Bueno",
-      "gamesPlayed": 7,
-      "assists": 5,
-      "team": "1K FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg",
-      "playerImage": "placeholder.png"
-    },
-    {
-      "rank": 2,
       "playerName": "Coro",
       "gamesPlayed": 7,
       "assists": 5,
       "team": "Kunisports",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
       "playerImage": "kunisports-coro.png"
+    },
+    {
+      "rank": 2,
+      "playerName": "A. Bueno",
+      "gamesPlayed": 7,
+      "assists": 5,
+      "team": "1K FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg",
+      "playerImage": "placeholder.png"
     },
     {
       "rank": 3,
