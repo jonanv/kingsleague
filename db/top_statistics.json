@@ -104,7 +104,8 @@
       "mvps": 3,
       "team": "Aniquiladores FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
-      "playerImage": "aniquiladores-fc-f-hernandez.png"
+      "playerImage": "aniquiladores-fc-f-hernandez.png",
+      "teamId": "aniquiladores-fc"
     },
     {
       "rank": 2,
@@ -113,7 +114,8 @@
       "mvps": 2,
       "team": "1K FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg",
-      "playerImage": "placeholder.png"
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
     },
     {
       "rank": 3,
@@ -122,7 +124,8 @@
       "mvps": 2,
       "team": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
-      "playerImage": "el-barrio-ubn.png"
+      "playerImage": "el-barrio-ubn.png",
+      "teamId": "el-barrio"
     },
     {
       "rank": 4,
@@ -131,7 +134,8 @@
       "mvps": 2,
       "team": "Kunisports",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
-      "playerImage": "kunisports-torrentb.png"
+      "playerImage": "kunisports-torrentb.png",
+      "teamId": "kunisports"
     },
     {
       "rank": 5,
@@ -140,7 +144,8 @@
       "mvps": 1,
       "team": "1K FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg",
-      "playerImage": "1k-ricardo.png"
+      "playerImage": "1k-ricardo.png",
+      "teamId": "1k"
     }
   ],
   "topScorers": [
@@ -151,7 +156,8 @@
       "goals": 9,
       "team": "1K FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg",
-      "playerImage": "placeholder.png"
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
     },
     {
       "rank": 2,
@@ -160,7 +166,8 @@
       "goals": 8,
       "team": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
-      "playerImage": "el-barrio-ubn.png"
+      "playerImage": "el-barrio-ubn.png",
+      "teamId": "el-barrio"
     },
     {
       "rank": 3,
@@ -169,7 +176,8 @@
       "goals": 8,
       "team": "Ultimate Móstoles",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
-      "playerImage": "ultimate-mostoles-juanma-glez.png"
+      "playerImage": "ultimate-mostoles-juanma-glez.png",
+      "teamId": "ultimate-mostoles"
     },
     {
       "rank": 4,
@@ -178,7 +186,8 @@
       "goals": 7,
       "team": "Rayo de Barcelona",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg",
-      "playerImage": "rayo-barcelona-pelaz.png"
+      "playerImage": "rayo-barcelona-pelaz.png",
+      "teamId": "rayo-barcelona"
     },
     {
       "rank": 5,
@@ -187,7 +196,8 @@
       "goals": 7,
       "team": "XBUYER TEAM",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
-      "playerImage": "xbuyer-team-poch.png"
+      "playerImage": "xbuyer-team-poch.png",
+      "teamId": "xbuyer-team"
     }
   ],
   "topAssists": [
@@ -198,7 +208,8 @@
       "assists": 5,
       "team": "Kunisports",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
-      "playerImage": "kunisports-coro.png"
+      "playerImage": "kunisports-coro.png",
+      "teamId": "kunisports"
     },
     {
       "rank": 2,
@@ -207,7 +218,8 @@
       "assists": 5,
       "team": "1K FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg",
-      "playerImage": "placeholder.png"
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
     },
     {
       "rank": 3,
@@ -216,7 +228,8 @@
       "assists": 5,
       "team": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
-      "playerImage": "placeholder.png"
+      "playerImage": "placeholder.png",
+      "teamId": "los-troncos-fc"
     },
     {
       "rank": 4,
@@ -225,7 +238,8 @@
       "assists": 5,
       "team": "Rayo de Barcelona",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg",
-      "playerImage": "rayo-barcelona-franky-p.png"
+      "playerImage": "rayo-barcelona-franky-p.png",
+      "teamId": "rayo-barcelona"
     },
     {
       "rank": 5,
@@ -234,7 +248,8 @@
       "assists": 4,
       "team": "PIO FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg",
-      "playerImage": "pio-fc-cokita.png"
+      "playerImage": "pio-fc-cokita.png",
+      "teamId": "pio-fc"
     }
   ]
 }
