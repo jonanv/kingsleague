@@ -9,8 +9,6 @@ import PlayerPrizeCard from '@components/PlayerPrizeCard.astro'
 import { getFirstPlayersStatistics } from '@services/statistics.js'
 
 const { mvp, topScorer, topAssister } = await getFirstPlayersStatistics()
-
-console.log({ mvp, topScorer, topAssister })
 ---
 
 <Layout title='Kings League Infojobs'>

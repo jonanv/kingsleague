@@ -51,12 +51,9 @@ function extractMoreData(player) {
 }
 
 function findPlayerImage({ playerName, players }) {
-	console.log(playerName)
-
 	const player = players.find((player) => player.name === playerName)
 	const playerImage = player?.image ? `${player.image}` : 'placeholder.png'
 
 	// buscar player 12
-
 	return playerImage
 }
