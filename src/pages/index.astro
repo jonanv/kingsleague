@@ -6,6 +6,11 @@ import Sponsors from '@components/Sponsors.astro'
 import TeamsSelectorCards from '@components/TeamsSelectorCards.astro'
 import UneteButton from '@components/Unete.astro'
 import PlayerPrizeCard from '@components/PlayerPrizeCard.astro'
+import { getFirstPlayersStatistics } from '@services/statistics.js'
+
+const { mvp, topScorer, topAssister } = await getFirstPlayersStatistics()
+
+console.log({ mvp, topScorer, topAssister })
 ---
 
 <Layout title='Kings League Infojobs'>
@@ -20,30 +25,45 @@ import PlayerPrizeCard from '@components/PlayerPrizeCard.astro'
 						<div class='grid grid-cols-6 gap-y-10 gap-x-5 w-full'>
 
 							<!-- MVP -->
-							<div class='col-span-6'>
-								<PlayerPrizeCard teamId='ultimate-mostoles' 
-									title='MVP' 
-									subtitle='Jornada 1' 
-									playerName={'player'}
-									teamName='Ultimate Mostoles' />
-							</div>
+							{
+								mvp && (
+									<div class='col-span-6'>
+										<PlayerPrizeCard
+											teamName={mvp.team}
+											teamId={mvp.teamId}
+											teamImage={mvp.image}
+											playerName={mvp.playerName}
+											playerImage={mvp.playerImage}
+											title='MVP'
+											subtitle='Jornada 1'
+										/>
+									</div>
+								)
+							}
 
 							<!-- Goal Scorer -->
 							<div class='col-span-3'>
-								<PlayerPrizeCard teamId='saiyans-fc' 
-									title='2' 
-									subtitle='Goles' 
-									playerName={'player'}
-									teamName='Ultimate Mostoles' />
+								<PlayerPrizeCard
+									teamName={topScorer.team}
+									teamId={topScorer.teamId}
+									teamImage={topScorer.image}
+									playerName={topScorer.playerName}
+									playerImage={topScorer.playerImage}
+									title={topScorer.goals}
+									subtitle='Goles'
+								/>
 							</div>
 
 							<!-- Assistant -->
 							<div class='col-span-3'>
-								<PlayerPrizeCard teamId='los-troncos-fc' 
-									title='2' 
-									subtitle='Asistencias' 
-									playerName={'player'}
-									teamName='Ultimate Mostoles' />
+								<PlayerPrizeCard
+									teamName={topAssister.team}
+									teamImage={topAssister.image}
+									teamId={topAssister.teamId}
+									playerName={topAssister.playerName}
+									playerImage={topAssister.playerImage}
+									title={topAssister.assists}
+									subtitle='Asistencias' />
 							</div>
 
 						</div>
