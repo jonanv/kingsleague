@@ -104,7 +104,7 @@
       "mvps": 4,
       "team": "Aniquiladores FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "aniquiladores-fc-f-hernandez.png",
       "teamId": "aniquiladores-fc"
     },
     {
@@ -114,7 +114,7 @@
       "mvps": 3,
       "team": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "el-barrio-ubn.png",
       "teamId": "el-barrio"
     },
     {
@@ -134,7 +134,7 @@
       "mvps": 2,
       "team": "Jijantes FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "jijantes-fc-pol.png",
       "teamId": "jijantes-fc"
     },
     {
@@ -144,7 +144,7 @@
       "mvps": 2,
       "team": "Kunisports",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "kunisports-torrentb.png",
       "teamId": "kunisports"
     }
   ],
@@ -166,7 +166,7 @@
       "goals": 8,
       "team": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "el-barrio-ubn.png",
       "teamId": "el-barrio"
     },
     {
@@ -176,7 +176,7 @@
       "goals": 8,
       "team": "Ultimate Móstoles",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "ultimate-mostoles-juanma-glez.png",
       "teamId": "ultimate-mostoles"
     },
     {
@@ -186,7 +186,7 @@
       "goals": 7,
       "team": "Rayo de Barcelona",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "rayo-barcelona-pelaz.png",
       "teamId": "rayo-barcelona"
     },
     {
@@ -196,7 +196,7 @@
       "goals": 6,
       "team": "Aniquiladores FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "aniquiladores-fc-f-hernandez.png",
       "teamId": "aniquiladores-fc"
     }
   ],
@@ -208,7 +208,7 @@
       "assists": 5,
       "team": "Kunisports",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "kunisports-coro.png",
       "teamId": "kunisports"
     },
     {
@@ -228,7 +228,7 @@
       "assists": 5,
       "team": "PIO FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "pio-fc-cokita.png",
       "teamId": "pio-fc"
     },
     {
@@ -238,7 +238,7 @@
       "assists": 5,
       "team": "Rayo de Barcelona",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "rayo-barcelona-franky-p.png",
       "teamId": "rayo-barcelona"
     },
     {
