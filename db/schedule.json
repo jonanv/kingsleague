@@ -811,71 +811,7 @@
     "date": "Jornada 9 – 05/03/2023",
     "matches": [
       {
-        "hour": null,
-        "teams": [
-          {
-            "id": "xbuyer",
-            "name": "XBUYER TEAM",
-            "shortName": "XBU"
-          },
-          {
-            "id": "aniquiladores",
-            "name": "Aniquiladores FC",
-            "shortName": "ANI"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "hour": null,
-        "teams": [
-          {
-            "id": "kunisports",
-            "name": "Kunisports",
-            "shortName": "KNS"
-          },
-          {
-            "id": "los-troncos",
-            "name": "Los Troncos FC",
-            "shortName": "TFC"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "hour": null,
-        "teams": [
-          {
-            "id": "porcinos-fc",
-            "name": "Porcinos FC",
-            "shortName": "POR"
-          },
-          {
-            "id": "ultimate-mostoles",
-            "name": "Ultimate Móstoles",
-            "shortName": "ULT"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "hour": null,
-        "teams": [
-          {
-            "id": "pio",
-            "name": "PIO FC",
-            "shortName": "PIO"
-          },
-          {
-            "id": "1k",
-            "name": "1K FC",
-            "shortName": "1K"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "hour": null,
+        "hour": "16:00",
         "teams": [
           {
             "id": "rayo-barcelona",
@@ -891,7 +827,55 @@
         "score": "0 – 0"
       },
       {
-        "hour": null,
+        "hour": "17:00",
+        "teams": [
+          {
+            "id": "pio",
+            "name": "PIO FC",
+            "shortName": "PIO"
+          },
+          {
+            "id": "1k",
+            "name": "1K FC",
+            "shortName": "1K"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "hour": "18:00",
+        "teams": [
+          {
+            "id": "porcinos-fc",
+            "name": "Porcinos FC",
+            "shortName": "POR"
+          },
+          {
+            "id": "ultimate-mostoles",
+            "name": "Ultimate Móstoles",
+            "shortName": "ULT"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "hour": "19:00",
+        "teams": [
+          {
+            "id": "kunisports",
+            "name": "Kunisports",
+            "shortName": "KNS"
+          },
+          {
+            "id": "los-troncos",
+            "name": "Los Troncos FC",
+            "shortName": "TFC"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "hour": "20:00",
         "teams": [
           {
             "id": "jijantes",
@@ -902,6 +886,22 @@
             "id": "el-barrio",
             "name": "El Barrio",
             "shortName": "ELB"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "hour": "21:00",
+        "teams": [
+          {
+            "id": "xbuyer",
+            "name": "XBUYER TEAM",
+            "shortName": "XBU"
+          },
+          {
+            "id": "aniquiladores",
+            "name": "Aniquiladores FC",
+            "shortName": "ANI"
           }
         ],
         "score": "0 – 0"

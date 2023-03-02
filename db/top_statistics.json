@@ -3,7 +3,7 @@
     {
       "rank": 1,
       "wins": 6,
-      "losses": 1,
+      "losses": 2,
       "scoredGoals": 27,
       "concededGoals": 17,
       "yellowCards": 10,
@@ -22,10 +22,10 @@
     {
       "rank": 2,
       "wins": 6,
-      "losses": 1,
-      "scoredGoals": 15,
-      "concededGoals": 7,
-      "yellowCards": 8,
+      "losses": 2,
+      "scoredGoals": 16,
+      "concededGoals": 10,
+      "yellowCards": 6,
       "redCards": 0,
       "team": {
         "id": "saiyans-fc",
@@ -40,11 +40,11 @@
     },
     {
       "rank": 3,
-      "wins": 5,
+      "wins": 6,
       "losses": 2,
-      "scoredGoals": 22,
-      "concededGoals": 17,
-      "yellowCards": 5,
+      "scoredGoals": 24,
+      "concededGoals": 18,
+      "yellowCards": 6,
       "redCards": 0,
       "team": {
         "id": "ultimate-mostoles",
@@ -59,11 +59,11 @@
     },
     {
       "rank": 4,
-      "wins": 5,
+      "wins": 6,
       "losses": 2,
-      "scoredGoals": 15,
-      "concededGoals": 14,
-      "yellowCards": 1,
+      "scoredGoals": 18,
+      "concededGoals": 15,
+      "yellowCards": 3,
       "redCards": 0,
       "team": {
         "id": "kunisports",
@@ -78,11 +78,11 @@
     },
     {
       "rank": 5,
-      "wins": 3,
+      "wins": 4,
       "losses": 4,
-      "scoredGoals": 22,
-      "concededGoals": 15,
-      "yellowCards": 7,
+      "scoredGoals": 26,
+      "concededGoals": 17,
+      "yellowCards": 9,
       "redCards": 0,
       "team": {
         "id": "el-barrio",
@@ -233,6 +233,16 @@
     },
     {
       "rank": 4,
+      "playerName": "Espinosa",
+      "gamesPlayed": 6,
+      "assists": 5,
+      "team": "Porcinos FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg",
+      "playerImage": "porcinos-fc-espinosa.png",
+      "teamId": "porcinos-fc"
+    },
+    {
+      "rank": 5,
       "playerName": "Franky P.",
       "gamesPlayed": 7,
       "assists": 5,
@@ -240,16 +250,6 @@
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg",
       "playerImage": "rayo-barcelona-franky-p.png",
       "teamId": "rayo-barcelona"
-    },
-    {
-      "rank": 5,
-      "playerName": "Verdú, J.",
-      "gamesPlayed": 5,
-      "assists": 4,
-      "team": "Los Troncos FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
-      "playerImage": "placeholder.png",
-      "teamId": "los-troncos-fc"
     }
   ]
 }

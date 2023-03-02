@@ -1,24 +1,24 @@
 [
   {
     "rank": 1,
-    "playerName": "Coro",
-    "gamesPlayed": 7,
-    "assists": 5,
-    "team": "Kunisports",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
-  },
-  {
-    "rank": 2,
     "playerName": "A. Bueno",
-    "gamesPlayed": 7,
-    "assists": 5,
+    "gamesPlayed": 8,
+    "assists": 7,
     "team": "1K FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
+    "rank": 2,
+    "playerName": "Coro",
+    "gamesPlayed": 8,
+    "assists": 6,
+    "team": "Kunisports",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
+  },
+  {
     "rank": 3,
     "playerName": "Cokita",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 5,
     "team": "PIO FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
@@ -26,7 +26,7 @@
   {
     "rank": 4,
     "playerName": "Espinosa",
-    "gamesPlayed": 6,
+    "gamesPlayed": 7,
     "assists": 5,
     "team": "Porcinos FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
@@ -34,21 +34,45 @@
   {
     "rank": 5,
     "playerName": "Franky P.",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 5,
     "team": "Rayo de Barcelona",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
     "rank": 6,
+    "playerName": "F. Hernández",
+    "gamesPlayed": 7,
+    "assists": 4,
+    "team": "Aniquiladores FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+  },
+  {
+    "rank": 7,
+    "playerName": "Jacobo",
+    "gamesPlayed": 8,
+    "assists": 4,
+    "team": "El Barrio",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "rank": 8,
+    "playerName": "Ruggeri",
+    "gamesPlayed": 8,
+    "assists": 4,
+    "team": "Kunisports",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
+  },
+  {
+    "rank": 9,
     "playerName": "Verdú, J.",
-    "gamesPlayed": 5,
+    "gamesPlayed": 6,
     "assists": 4,
     "team": "Los Troncos FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "rank": 7,
+    "rank": 10,
     "playerName": "H. Fraile",
     "gamesPlayed": 6,
     "assists": 4,
@@ -56,111 +80,119 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "rank": 8,
+    "rank": 11,
     "playerName": "Román",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 3,
     "team": "1K FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 9,
-    "playerName": "Jacobo",
-    "gamesPlayed": 7,
-    "assists": 3,
-    "team": "El Barrio",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
-  },
-  {
-    "rank": 10,
-    "playerName": "Ros",
-    "gamesPlayed": 7,
-    "assists": 3,
-    "team": "El Barrio",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
-  },
-  {
-    "rank": 11,
-    "playerName": "Pau ZZ",
-    "gamesPlayed": 7,
-    "assists": 3,
-    "team": "El Barrio",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
-  },
-  {
     "rank": 12,
-    "playerName": "Ruggeri",
+    "playerName": "Beguer",
     "gamesPlayed": 7,
     "assists": 3,
-    "team": "Kunisports",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
+    "team": "El Barrio",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
   },
   {
     "rank": 13,
+    "playerName": "Ros",
+    "gamesPlayed": 8,
+    "assists": 3,
+    "team": "El Barrio",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "rank": 14,
+    "playerName": "Pau ZZ",
+    "gamesPlayed": 8,
+    "assists": 3,
+    "team": "El Barrio",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "rank": 15,
     "playerName": "Dani P.",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 3,
     "team": "Rayo de Barcelona",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
-    "rank": 14,
+    "rank": 16,
     "playerName": "Aleix",
+    "gamesPlayed": 8,
+    "assists": 3,
+    "team": "Ultimate Móstoles",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
+  },
+  {
+    "rank": 17,
+    "playerName": "Guti",
     "gamesPlayed": 7,
     "assists": 3,
     "team": "Ultimate Móstoles",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "rank": 15,
+    "rank": 18,
     "playerName": "Poch",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 3,
     "team": "XBUYER TEAM",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg"
   },
   {
-    "rank": 16,
-    "playerName": "Ricardo",
-    "gamesPlayed": 7,
-    "assists": 2,
-    "team": "1K FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
-  },
-  {
-    "rank": 17,
-    "playerName": "Sorroche",
-    "gamesPlayed": 7,
-    "assists": 2,
-    "team": "1K FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
-  },
-  {
-    "rank": 18,
-    "playerName": "F. Hernandéz",
-    "gamesPlayed": 6,
-    "assists": 2,
-    "team": "Aniquiladores FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
     "rank": 19,
-    "playerName": "Paul Mañé",
-    "gamesPlayed": 6,
+    "playerName": "Ricardo",
+    "gamesPlayed": 8,
     "assists": 2,
-    "team": "Aniquiladores FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+    "team": "1K FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
     "rank": 20,
-    "playerName": "Beguer",
-    "gamesPlayed": 6,
+    "playerName": "Sorroche",
+    "gamesPlayed": 8,
     "assists": 2,
-    "team": "El Barrio",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
+    "team": "1K FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
     "rank": 21,
+    "playerName": "Nadir",
+    "gamesPlayed": 3,
+    "assists": 2,
+    "team": "Aniquiladores FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+  },
+  {
+    "rank": 22,
+    "playerName": "Paul Mañé",
+    "gamesPlayed": 7,
+    "assists": 2,
+    "team": "Aniquiladores FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+  },
+  {
+    "rank": 23,
+    "playerName": "Bernat",
+    "gamesPlayed": 8,
+    "assists": 2,
+    "team": "Aniquiladores FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
+  },
+  {
+    "rank": 24,
+    "playerName": "Ibai",
+    "gamesPlayed": 3,
+    "assists": 2,
+    "team": "Jijantes FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
+  },
+  {
+    "rank": 25,
     "playerName": "Joan Inés",
     "gamesPlayed": 7,
     "assists": 2,
@@ -168,55 +200,87 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
   },
   {
-    "rank": 22,
+    "rank": 26,
     "playerName": "Molas, X.",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 2,
     "team": "Los Troncos FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "rank": 23,
+    "rank": 27,
+    "playerName": "C. Planas",
+    "gamesPlayed": 5,
+    "assists": 2,
+    "team": "Los Troncos FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
+  },
+  {
+    "rank": 28,
     "playerName": "Pau Fer",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 2,
     "team": "PIO FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
   },
   {
-    "rank": 24,
+    "rank": 29,
+    "playerName": "M. Reyes",
+    "gamesPlayed": 8,
+    "assists": 2,
+    "team": "Rayo de Barcelona",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg"
+  },
+  {
+    "rank": 30,
     "playerName": "Campu",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 2,
     "team": "Saiyans FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "rank": 25,
+    "rank": 31,
+    "playerName": "V. Torres",
+    "gamesPlayed": 8,
+    "assists": 2,
+    "team": "Saiyans FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
+  },
+  {
+    "rank": 32,
     "playerName": "Gio Ferinu",
-    "gamesPlayed": 5,
-    "assists": 2,
-    "team": "Saiyans FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
-  },
-  {
-    "rank": 26,
-    "playerName": "Feliu",
-    "gamesPlayed": 7,
-    "assists": 2,
-    "team": "Saiyans FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
-  },
-  {
-    "rank": 27,
-    "playerName": "Guti",
     "gamesPlayed": 6,
+    "assists": 2,
+    "team": "Saiyans FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
+  },
+  {
+    "rank": 33,
+    "playerName": "Feliu",
+    "gamesPlayed": 8,
+    "assists": 2,
+    "team": "Saiyans FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
+  },
+  {
+    "rank": 34,
+    "playerName": "Arché",
+    "gamesPlayed": 8,
     "assists": 2,
     "team": "Ultimate Móstoles",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "rank": 28,
+    "rank": 35,
+    "playerName": "Mantovani",
+    "gamesPlayed": 3,
+    "assists": 2,
+    "team": "El Barrio",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "rank": 36,
     "playerName": "A. Barragán",
     "gamesPlayed": 1,
     "assists": 1,
@@ -224,39 +288,31 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
   },
   {
-    "rank": 29,
+    "rank": 37,
     "playerName": "Lautaro",
-    "gamesPlayed": 6,
+    "gamesPlayed": 7,
     "assists": 1,
     "team": "1K FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 30,
+    "rank": 38,
     "playerName": "Günter",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 1,
     "team": "1K FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 31,
+    "rank": 39,
     "playerName": "Pluvins",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 1,
     "team": "1K FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 32,
-    "playerName": "Nadir",
-    "gamesPlayed": 2,
-    "assists": 1,
-    "team": "Aniquiladores FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
-    "rank": 33,
+    "rank": 40,
     "playerName": "Goku",
     "gamesPlayed": 1,
     "assists": 1,
@@ -264,47 +320,39 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
   },
   {
-    "rank": 34,
+    "rank": 41,
     "playerName": "Galvany",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 1,
     "team": "Aniquiladores FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
   },
   {
-    "rank": 35,
+    "rank": 42,
     "playerName": "Gilles V.",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 1,
     "team": "Aniquiladores FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
   },
   {
-    "rank": 36,
-    "playerName": "Bernat",
-    "gamesPlayed": 7,
-    "assists": 1,
-    "team": "Aniquiladores FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
-    "rank": 37,
+    "rank": 43,
     "playerName": "Mase",
-    "gamesPlayed": 2,
+    "gamesPlayed": 3,
     "assists": 1,
     "team": "El Barrio",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
   },
   {
-    "rank": 38,
+    "rank": 44,
     "playerName": "Pol",
-    "gamesPlayed": 6,
+    "gamesPlayed": 7,
     "assists": 1,
     "team": "Jijantes FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
   },
   {
-    "rank": 39,
+    "rank": 45,
     "playerName": "Jay",
     "gamesPlayed": 6,
     "assists": 1,
@@ -312,23 +360,15 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
   },
   {
-    "rank": 40,
+    "rank": 46,
     "playerName": "Alsina",
-    "gamesPlayed": 5,
+    "gamesPlayed": 6,
     "assists": 1,
     "team": "Jijantes FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
   },
   {
-    "rank": 41,
-    "playerName": "Ibai",
-    "gamesPlayed": 2,
-    "assists": 1,
-    "team": "Jijantes FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
-  },
-  {
-    "rank": 42,
+    "rank": 47,
     "playerName": "Soriano",
     "gamesPlayed": 6,
     "assists": 1,
@@ -336,67 +376,27 @@
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
   },
   {
-    "rank": 43,
+    "rank": 48,
     "playerName": "Maca",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "assists": 1,
     "team": "Jijantes FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
   },
   {
-    "rank": 44,
-    "playerName": "Hidalgo",
-    "gamesPlayed": 7,
-    "assists": 1,
-    "team": "Kunisports",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
-  },
-  {
-    "rank": 45,
-    "playerName": "Torrentbó",
-    "gamesPlayed": 7,
-    "assists": 1,
-    "team": "Kunisports",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
-  },
-  {
-    "rank": 46,
-    "playerName": "Soriano, D.",
-    "gamesPlayed": 7,
-    "assists": 1,
-    "team": "Los Troncos FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
-  },
-  {
-    "rank": 47,
-    "playerName": "Noel L.",
-    "gamesPlayed": 5,
-    "assists": 1,
-    "team": "Los Troncos FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
-  },
-  {
-    "rank": 48,
-    "playerName": "Nuevo, I.",
-    "gamesPlayed": 7,
-    "assists": 1,
-    "team": "Los Troncos FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
-  },
-  {
     "rank": 49,
-    "playerName": "Álvaro, E.",
-    "gamesPlayed": 7,
+    "playerName": "Hidalgo",
+    "gamesPlayed": 8,
     "assists": 1,
-    "team": "Los Troncos FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
+    "team": "Kunisports",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
   },
   {
     "rank": 50,
-    "playerName": "C. Planas",
-    "gamesPlayed": 4,
+    "playerName": "Torrentbó",
+    "gamesPlayed": 8,
     "assists": 1,
-    "team": "Los Troncos FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
+    "team": "Kunisports",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
   }
 ]
