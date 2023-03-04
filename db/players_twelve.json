@@ -336,48 +336,6 @@
     }
   },
   {
-    "role": "Medio",
-    "firstName": "Rubén",
-    "lastName": "de la Red",
-    "image": "ultimate-mostoles-ruben-de-la-red.png",
-    "name": "Rubén de la Red",
-    "id": "ultimate-mostoles-8",
-    "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Enigma",
-    "lastName": "",
-    "image": "xbuyer-team-enigma.png",
-    "name": "Enigma ",
-    "id": "xbuyer-team-69",
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "David",
-    "lastName": "Acedo",
-    "image": "aniquiladores-fc-david-acedo.png",
-    "name": "David Acedo",
-    "id": "aniquiladores-fc-7",
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg"
-    }
-  },
-  {
     "role": "Delantero",
     "firstName": "Ibai",
     "lastName": "Gómez",
@@ -417,6 +375,48 @@
       "name": "PIO FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/pio-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Rubén",
+    "lastName": "de la Red",
+    "image": "ultimate-mostoles-ruben-de-la-red.png",
+    "name": "Rubén de la Red",
+    "id": "ultimate-mostoles-8",
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Enigma",
+    "lastName": "",
+    "image": "xbuyer-team-enigma.png",
+    "name": "Enigma ",
+    "id": "xbuyer-team-69",
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "David",
+    "lastName": "Acedo",
+    "image": "aniquiladores-fc-david-acedo.png",
+    "name": "David Acedo",
+    "id": "aniquiladores-fc-7",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg"
     }
   },
   {
