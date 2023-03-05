@@ -171,12 +171,12 @@
     },
     {
       "rank": 3,
-      "playerName": "Álvaro, E.",
+      "playerName": "E. Álvaro",
       "gamesPlayed": 8,
       "goals": 8,
       "team": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
-      "playerImage": "los-troncos-fc-lvaro-e..png",
+      "playerImage": "placeholder.png",
       "teamId": "los-troncos-fc"
     },
     {
