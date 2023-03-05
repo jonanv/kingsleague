@@ -2,30 +2,11 @@
   "leaderboard": [
     {
       "rank": 1,
-      "wins": 6,
+      "wins": 7,
       "losses": 2,
-      "scoredGoals": 27,
-      "concededGoals": 17,
-      "yellowCards": 10,
-      "redCards": 0,
-      "team": {
-        "id": "porcinos-fc",
-        "name": "Porcinos FC",
-        "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg",
-        "coach": {
-          "name": "Juvenal Edjogo-Owono",
-          "image": "juvenal-edjogoowono.png"
-        },
-        "shortName": "POR"
-      }
-    },
-    {
-      "rank": 2,
-      "wins": 6,
-      "losses": 2,
-      "scoredGoals": 16,
-      "concededGoals": 10,
-      "yellowCards": 6,
+      "scoredGoals": 19,
+      "concededGoals": 11,
+      "yellowCards": 8,
       "redCards": 0,
       "team": {
         "id": "saiyans-fc",
@@ -39,12 +20,12 @@
       }
     },
     {
-      "rank": 3,
-      "wins": 6,
+      "rank": 2,
+      "wins": 7,
       "losses": 2,
-      "scoredGoals": 24,
-      "concededGoals": 18,
-      "yellowCards": 6,
+      "scoredGoals": 29,
+      "concededGoals": 22,
+      "yellowCards": 7,
       "redCards": 0,
       "team": {
         "id": "ultimate-mostoles",
@@ -58,12 +39,31 @@
       }
     },
     {
+      "rank": 3,
+      "wins": 6,
+      "losses": 3,
+      "scoredGoals": 31,
+      "concededGoals": 22,
+      "yellowCards": 9,
+      "redCards": 0,
+      "team": {
+        "id": "porcinos-fc",
+        "name": "Porcinos FC",
+        "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg",
+        "coach": {
+          "name": "Juvenal Edjogo-Owono",
+          "image": "juvenal-edjogoowono.png"
+        },
+        "shortName": "POR"
+      }
+    },
+    {
       "rank": 4,
       "wins": 6,
-      "losses": 2,
+      "losses": 3,
       "scoredGoals": 18,
-      "concededGoals": 15,
-      "yellowCards": 3,
+      "concededGoals": 19,
+      "yellowCards": -1,
       "redCards": 0,
       "team": {
         "id": "kunisports",
@@ -78,11 +78,11 @@
     },
     {
       "rank": 5,
-      "wins": 4,
+      "wins": 5,
       "losses": 4,
-      "scoredGoals": 26,
-      "concededGoals": 17,
-      "yellowCards": 9,
+      "scoredGoals": 29,
+      "concededGoals": 18,
+      "yellowCards": 11,
       "redCards": 0,
       "team": {
         "id": "el-barrio",
