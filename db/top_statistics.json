@@ -3,29 +3,10 @@
     {
       "rank": 1,
       "wins": 7,
-      "losses": 2,
-      "scoredGoals": 19,
-      "concededGoals": 11,
-      "yellowCards": 8,
-      "redCards": 0,
-      "team": {
-        "id": "saiyans-fc",
-        "name": "Saiyans FC",
-        "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
-        "coach": {
-          "name": "Daniel Romo",
-          "image": "daniel-romo.png"
-        },
-        "shortName": "SAI"
-      }
-    },
-    {
-      "rank": 2,
-      "wins": 7,
-      "losses": 2,
-      "scoredGoals": 29,
-      "concededGoals": 22,
-      "yellowCards": 7,
+      "losses": 3,
+      "scoredGoals": 31,
+      "concededGoals": 25,
+      "yellowCards": 6,
       "redCards": 0,
       "team": {
         "id": "ultimate-mostoles",
@@ -39,11 +20,30 @@
       }
     },
     {
+      "rank": 2,
+      "wins": 7,
+      "losses": 3,
+      "scoredGoals": 20,
+      "concededGoals": 16,
+      "yellowCards": 4,
+      "redCards": 0,
+      "team": {
+        "id": "saiyans-fc",
+        "name": "Saiyans FC",
+        "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
+        "coach": {
+          "name": "Daniel Romo",
+          "image": "daniel-romo.png"
+        },
+        "shortName": "SAI"
+      }
+    },
+    {
       "rank": 3,
       "wins": 6,
-      "losses": 3,
-      "scoredGoals": 31,
-      "concededGoals": 22,
+      "losses": 4,
+      "scoredGoals": 32,
+      "concededGoals": 23,
       "yellowCards": 9,
       "redCards": 0,
       "team": {
@@ -60,10 +60,29 @@
     {
       "rank": 4,
       "wins": 6,
-      "losses": 3,
-      "scoredGoals": 18,
-      "concededGoals": 19,
-      "yellowCards": -1,
+      "losses": 4,
+      "scoredGoals": 35,
+      "concededGoals": 33,
+      "yellowCards": 2,
+      "redCards": 0,
+      "team": {
+        "id": "los-troncos-fc",
+        "name": "Los Troncos FC",
+        "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
+        "coach": {
+          "name": "Pol Font",
+          "image": "pol-font.png"
+        },
+        "shortName": "TFC"
+      }
+    },
+    {
+      "rank": 5,
+      "wins": 6,
+      "losses": 4,
+      "scoredGoals": 19,
+      "concededGoals": 21,
+      "yellowCards": -2,
       "redCards": 0,
       "team": {
         "id": "kunisports",
@@ -74,25 +93,6 @@
           "image": "martn-posse.png"
         },
         "shortName": "KNS"
-      }
-    },
-    {
-      "rank": 5,
-      "wins": 5,
-      "losses": 4,
-      "scoredGoals": 29,
-      "concededGoals": 18,
-      "yellowCards": 11,
-      "redCards": 0,
-      "team": {
-        "id": "el-barrio",
-        "name": "El Barrio",
-        "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
-        "coach": {
-          "name": "Juan Arroita",
-          "image": "juan-arroita.png"
-        },
-        "shortName": "RDB"
       }
     }
   ],
