@@ -364,34 +364,6 @@
     }
   },
   {
-    "role": "Delantero",
-    "firstName": "Ibai",
-    "lastName": "Gómez",
-    "image": "jijantes-fc-ibai-gomez.png",
-    "name": "Ibai Gómez",
-    "id": "jijantes-fc-11",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Víctor",
-    "lastName": "Sánchez",
-    "image": "los-troncos-fc-victor-sanchez.png",
-    "name": "Víctor Sánchez",
-    "id": "los-troncos-fc-20",
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos-inverse.svg"
-    }
-  },
-  {
     "role": "Medio",
     "firstName": "Javi",
     "lastName": "Márquez",
@@ -445,6 +417,34 @@
       "name": "Aniquiladores FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Ibai",
+    "lastName": "Gómez",
+    "image": "jijantes-fc-ibai-gomez.png",
+    "name": "Ibai Gómez",
+    "id": "jijantes-fc-11",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Víctor",
+    "lastName": "Sánchez",
+    "image": "los-troncos-fc-victor-sanchez.png",
+    "name": "Víctor Sánchez",
+    "id": "los-troncos-fc-20",
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos-inverse.svg"
     }
   },
   {
