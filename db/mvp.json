@@ -1,96 +1,96 @@
 [
   {
     "rank": 1,
-    "playerName": "F. Hernández",
-    "gamesPlayed": 7,
-    "mvps": 4,
-    "team": "Aniquiladores FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
-    "rank": 2,
     "playerName": "Ubón",
-    "gamesPlayed": 8,
-    "mvps": 3,
+    "gamesPlayed": 9,
+    "mvps": 4,
     "team": "El Barrio",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
   },
   {
-    "rank": 3,
+    "rank": 2,
     "playerName": "Torrentbó",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 3,
     "team": "Kunisports",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
   },
   {
+    "rank": 3,
+    "playerName": "J. Verdú",
+    "gamesPlayed": 7,
+    "mvps": 3,
+    "team": "Los Troncos FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
+  },
+  {
     "rank": 4,
+    "playerName": "Lopo",
+    "gamesPlayed": 9,
+    "mvps": 3,
+    "team": "PIO FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
+  },
+  {
+    "rank": 5,
+    "playerName": "Briones",
+    "gamesPlayed": 9,
+    "mvps": 3,
+    "team": "Saiyans FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
+  },
+  {
+    "rank": 6,
+    "playerName": "Juanma Glez.",
+    "gamesPlayed": 9,
+    "mvps": 3,
+    "team": "Ultimate Móstoles",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
+  },
+  {
+    "rank": 7,
     "playerName": "A. Bueno",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 2,
     "team": "1K FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 5,
+    "rank": 8,
     "playerName": "Pol",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "mvps": 2,
     "team": "Jijantes FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
   },
   {
-    "rank": 6,
-    "playerName": "E. Álvaro",
-    "gamesPlayed": 8,
-    "mvps": 2,
-    "team": "Los Troncos FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
-  },
-  {
-    "rank": 7,
-    "playerName": "J. Verdú",
-    "gamesPlayed": 6,
-    "mvps": 2,
-    "team": "Los Troncos FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
-  },
-  {
-    "rank": 8,
-    "playerName": "Lopo",
-    "gamesPlayed": 8,
-    "mvps": 2,
-    "team": "PIO FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
-  },
-  {
     "rank": 9,
-    "playerName": "Briones",
-    "gamesPlayed": 8,
+    "playerName": "E. Álvaro",
+    "gamesPlayed": 9,
     "mvps": 2,
-    "team": "Saiyans FC",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
+    "team": "Los Troncos FC",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "rank": 10,
     "playerName": "R. Carbó",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 2,
     "team": "Saiyans FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
     "rank": 11,
-    "playerName": "Juanma Glez.",
-    "gamesPlayed": 8,
+    "playerName": "C. Castro",
+    "gamesPlayed": 9,
     "mvps": 2,
-    "team": "Ultimate Móstoles",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
+    "team": "XBUYER TEAM",
+    "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg"
   },
   {
     "rank": 12,
     "playerName": "Ricardo",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "1K FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
@@ -98,7 +98,7 @@
   {
     "rank": 13,
     "playerName": "Sorroche",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "1K FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/1k.svg"
@@ -106,7 +106,7 @@
   {
     "rank": 14,
     "playerName": "Daniel P.",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Aniquiladores FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg"
@@ -114,7 +114,7 @@
   {
     "rank": 15,
     "playerName": "Jacobo",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "El Barrio",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
@@ -122,7 +122,7 @@
   {
     "rank": 16,
     "playerName": "Pau ZZ",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "El Barrio",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg"
@@ -130,7 +130,7 @@
   {
     "rank": 17,
     "playerName": "Ibai",
-    "gamesPlayed": 3,
+    "gamesPlayed": 4,
     "mvps": 1,
     "team": "Jijantes FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg"
@@ -146,7 +146,7 @@
   {
     "rank": 19,
     "playerName": "Víctor",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Kunisports",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
@@ -162,7 +162,7 @@
   {
     "rank": 21,
     "playerName": "Coro",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Kunisports",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg"
@@ -170,7 +170,7 @@
   {
     "rank": 22,
     "playerName": "P. Lechuga",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Los Troncos FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg"
@@ -178,7 +178,7 @@
   {
     "rank": 23,
     "playerName": "Carlitos",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "PIO FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"
@@ -186,7 +186,7 @@
   {
     "rank": 24,
     "playerName": "Lao",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Porcinos FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
@@ -194,7 +194,7 @@
   {
     "rank": 25,
     "playerName": "G. Cichero",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Porcinos FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
@@ -202,7 +202,7 @@
   {
     "rank": 26,
     "playerName": "J. Segovia",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Porcinos FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg"
@@ -210,7 +210,7 @@
   {
     "rank": 27,
     "playerName": "Feliu",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Saiyans FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg"
@@ -218,7 +218,7 @@
   {
     "rank": 28,
     "playerName": "Arché",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "Ultimate Móstoles",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
@@ -226,7 +226,7 @@
   {
     "rank": 29,
     "playerName": "Guti",
-    "gamesPlayed": 7,
+    "gamesPlayed": 8,
     "mvps": 1,
     "team": "Ultimate Móstoles",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg"
@@ -234,31 +234,23 @@
   {
     "rank": 30,
     "playerName": "Poch",
-    "gamesPlayed": 8,
+    "gamesPlayed": 9,
     "mvps": 1,
     "team": "XBUYER TEAM",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg"
   },
   {
     "rank": 31,
-    "playerName": "C. Castro",
-    "gamesPlayed": 8,
+    "playerName": "Fouad",
+    "gamesPlayed": 4,
     "mvps": 1,
     "team": "XBUYER TEAM",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg"
   },
   {
     "rank": 32,
-    "playerName": "Fouad",
-    "gamesPlayed": 3,
-    "mvps": 1,
-    "team": "XBUYER TEAM",
-    "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg"
-  },
-  {
-    "rank": 33,
     "playerName": "Corvo",
-    "gamesPlayed": 3,
+    "gamesPlayed": 4,
     "mvps": 1,
     "team": "PIO FC",
     "image": "https://kingsleague.jonanv.workers.dev/static/logos/pio.svg"

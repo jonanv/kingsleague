@@ -912,23 +912,7 @@
     "date": "Jornada 10 – 12/03/2023",
     "matches": [
       {
-        "hour": null,
-        "teams": [
-          {
-            "id": "aniquiladores",
-            "name": "Aniquiladores FC",
-            "shortName": "ANI"
-          },
-          {
-            "id": "porcinos-fc",
-            "name": "Porcinos FC",
-            "shortName": "POR"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "hour": null,
+        "hour": "16:00",
         "teams": [
           {
             "id": "el-barrio",
@@ -944,23 +928,7 @@
         "score": "0 – 0"
       },
       {
-        "hour": null,
-        "teams": [
-          {
-            "id": "kunisports",
-            "name": "Kunisports",
-            "shortName": "KNS"
-          },
-          {
-            "id": "1k",
-            "name": "1K FC",
-            "shortName": "1K"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "hour": null,
+        "hour": "17:00",
         "teams": [
           {
             "id": "saiyans-fc",
@@ -976,7 +944,39 @@
         "score": "0 – 0"
       },
       {
-        "hour": null,
+        "hour": "18:00",
+        "teams": [
+          {
+            "id": "kunisports",
+            "name": "Kunisports",
+            "shortName": "KNS"
+          },
+          {
+            "id": "1k",
+            "name": "1K FC",
+            "shortName": "1K"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "hour": "19:00",
+        "teams": [
+          {
+            "id": "aniquiladores",
+            "name": "Aniquiladores FC",
+            "shortName": "ANI"
+          },
+          {
+            "id": "porcinos-fc",
+            "name": "Porcinos FC",
+            "shortName": "POR"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "hour": "20:00",
         "teams": [
           {
             "id": "ultimate-mostoles",
@@ -992,7 +992,7 @@
         "score": "0 – 0"
       },
       {
-        "hour": null,
+        "hour": "21:00",
         "teams": [
           {
             "id": "los-troncos",
@@ -1013,7 +1013,23 @@
     "date": "Jornada 11 – 19/03/2023",
     "matches": [
       {
-        "hour": null,
+        "hour": "15:00",
+        "teams": [
+          {
+            "id": "jijantes",
+            "name": "Jijantes FC",
+            "shortName": "JFC"
+          },
+          {
+            "id": "los-troncos",
+            "name": "Los Troncos FC",
+            "shortName": "TFC"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "hour": "16:00",
         "teams": [
           {
             "id": "1k",
@@ -1029,7 +1045,7 @@
         "score": "0 – 0"
       },
       {
-        "hour": null,
+        "hour": "17:00",
         "teams": [
           {
             "id": "xbuyer",
@@ -1045,7 +1061,7 @@
         "score": "0 – 0"
       },
       {
-        "hour": null,
+        "hour": "18:00",
         "teams": [
           {
             "id": "porcinos-fc",
@@ -1061,23 +1077,7 @@
         "score": "0 – 0"
       },
       {
-        "hour": null,
-        "teams": [
-          {
-            "id": "pio",
-            "name": "PIO FC",
-            "shortName": "PIO"
-          },
-          {
-            "id": "aniquiladores",
-            "name": "Aniquiladores FC",
-            "shortName": "ANI"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "hour": null,
+        "hour": "19:00",
         "teams": [
           {
             "id": "rayo-barcelona",
@@ -1093,17 +1093,17 @@
         "score": "0 – 0"
       },
       {
-        "hour": null,
+        "hour": "20:00",
         "teams": [
           {
-            "id": "jijantes",
-            "name": "Jijantes FC",
-            "shortName": "JFC"
+            "id": "pio",
+            "name": "PIO FC",
+            "shortName": "PIO"
           },
           {
-            "id": "los-troncos",
-            "name": "Los Troncos FC",
-            "shortName": "TFC"
+            "id": "aniquiladores",
+            "name": "Aniquiladores FC",
+            "shortName": "ANI"
           }
         ],
         "score": "0 – 0"
