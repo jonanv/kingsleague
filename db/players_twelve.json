@@ -392,6 +392,20 @@
     }
   },
   {
+    "role": "Medio",
+    "firstName": "Enigma",
+    "lastName": "",
+    "image": "xbuyer-team-enigma.png",
+    "name": "Enigma ",
+    "id": "xbuyer-team-69",
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer-inverse.svg"
+    }
+  },
+  {
     "role": "Delantero",
     "firstName": "David",
     "lastName": "Acedo",
@@ -459,20 +473,6 @@
       "name": "Ultimate Móstoles",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Enigma",
-    "lastName": "",
-    "image": "xbuyer-team-enigma.png",
-    "name": "Enigma ",
-    "id": "xbuyer-team-69",
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer-inverse.svg"
     }
   },
   {

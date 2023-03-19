@@ -8,110 +8,6 @@
     "yellowCards": 0,
     "redCards": 0,
     "team": {
-      "id": "saiyans-fc",
-      "color": "#1932e0",
-      "name": "Saiyans FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc-inverse.svg",
-      "url": "",
-      "channel": "https://twitch.tv/thegrefg",
-      "coach": {
-        "name": "Daniel Romo",
-        "image": "daniel-romo.png"
-      },
-      "socialNetworks": [
-        "https://www.twitch.tv/thegrefg"
-      ],
-      "players": [
-        {
-          "id": "saiyans-fc-Saiyans_8",
-          "name": "Pol Alme",
-          "role": "jugador 11",
-          "image": "saiyans-fc-pol-alme.png"
-        },
-        {
-          "id": "saiyans-fc-1",
-          "name": "Briones",
-          "role": "Portero",
-          "image": "saiyans-fc-briones.png"
-        },
-        {
-          "id": "saiyans-fc-9",
-          "name": "Gio Ferinu",
-          "role": "Delantero",
-          "image": "saiyans-fc-gio-ferinu.png"
-        },
-        {
-          "id": "saiyans-fc-4",
-          "name": "Campu",
-          "role": "Defensa",
-          "image": "saiyans-fc-campu.png"
-        },
-        {
-          "id": "saiyans-fc-7",
-          "name": "Temo",
-          "role": "Medio",
-          "image": "saiyans-fc-temo.png"
-        },
-        {
-          "id": "saiyans-fc-14",
-          "name": "C. Valle",
-          "role": "Medio",
-          "image": "saiyans-fc-c-valle.png"
-        },
-        {
-          "id": "saiyans-fc-5",
-          "name": "V. Torres",
-          "role": "Defensa",
-          "image": "saiyans-fc-v-torres.png"
-        },
-        {
-          "id": "saiyans-fc-20",
-          "name": "Feliu",
-          "role": "Medio",
-          "image": "saiyans-fc-feliu.png"
-        },
-        {
-          "id": "saiyans-fc-10",
-          "name": "David Alba",
-          "role": "Delantero",
-          "image": "saiyans-fc-david-alba.png"
-        },
-        {
-          "id": "saiyans-fc-11",
-          "name": "R. Carbó",
-          "role": "Medio",
-          "image": "saiyans-fc-r-carbo.png"
-        },
-        {
-          "id": "saiyans-fc-22",
-          "name": "Fajardo",
-          "role": "Portero",
-          "image": "saiyans-fc-fajardo.png"
-        }
-      ],
-      "shortName": "SAI",
-      "coachInfo": {
-        "name": "Daniel Romo",
-        "image": "daniel-romo.png"
-      },
-      "president": {
-        "id": "thegrefg",
-        "name": "TheGrefg",
-        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/thegrefg.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "rank": 2,
-    "wins": 0,
-    "losses": 0,
-    "scoredGoals": 0,
-    "concededGoals": 0,
-    "yellowCards": 0,
-    "redCards": 0,
-    "team": {
       "id": "ultimate-mostoles",
       "color": "#7b7b7b",
       "name": "Ultimate Móstoles",
@@ -208,7 +104,7 @@
     }
   },
   {
-    "rank": 3,
+    "rank": 2,
     "wins": 0,
     "losses": 0,
     "scoredGoals": 0,
@@ -313,218 +209,7 @@
     }
   },
   {
-    "rank": 4,
-    "wins": 0,
-    "losses": 0,
-    "scoredGoals": 0,
-    "concededGoals": 0,
-    "yellowCards": 0,
-    "redCards": 0,
-    "team": {
-      "id": "kunisports",
-      "color": "#101920",
-      "name": "Kunisports",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports-inverse.svg",
-      "url": "",
-      "channel": "https://twitch.tv/slakun10",
-      "coach": {
-        "name": "Martín Posse",
-        "image": "martn-posse.png"
-      },
-      "socialNetworks": [
-        "https://www.twitch.tv/slakun10"
-      ],
-      "players": [
-        {
-          "id": "kunisports-Kunisports_23",
-          "name": "Coro",
-          "role": "jugador 11",
-          "image": "kunisports-coro.png"
-        },
-        {
-          "id": "kunisports-11",
-          "name": "Torrentbó",
-          "role": "Delantero",
-          "image": "kunisports-torrentb.png"
-        },
-        {
-          "id": "kunisports-1",
-          "name": "Víctor",
-          "role": "Portero",
-          "image": "kunisports-vctor.png"
-        },
-        {
-          "id": "kunisports-4",
-          "name": "Guerrero",
-          "role": "Defensa",
-          "image": "kunisports-guerrero.png"
-        },
-        {
-          "id": "kunisports-8",
-          "name": "Joan Inés",
-          "role": "Medio",
-          "image": "kunisports-joan-ins.png"
-        },
-        {
-          "id": "kunisports-13",
-          "name": "Rode",
-          "role": "Portero",
-          "image": "kunisports-rode.png"
-        },
-        {
-          "id": "kunisports-5",
-          "name": "Ruggeri",
-          "role": "Defensa",
-          "image": "kunisports-ruggeri.png"
-        },
-        {
-          "id": "kunisports-6",
-          "name": "Nacho J.",
-          "role": "Defensa",
-          "image": "kunisports-nacho-j.png"
-        },
-        {
-          "id": "kunisports-9",
-          "name": "Hidalgo",
-          "role": "Delantero",
-          "image": "kunisports-hidalgo.png"
-        },
-        {
-          "id": "kunisports-7",
-          "name": "Lluc",
-          "role": "Delantero",
-          "image": "kunisports-lluc.png"
-        },
-        {
-          "id": "kunisports-3",
-          "name": "Miki",
-          "role": "Defensa",
-          "image": "kunisports-miki.png"
-        }
-      ],
-      "shortName": "KNS",
-      "coachInfo": {
-        "name": "Martín Posse",
-        "image": "martn-posse.png"
-      },
-      "president": {
-        "id": "kun-aguero",
-        "name": "Kun Agüero",
-        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/kun-aguero.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "rank": 5,
-    "wins": 0,
-    "losses": 0,
-    "scoredGoals": 0,
-    "concededGoals": 0,
-    "yellowCards": 0,
-    "redCards": 0,
-    "team": {
-      "id": "el-barrio",
-      "color": "#49b2ad",
-      "name": "El Barrio",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio-inverse.svg",
-      "url": "",
-      "channel": "https://twitch.tv/1k",
-      "coach": {
-        "name": "Juan Arroita",
-        "image": "juan-arroita.png"
-      },
-      "socialNetworks": [
-        "https://www.instagram.com/elbarrioklk/?hl=es",
-        "https://www.tiktok.com/@adricontreras4",
-        "https://twitter.com/elbarrioklk_",
-        "https://www.tiktok.com/@elbarrioklk"
-      ],
-      "players": [
-        {
-          "id": "el-barrio-1",
-          "name": "José Juan",
-          "role": "jugador 11",
-          "image": "el-barrio-jos-juan.png"
-        },
-        {
-          "id": "el-barrio-10",
-          "name": "Jacobo",
-          "role": "Delantero",
-          "image": "el-barrio-jacobo.png"
-        },
-        {
-          "id": "el-barrio-6",
-          "name": "Mase",
-          "role": "Defensa",
-          "image": "el-barrio-mase.png"
-        },
-        {
-          "id": "el-barrio-9",
-          "name": "Beguer",
-          "role": "Delantero",
-          "image": "el-barrio-beguer.png"
-        },
-        {
-          "id": "el-barrio-14",
-          "name": "Ros",
-          "role": "Medio",
-          "image": "el-barrio-ros.png"
-        },
-        {
-          "id": "el-barrio-8",
-          "name": "Ubón",
-          "role": "Medio",
-          "image": "el-barrio-ubn.png"
-        },
-        {
-          "id": "el-barrio-19",
-          "name": "Pau ZZ",
-          "role": "Defensa",
-          "image": "el-barrio-pau-zz.png"
-        },
-        {
-          "id": "el-barrio-23",
-          "name": "Olae",
-          "role": "Delantero",
-          "image": "el-barrio-olae.png"
-        },
-        {
-          "id": "el-barrio-11",
-          "name": "O. Boada",
-          "role": "Delantero",
-          "image": "el-barrio-o-boada.png"
-        },
-        {
-          "id": "el-barrio-7",
-          "name": "Baranera",
-          "role": "Medio",
-          "image": "el-barrio-baranera.png"
-        },
-        {
-          "id": "el-barrio-12",
-          "name": "Capilla",
-          "role": "Medio",
-          "image": "el-barrio-capilla.png"
-        }
-      ],
-      "shortName": "RDB",
-      "coachInfo": {
-        "name": "Juan Arroita",
-        "image": "juan-arroita.png"
-      },
-      "president": {
-        "id": "adri-contreras",
-        "name": "Adri Contreras",
-        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/adri-contreras.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "rank": 6,
+    "rank": 3,
     "wins": 0,
     "losses": 0,
     "scoredGoals": 0,
@@ -631,7 +316,215 @@
     }
   },
   {
-    "rank": 7,
+    "rank": 4,
+    "wins": 0,
+    "losses": 0,
+    "scoredGoals": 0,
+    "concededGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "team": {
+      "id": "saiyans-fc",
+      "color": "#1932e0",
+      "name": "Saiyans FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc-inverse.svg",
+      "url": "",
+      "channel": "https://twitch.tv/thegrefg",
+      "coach": {
+        "name": "Daniel Romo",
+        "image": "daniel-romo.png"
+      },
+      "socialNetworks": [
+        "https://www.twitch.tv/thegrefg"
+      ],
+      "players": [
+        {
+          "id": "saiyans-fc-Saiyans_8",
+          "name": "Pol Alme",
+          "role": "jugador 11",
+          "image": "saiyans-fc-pol-alme.png"
+        },
+        {
+          "id": "saiyans-fc-1",
+          "name": "Briones",
+          "role": "Portero",
+          "image": "saiyans-fc-briones.png"
+        },
+        {
+          "id": "saiyans-fc-9",
+          "name": "Gio Ferinu",
+          "role": "Delantero",
+          "image": "saiyans-fc-gio-ferinu.png"
+        },
+        {
+          "id": "saiyans-fc-4",
+          "name": "Campu",
+          "role": "Defensa",
+          "image": "saiyans-fc-campu.png"
+        },
+        {
+          "id": "saiyans-fc-7",
+          "name": "Temo",
+          "role": "Medio",
+          "image": "saiyans-fc-temo.png"
+        },
+        {
+          "id": "saiyans-fc-14",
+          "name": "C. Valle",
+          "role": "Medio",
+          "image": "saiyans-fc-c-valle.png"
+        },
+        {
+          "id": "saiyans-fc-5",
+          "name": "V. Torres",
+          "role": "Defensa",
+          "image": "saiyans-fc-v-torres.png"
+        },
+        {
+          "id": "saiyans-fc-20",
+          "name": "Feliu",
+          "role": "Medio",
+          "image": "saiyans-fc-feliu.png"
+        },
+        {
+          "id": "saiyans-fc-10",
+          "name": "David Alba",
+          "role": "Delantero",
+          "image": "saiyans-fc-david-alba.png"
+        },
+        {
+          "id": "saiyans-fc-11",
+          "name": "R. Carbó",
+          "role": "Medio",
+          "image": "saiyans-fc-r-carbo.png"
+        },
+        {
+          "id": "saiyans-fc-22",
+          "name": "Fajardo",
+          "role": "Portero",
+          "image": "saiyans-fc-fajardo.png"
+        }
+      ],
+      "shortName": "SAI",
+      "coachInfo": {
+        "name": "Daniel Romo",
+        "image": "daniel-romo.png"
+      },
+      "president": {
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/thegrefg.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "rank": 5,
+    "wins": 0,
+    "losses": 0,
+    "scoredGoals": 0,
+    "concededGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "team": {
+      "id": "kunisports",
+      "color": "#101920",
+      "name": "Kunisports",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports-inverse.svg",
+      "url": "",
+      "channel": "https://twitch.tv/slakun10",
+      "coach": {
+        "name": "Martín Posse",
+        "image": "martn-posse.png"
+      },
+      "socialNetworks": [
+        "https://www.twitch.tv/slakun10"
+      ],
+      "players": [
+        {
+          "id": "kunisports-Kunisports_23",
+          "name": "Coro",
+          "role": "jugador 11",
+          "image": "kunisports-coro.png"
+        },
+        {
+          "id": "kunisports-11",
+          "name": "Torrentbó",
+          "role": "Delantero",
+          "image": "kunisports-torrentb.png"
+        },
+        {
+          "id": "kunisports-1",
+          "name": "Víctor",
+          "role": "Portero",
+          "image": "kunisports-vctor.png"
+        },
+        {
+          "id": "kunisports-4",
+          "name": "Guerrero",
+          "role": "Defensa",
+          "image": "kunisports-guerrero.png"
+        },
+        {
+          "id": "kunisports-8",
+          "name": "Joan Inés",
+          "role": "Medio",
+          "image": "kunisports-joan-ins.png"
+        },
+        {
+          "id": "kunisports-13",
+          "name": "Rode",
+          "role": "Portero",
+          "image": "kunisports-rode.png"
+        },
+        {
+          "id": "kunisports-5",
+          "name": "Ruggeri",
+          "role": "Defensa",
+          "image": "kunisports-ruggeri.png"
+        },
+        {
+          "id": "kunisports-6",
+          "name": "Nacho J.",
+          "role": "Defensa",
+          "image": "kunisports-nacho-j.png"
+        },
+        {
+          "id": "kunisports-9",
+          "name": "Hidalgo",
+          "role": "Delantero",
+          "image": "kunisports-hidalgo.png"
+        },
+        {
+          "id": "kunisports-7",
+          "name": "Lluc",
+          "role": "Delantero",
+          "image": "kunisports-lluc.png"
+        },
+        {
+          "id": "kunisports-3",
+          "name": "Miki",
+          "role": "Defensa",
+          "image": "kunisports-miki.png"
+        }
+      ],
+      "shortName": "KNS",
+      "coachInfo": {
+        "name": "Martín Posse",
+        "image": "martn-posse.png"
+      },
+      "president": {
+        "id": "kun-aguero",
+        "name": "Kun Agüero",
+        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/kun-aguero.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "rank": 6,
     "wins": 0,
     "losses": 0,
     "scoredGoals": 0,
@@ -730,6 +623,113 @@
         "id": "hnos-buyer",
         "name": "Hnos. Buyer",
         "image": "https://kingsleague.jonanv.workers.dev/static/presidents/hnos-buyer.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "rank": 7,
+    "wins": 0,
+    "losses": 0,
+    "scoredGoals": 0,
+    "concededGoals": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "team": {
+      "id": "el-barrio",
+      "color": "#49b2ad",
+      "name": "El Barrio",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio-inverse.svg",
+      "url": "",
+      "channel": "https://twitch.tv/1k",
+      "coach": {
+        "name": "Juan Arroita",
+        "image": "juan-arroita.png"
+      },
+      "socialNetworks": [
+        "https://www.instagram.com/elbarrioklk/?hl=es",
+        "https://www.tiktok.com/@adricontreras4",
+        "https://twitter.com/elbarrioklk_",
+        "https://www.tiktok.com/@elbarrioklk"
+      ],
+      "players": [
+        {
+          "id": "el-barrio-1",
+          "name": "José Juan",
+          "role": "jugador 11",
+          "image": "el-barrio-jos-juan.png"
+        },
+        {
+          "id": "el-barrio-10",
+          "name": "Jacobo",
+          "role": "Delantero",
+          "image": "el-barrio-jacobo.png"
+        },
+        {
+          "id": "el-barrio-6",
+          "name": "Mase",
+          "role": "Defensa",
+          "image": "el-barrio-mase.png"
+        },
+        {
+          "id": "el-barrio-9",
+          "name": "Beguer",
+          "role": "Delantero",
+          "image": "el-barrio-beguer.png"
+        },
+        {
+          "id": "el-barrio-14",
+          "name": "Ros",
+          "role": "Medio",
+          "image": "el-barrio-ros.png"
+        },
+        {
+          "id": "el-barrio-8",
+          "name": "Ubón",
+          "role": "Medio",
+          "image": "el-barrio-ubn.png"
+        },
+        {
+          "id": "el-barrio-19",
+          "name": "Pau ZZ",
+          "role": "Defensa",
+          "image": "el-barrio-pau-zz.png"
+        },
+        {
+          "id": "el-barrio-23",
+          "name": "Olae",
+          "role": "Delantero",
+          "image": "el-barrio-olae.png"
+        },
+        {
+          "id": "el-barrio-11",
+          "name": "O. Boada",
+          "role": "Delantero",
+          "image": "el-barrio-o-boada.png"
+        },
+        {
+          "id": "el-barrio-7",
+          "name": "Baranera",
+          "role": "Medio",
+          "image": "el-barrio-baranera.png"
+        },
+        {
+          "id": "el-barrio-12",
+          "name": "Capilla",
+          "role": "Medio",
+          "image": "el-barrio-capilla.png"
+        }
+      ],
+      "shortName": "RDB",
+      "coachInfo": {
+        "name": "Juan Arroita",
+        "image": "juan-arroita.png"
+      },
+      "president": {
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/adri-contreras.png",
         "teamId": 0
       }
     }
