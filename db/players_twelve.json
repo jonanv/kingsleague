@@ -378,6 +378,34 @@
     }
   },
   {
+    "role": "Delantero",
+    "firstName": "David",
+    "lastName": "Acedo",
+    "image": "aniquiladores-fc-david-acedo.png",
+    "name": "David Acedo",
+    "id": "aniquiladores-fc-7",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Ibai",
+    "lastName": "Gómez",
+    "image": "jijantes-fc-ibai-gomez.png",
+    "name": "Ibai Gómez",
+    "id": "jijantes-fc-11",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes-inverse.svg"
+    }
+  },
+  {
     "role": "Medio",
     "firstName": "Víctor",
     "lastName": "Sánchez",
@@ -431,34 +459,6 @@
       "name": "XBUYER TEAM",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "David",
-    "lastName": "Acedo",
-    "image": "aniquiladores-fc-david-acedo.png",
-    "name": "David Acedo",
-    "id": "aniquiladores-fc-7",
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "Ibai",
-    "lastName": "Gómez",
-    "image": "jijantes-fc-ibai-gomez.png",
-    "name": "Ibai Gómez",
-    "id": "jijantes-fc-11",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/jijantes-inverse.svg"
     }
   },
   {
