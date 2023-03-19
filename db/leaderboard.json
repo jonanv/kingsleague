@@ -2,114 +2,10 @@
   {
     "rank": 1,
     "wins": 7,
-    "losses": 3,
-    "scoredGoals": 31,
-    "concededGoals": 25,
-    "yellowCards": 6,
-    "redCards": 0,
-    "team": {
-      "id": "ultimate-mostoles",
-      "color": "#7b7b7b",
-      "name": "Ultimate Móstoles",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
-      "url": "",
-      "channel": "https://youtube.com/DjMaRiiO",
-      "coach": {
-        "name": "Nacho Castro",
-        "image": "nacho-castro.png"
-      },
-      "socialNetworks": [
-        "https://m.youtube.com/user/DjMaRiiO/videos"
-      ],
-      "players": [
-        {
-          "id": "ultimate-mostoles-22",
-          "name": "Juanma Glez.",
-          "role": "jugador 11",
-          "image": "ultimate-mostoles-juanma-glez.png"
-        },
-        {
-          "id": "ultimate-mostoles-10",
-          "name": "Arché",
-          "role": "Medio",
-          "image": "ultimate-mostoles-arch.png"
-        },
-        {
-          "id": "ultimate-mostoles-1",
-          "name": "Iu",
-          "role": "Portero",
-          "image": "ultimate-mostoles-iu.png"
-        },
-        {
-          "id": "ultimate-mostoles-11",
-          "name": "Guti",
-          "role": "Defensa",
-          "image": "ultimate-mostoles-guti.png"
-        },
-        {
-          "id": "ultimate-mostoles-6",
-          "name": "Aleix",
-          "role": "Medio",
-          "image": "ultimate-mostoles-aleix.png"
-        },
-        {
-          "id": "ultimate-mostoles-19",
-          "name": "Llur",
-          "role": "Delantero",
-          "image": "ultimate-mostoles-llur.png"
-        },
-        {
-          "id": "ultimate-mostoles-4",
-          "name": "Iker",
-          "role": "Defensa",
-          "image": "ultimate-mostoles-iker.png"
-        },
-        {
-          "id": "ultimate-mostoles-3",
-          "name": "Ian",
-          "role": "Defensa",
-          "image": "ultimate-mostoles-ian.png"
-        },
-        {
-          "id": "ultimate-mostoles-7",
-          "name": "Zea",
-          "role": "Delantero",
-          "image": "ultimate-mostoles-zea.png"
-        },
-        {
-          "id": "ultimate-mostoles-13",
-          "name": "Nacho",
-          "role": "Portero",
-          "image": "ultimate-mostoles-nacho.png"
-        },
-        {
-          "id": "ultimate-mostoles-20",
-          "name": "Lucca",
-          "role": "Medio",
-          "image": "ultimate-mostoles-lucca.png"
-        }
-      ],
-      "shortName": "ULT",
-      "coachInfo": {
-        "name": "Nacho Castro",
-        "image": "nacho-castro.png"
-      },
-      "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/djmariio.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "rank": 2,
-    "wins": 7,
-    "losses": 3,
-    "scoredGoals": 20,
-    "concededGoals": 16,
-    "yellowCards": 4,
+    "losses": 4,
+    "scoredGoals": 21,
+    "concededGoals": 18,
+    "yellowCards": 3,
     "redCards": 0,
     "team": {
       "id": "saiyans-fc",
@@ -208,12 +104,116 @@
     }
   },
   {
+    "rank": 2,
+    "wins": 8,
+    "losses": 3,
+    "scoredGoals": 34,
+    "concededGoals": 27,
+    "yellowCards": 7,
+    "redCards": 0,
+    "team": {
+      "id": "ultimate-mostoles",
+      "color": "#7b7b7b",
+      "name": "Ultimate Móstoles",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
+      "url": "",
+      "channel": "https://youtube.com/DjMaRiiO",
+      "coach": {
+        "name": "Nacho Castro",
+        "image": "nacho-castro.png"
+      },
+      "socialNetworks": [
+        "https://m.youtube.com/user/DjMaRiiO/videos"
+      ],
+      "players": [
+        {
+          "id": "ultimate-mostoles-22",
+          "name": "Juanma Glez.",
+          "role": "jugador 11",
+          "image": "ultimate-mostoles-juanma-glez.png"
+        },
+        {
+          "id": "ultimate-mostoles-10",
+          "name": "Arché",
+          "role": "Medio",
+          "image": "ultimate-mostoles-arch.png"
+        },
+        {
+          "id": "ultimate-mostoles-1",
+          "name": "Iu",
+          "role": "Portero",
+          "image": "ultimate-mostoles-iu.png"
+        },
+        {
+          "id": "ultimate-mostoles-11",
+          "name": "Guti",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-guti.png"
+        },
+        {
+          "id": "ultimate-mostoles-6",
+          "name": "Aleix",
+          "role": "Medio",
+          "image": "ultimate-mostoles-aleix.png"
+        },
+        {
+          "id": "ultimate-mostoles-19",
+          "name": "Llur",
+          "role": "Delantero",
+          "image": "ultimate-mostoles-llur.png"
+        },
+        {
+          "id": "ultimate-mostoles-4",
+          "name": "Iker",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-iker.png"
+        },
+        {
+          "id": "ultimate-mostoles-3",
+          "name": "Ian",
+          "role": "Defensa",
+          "image": "ultimate-mostoles-ian.png"
+        },
+        {
+          "id": "ultimate-mostoles-7",
+          "name": "Zea",
+          "role": "Delantero",
+          "image": "ultimate-mostoles-zea.png"
+        },
+        {
+          "id": "ultimate-mostoles-13",
+          "name": "Nacho",
+          "role": "Portero",
+          "image": "ultimate-mostoles-nacho.png"
+        },
+        {
+          "id": "ultimate-mostoles-20",
+          "name": "Lucca",
+          "role": "Medio",
+          "image": "ultimate-mostoles-lucca.png"
+        }
+      ],
+      "shortName": "ULT",
+      "coachInfo": {
+        "name": "Nacho Castro",
+        "image": "nacho-castro.png"
+      },
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/djmariio.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
     "rank": 3,
-    "wins": 6,
+    "wins": 7,
     "losses": 4,
-    "scoredGoals": 32,
-    "concededGoals": 23,
-    "yellowCards": 9,
+    "scoredGoals": 37,
+    "concededGoals": 26,
+    "yellowCards": 11,
     "redCards": 0,
     "team": {
       "id": "porcinos-fc",
@@ -314,118 +314,11 @@
   },
   {
     "rank": 4,
-    "wins": 6,
+    "wins": 7,
     "losses": 4,
-    "scoredGoals": 35,
-    "concededGoals": 33,
-    "yellowCards": 2,
-    "redCards": 0,
-    "team": {
-      "id": "los-troncos-fc",
-      "color": "#31585a",
-      "name": "Los Troncos FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos-inverse.svg",
-      "url": "",
-      "channel": "https://twitch.tv/perxitaa",
-      "coach": {
-        "name": "Pol Font",
-        "image": "pol-font.png"
-      },
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [
-        {
-          "id": "los-troncos-fc-Troncos_11b",
-          "name": "Fran A.",
-          "role": "jugador 11",
-          "image": "los-troncos-fc-fran-a.png"
-        },
-        {
-          "id": "los-troncos-fc-9",
-          "name": "Álvaro, E.",
-          "role": "Delantero",
-          "image": "los-troncos-fc-lvaro-e..png"
-        },
-        {
-          "id": "los-troncos-fc-13",
-          "name": "Lechuga, P.",
-          "role": "Portero",
-          "image": "los-troncos-fc-lechuga-p..png"
-        },
-        {
-          "id": "los-troncos-fc-4",
-          "name": "Soriano, D.",
-          "role": "Defensa",
-          "image": "los-troncos-fc-soriano-d..png"
-        },
-        {
-          "id": "los-troncos-fc-8",
-          "name": "Sánchez, S.",
-          "role": "Medio",
-          "image": "los-troncos-fc-snchez-s..png"
-        },
-        {
-          "id": "los-troncos-fc-5",
-          "name": "Noel L.",
-          "role": "Medio",
-          "image": "los-troncos-fc-noel-l.png"
-        },
-        {
-          "id": "los-troncos-fc-10",
-          "name": "Molas, X.",
-          "role": "Medio",
-          "image": "los-troncos-fc-molas-x..png"
-        },
-        {
-          "id": "los-troncos-fc-7",
-          "name": "Martínez, R.",
-          "role": "Delantero",
-          "image": "los-troncos-fc-martnez-r..png"
-        },
-        {
-          "id": "los-troncos-fc-11",
-          "name": "Dorkis P.",
-          "role": "Delantero",
-          "image": "los-troncos-fc-dorkis-p.png"
-        },
-        {
-          "id": "los-troncos-fc-6",
-          "name": "Nuevo, I.",
-          "role": "Medio",
-          "image": "los-troncos-fc-nuevo-i..png"
-        },
-        {
-          "id": "los-troncos-fc-1",
-          "name": "Arus, M.",
-          "role": "Portero",
-          "image": "los-troncos-fc-arus-m..png"
-        }
-      ],
-      "shortName": "TFC",
-      "coachInfo": {
-        "name": "Pol Font",
-        "image": "pol-font.png"
-      },
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/perxitaa.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "rank": 5,
-    "wins": 6,
-    "losses": 4,
-    "scoredGoals": 19,
-    "concededGoals": 21,
-    "yellowCards": -2,
+    "scoredGoals": 23,
+    "concededGoals": 22,
+    "yellowCards": 1,
     "redCards": 0,
     "team": {
       "id": "kunisports",
@@ -524,12 +417,12 @@
     }
   },
   {
-    "rank": 6,
+    "rank": 5,
     "wins": 5,
-    "losses": 5,
-    "scoredGoals": 30,
-    "concededGoals": 20,
-    "yellowCards": 10,
+    "losses": 6,
+    "scoredGoals": 33,
+    "concededGoals": 25,
+    "yellowCards": 8,
     "redCards": 0,
     "team": {
       "id": "el-barrio",
@@ -631,12 +524,119 @@
     }
   },
   {
+    "rank": 6,
+    "wins": 7,
+    "losses": 4,
+    "scoredGoals": 40,
+    "concededGoals": 34,
+    "yellowCards": 6,
+    "redCards": 0,
+    "team": {
+      "id": "los-troncos-fc",
+      "color": "#31585a",
+      "name": "Los Troncos FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos-inverse.svg",
+      "url": "",
+      "channel": "https://twitch.tv/perxitaa",
+      "coach": {
+        "name": "Pol Font",
+        "image": "pol-font.png"
+      },
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [
+        {
+          "id": "los-troncos-fc-Troncos_11b",
+          "name": "Fran A.",
+          "role": "jugador 11",
+          "image": "los-troncos-fc-fran-a.png"
+        },
+        {
+          "id": "los-troncos-fc-9",
+          "name": "Álvaro, E.",
+          "role": "Delantero",
+          "image": "los-troncos-fc-lvaro-e..png"
+        },
+        {
+          "id": "los-troncos-fc-13",
+          "name": "Lechuga, P.",
+          "role": "Portero",
+          "image": "los-troncos-fc-lechuga-p..png"
+        },
+        {
+          "id": "los-troncos-fc-4",
+          "name": "Soriano, D.",
+          "role": "Defensa",
+          "image": "los-troncos-fc-soriano-d..png"
+        },
+        {
+          "id": "los-troncos-fc-8",
+          "name": "Sánchez, S.",
+          "role": "Medio",
+          "image": "los-troncos-fc-snchez-s..png"
+        },
+        {
+          "id": "los-troncos-fc-5",
+          "name": "Noel L.",
+          "role": "Medio",
+          "image": "los-troncos-fc-noel-l.png"
+        },
+        {
+          "id": "los-troncos-fc-10",
+          "name": "Molas, X.",
+          "role": "Medio",
+          "image": "los-troncos-fc-molas-x..png"
+        },
+        {
+          "id": "los-troncos-fc-7",
+          "name": "Martínez, R.",
+          "role": "Delantero",
+          "image": "los-troncos-fc-martnez-r..png"
+        },
+        {
+          "id": "los-troncos-fc-11",
+          "name": "Dorkis P.",
+          "role": "Delantero",
+          "image": "los-troncos-fc-dorkis-p.png"
+        },
+        {
+          "id": "los-troncos-fc-6",
+          "name": "Nuevo, I.",
+          "role": "Medio",
+          "image": "los-troncos-fc-nuevo-i..png"
+        },
+        {
+          "id": "los-troncos-fc-1",
+          "name": "Arus, M.",
+          "role": "Portero",
+          "image": "los-troncos-fc-arus-m..png"
+        }
+      ],
+      "shortName": "TFC",
+      "coachInfo": {
+        "name": "Pol Font",
+        "image": "pol-font.png"
+      },
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kingsleague.jonanv.workers.dev/static/presidents/perxitaa.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
     "rank": 7,
-    "wins": 5,
+    "wins": 6,
     "losses": 5,
-    "scoredGoals": 23,
-    "concededGoals": 24,
-    "yellowCards": -1,
+    "scoredGoals": 25,
+    "concededGoals": 25,
+    "yellowCards": 0,
     "redCards": 0,
     "team": {
       "id": "xbuyer-team",
@@ -737,10 +737,10 @@
   {
     "rank": 8,
     "wins": 5,
-    "losses": 5,
-    "scoredGoals": 30,
-    "concededGoals": 31,
-    "yellowCards": -1,
+    "losses": 6,
+    "scoredGoals": 32,
+    "concededGoals": 34,
+    "yellowCards": -2,
     "redCards": 0,
     "team": {
       "id": "1k",
@@ -844,7 +844,7 @@
   {
     "rank": 9,
     "wins": 5,
-    "losses": 5,
+    "losses": 6,
     "scoredGoals": 24,
     "concededGoals": 28,
     "yellowCards": -4,
@@ -948,7 +948,7 @@
   {
     "rank": 10,
     "wins": 4,
-    "losses": 6,
+    "losses": 7,
     "scoredGoals": 25,
     "concededGoals": 24,
     "yellowCards": 1,
@@ -1053,10 +1053,10 @@
   {
     "rank": 11,
     "wins": 3,
-    "losses": 7,
-    "scoredGoals": 26,
-    "concededGoals": 36,
-    "yellowCards": -10,
+    "losses": 8,
+    "scoredGoals": 27,
+    "concededGoals": 40,
+    "yellowCards": -13,
     "redCards": 0,
     "team": {
       "id": "rayo-barcelona",
@@ -1160,10 +1160,10 @@
   {
     "rank": 12,
     "wins": 1,
-    "losses": 9,
-    "scoredGoals": 22,
-    "concededGoals": 36,
-    "yellowCards": -14,
+    "losses": 10,
+    "scoredGoals": 23,
+    "concededGoals": 41,
+    "yellowCards": -18,
     "redCards": 0,
     "team": {
       "id": "jijantes-fc",
