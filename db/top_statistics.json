@@ -153,7 +153,7 @@
       "rank": 1,
       "playerName": "Ubón",
       "gamesPlayed": 12,
-      "goals": 15,
+      "goals": 17,
       "team": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
       "playerImage": "el-barrio-ubn.png",
@@ -163,7 +163,7 @@
       "rank": 2,
       "playerName": "E. Álvaro",
       "gamesPlayed": 12,
-      "goals": 14,
+      "goals": 15,
       "team": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
       "playerImage": "placeholder.png",
@@ -181,6 +181,16 @@
     },
     {
       "rank": 4,
+      "playerName": "R. Carbó",
+      "gamesPlayed": 12,
+      "goals": 13,
+      "team": "Saiyans FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
+      "playerImage": "saiyans-fc-r-carbo.png",
+      "teamId": "saiyans-fc"
+    },
+    {
+      "rank": 5,
       "playerName": "J. Verdú",
       "gamesPlayed": 10,
       "goals": 11,
@@ -188,16 +198,6 @@
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
       "playerImage": "placeholder.png",
       "teamId": "los-troncos-fc"
-    },
-    {
-      "rank": 5,
-      "playerName": "R. Carbó",
-      "gamesPlayed": 12,
-      "goals": 11,
-      "team": "Saiyans FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
-      "playerImage": "saiyans-fc-r-carbo.png",
-      "teamId": "saiyans-fc"
     }
   ],
   "topAssists": [
