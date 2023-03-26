@@ -100,7 +100,7 @@
     {
       "rank": 1,
       "playerName": "Ubón",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "mvps": 5,
       "team": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
@@ -110,7 +110,7 @@
     {
       "rank": 2,
       "playerName": "F. Hernández",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "mvps": 4,
       "team": "Aniquiladores FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
@@ -120,7 +120,7 @@
     {
       "rank": 3,
       "playerName": "E. Álvaro",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "mvps": 4,
       "team": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
@@ -152,7 +152,7 @@
     {
       "rank": 1,
       "playerName": "Ubón",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "goals": 15,
       "team": "El Barrio",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/el-barrio.svg",
@@ -162,7 +162,7 @@
     {
       "rank": 2,
       "playerName": "E. Álvaro",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "goals": 14,
       "team": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
@@ -182,7 +182,7 @@
     {
       "rank": 4,
       "playerName": "J. Verdú",
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "goals": 11,
       "team": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
@@ -192,7 +192,7 @@
     {
       "rank": 5,
       "playerName": "R. Carbó",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "goals": 11,
       "team": "Saiyans FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/saiyans-fc.svg",
@@ -214,7 +214,7 @@
     {
       "rank": 2,
       "playerName": "J. Verdú",
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "assists": 8,
       "team": "Los Troncos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/los-troncos.svg",
@@ -224,7 +224,7 @@
     {
       "rank": 3,
       "playerName": "Espinosa",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "assists": 7,
       "team": "Porcinos FC",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/porcinos-fc.svg",
@@ -234,7 +234,7 @@
     {
       "rank": 4,
       "playerName": "Coro",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "assists": 6,
       "team": "Kunisports",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
