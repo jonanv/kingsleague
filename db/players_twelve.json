@@ -1,5 +1,19 @@
 [
   {
+    "role": "Medio",
+    "firstName": "Spursito",
+    "lastName": "",
+    "image": "rayo-barcelona-spursito.png",
+    "name": "Spursito ",
+    "id": "rayo-barcelona-RayoBCN_7B",
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/rayo-barcelona-inverse.svg"
+    }
+  },
+  {
     "role": "Delantero",
     "firstName": "Gerard",
     "lastName": "Tejedor",
@@ -29,24 +43,10 @@
   },
   {
     "role": "Delantero",
-    "firstName": "Mauricio",
-    "lastName": "del Castillo",
-    "image": "kunisports-mauricio-del-castillo.png",
-    "name": "Mauricio del Castillo",
-    "id": "kunisports-Kunisports_96",
-    "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/kunisports-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "Mauricio",
-    "lastName": "del Castillo",
-    "image": "kunisports-mauricio-del-castillo.png",
-    "name": "Mauricio del Castillo",
+    "firstName": "M. del Castillo",
+    "lastName": "",
+    "image": "kunisports-m.-del-castillo.png",
+    "name": "M. del Castillo ",
     "id": "kunisports-Kunisports_96",
     "team": {
       "id": "kunisports",
@@ -75,7 +75,7 @@
     "lastName": "Calvente",
     "image": "aniquiladores-fc-ezequiel-calvente.png",
     "name": "Ezequiel Calvente",
-    "id": "aniquiladores-fc-Aniquiladores_28",
+    "id": "aniquiladores-fc-Aniquiladores_28-1",
     "team": {
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
@@ -421,20 +421,6 @@
   },
   {
     "role": "Delantero",
-    "firstName": "David",
-    "lastName": "Acedo",
-    "image": "aniquiladores-fc-david-acedo.png",
-    "name": "David Acedo",
-    "id": "aniquiladores-fc-7",
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
-      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
     "firstName": "Ibai",
     "lastName": "Gómez",
     "image": "jijantes-fc-ibai-gomez.png",
@@ -501,6 +487,20 @@
       "name": "XBUYER TEAM",
       "image": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer.svg",
       "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/xbuyer-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "David",
+    "lastName": "Acedo",
+    "image": "aniquiladores-fc-david-acedo.png",
+    "name": "David Acedo",
+    "id": "aniquiladores-fc-7",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores.svg",
+      "imageInverse": "https://kingsleague.jonanv.workers.dev/static/logos/aniquiladores-inverse.svg"
     }
   },
   {
